@@ -1,7 +1,3 @@
-Compreendido. O README deve servir como um documento de intenção e planejamento, descrevendo o projeto que **será desenvolvido**, em vez de um relatório do que já está pronto.
-
-Vou reajustar o README para o repositório Frontend, mantendo o foco nos objetivos e tecnologias que **pretendemos implementar** (Unity/C#), mas sem afirmar que o código ou as funcionalidades já existem.
-
 ---
 
 ## 🎮 Frontend - Projeto Mines Academy (Unity/C#)
