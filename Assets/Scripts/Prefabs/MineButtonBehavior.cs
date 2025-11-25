@@ -4,6 +4,7 @@ using UnityEngine;
 public class MineButtonBehavior : MonoBehaviour
 {
     private bool active = false;
+    private bool canActivate = true;
     private Animator animator;
     [SerializeField] private ParticleSystem hitParticle;
     [SerializeField] private GameObject bombImage;
@@ -18,10 +19,11 @@ public class MineButtonBehavior : MonoBehaviour
 
     private void Update()
     {
-        if (gameManager.active == true)
+        if (gameManager.active == true && canActivate)
         {
             animator.SetBool("Active", true);
             active = true;
+            canActivate=false;
         }
     }
     public void OnClickWinOrLose()
@@ -29,6 +31,7 @@ public class MineButtonBehavior : MonoBehaviour
         if (active)
         {
             PlayLoseAnimation();
+            active=false;
         }
         
         
@@ -41,6 +44,7 @@ public class MineButtonBehavior : MonoBehaviour
         animator.SetTrigger("Lose");
         PlayHitParticle();
         bombImage.SetActive(true);
+        
 
     }
 
@@ -48,6 +52,7 @@ public class MineButtonBehavior : MonoBehaviour
     {
         animator.SetTrigger("Win");
         coinImage.SetActive(true);
+        
     }
     
     private void PlayHitParticle()
