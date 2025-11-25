@@ -2,5 +2,10 @@ using UnityEngine;
 
 public class MineButtonBehavior : MonoBehaviour
 {
-    [SerializeField] 
+    private Animator animator;
+    public void OnClickWinOrLose()
+    {
+        animator.SetTrigger("win");
+    }
+    
 }
