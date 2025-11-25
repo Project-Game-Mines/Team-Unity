@@ -8,6 +8,7 @@ public class MineButtonBehavior : MonoBehaviour
     [SerializeField] private ParticleSystem hitParticle;
     [SerializeField] private GameObject bombImage;
     [SerializeField] private GameObject coinImage;
+    [SerializeField] private GameManager gameManager;
 
 
     private void Awake()
@@ -15,11 +16,19 @@ public class MineButtonBehavior : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
+    private void Update()
+    {
+        if (gameManager.active == true)
+        {
+            animator.SetBool("Active", true);
+            active = true;
+        }
+    }
     public void OnClickWinOrLose()
     {
         if (active)
         {
-            PlayWinAnimation();
+            PlayLoseAnimation();
         }
         
         
@@ -45,11 +54,8 @@ public class MineButtonBehavior : MonoBehaviour
     {
         ParticleSystem instantiatedParticle = Instantiate(hitParticle, transform.position, transform.rotation);
         instantiatedParticle.Play();
+        Destroy(instantiatedParticle.gameObject, instantiatedParticle.main.duration);
     }
 
-    //private void GameStarted()
-   // {
-     //   animator.SetBool("Active", true);
-     //   active = true;
-   // }
+    
 }
