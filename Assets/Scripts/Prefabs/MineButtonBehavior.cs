@@ -46,4 +46,10 @@ public class MineButtonBehavior : MonoBehaviour
         ParticleSystem instantiatedParticle = Instantiate(hitParticle, transform.position, transform.rotation);
         instantiatedParticle.Play();
     }
+
+    //private void GameStarted()
+   // {
+     //   animator.SetBool("Active", true);
+     //   active = true;
+   // }
 }
