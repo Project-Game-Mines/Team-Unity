@@ -43,7 +43,7 @@ public class MineButtonBehavior : MonoBehaviour
     {
         animator.SetTrigger("Lose");
         PlayHitParticle();
-        bombImage.SetActive(true);
+        bombImage.SetActive(true);  
         
 
     }
