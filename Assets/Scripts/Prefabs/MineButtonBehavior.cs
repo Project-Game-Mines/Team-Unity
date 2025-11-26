@@ -10,6 +10,7 @@ public class MineButtonBehavior : MonoBehaviour
     [SerializeField] private GameObject bombImage;
     [SerializeField] private GameObject coinImage;
     [SerializeField] private GameManager gameManager;
+    public int mineValue;
 
 
     private void Awake()
@@ -32,6 +33,7 @@ public class MineButtonBehavior : MonoBehaviour
         {
             PlayLoseAnimation();
             active=false;
+            Debug.Log($"Clicou na mina {mineValue}");
         }
         
         
