@@ -3,46 +3,61 @@ using UnityEngine;
 
 public class BetAmount : MonoBehaviour
 {
-    public int betAmount = 1;
+    
     [SerializeField] private TextMeshProUGUI betAmountText;
+    [SerializeField] private GameManager _gameManager;
 
+    
     public void AddOneBetAmount()
     {
-        if (betAmount < 500)
+        if (!_gameManager.active)
         {
-            betAmount += 1;
-            betAmountText.text = betAmount.ToString();
+            if (_gameManager.betAmount < 500)
+            {
+                _gameManager.betAmount += 1;
+                betAmountText.text = _gameManager.betAmount.ToString();
+            }
         }
+        
         
     }
     public void MinusOneBetAmount()
     {
-        if (betAmount >= 2)
+        if (!_gameManager.active)
         {
-            betAmount -= 1;
-            betAmountText.text = betAmount.ToString();
+            if (_gameManager.betAmount >= 2)
+            {
+                _gameManager.betAmount -= 1;
+                betAmountText.text = _gameManager.betAmount.ToString();
+            }
         }
-        
     }
     public void DobleBetAmount()
     {
-        betAmount *= 2;
-        if (betAmount > 500)
+        if (!_gameManager.active)
         {
-            betAmount = 500;
+            _gameManager.betAmount *= 2;
+            if (_gameManager.betAmount > 500)
+            {
+                _gameManager.betAmount = 500;
+            }
+
+            betAmountText.text = _gameManager.betAmount.ToString();
         }
-        betAmountText.text = betAmount.ToString();
     }
     
     public void HalveBetAmount()
     {
-        
-        betAmount /= 2;
-        if (betAmount < 1)
+        if (!_gameManager.active)
         {
-            betAmount = 1;
+            _gameManager.betAmount /= 2;
+            if (_gameManager.betAmount < 1)
+            {
+                _gameManager.betAmount = 1;
+            }
+
+            betAmountText.text = _gameManager.betAmount.ToString();
         }
-        betAmountText.text = betAmount.ToString();
     }
     
 }
