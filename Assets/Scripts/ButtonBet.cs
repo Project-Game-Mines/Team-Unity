@@ -1,47 +1,64 @@
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SocialPlatforms.Impl;
 
 public class ButtonBet : MonoBehaviour
 {
     public Button betButton;
     public TextMeshProUGUI buttonBetText;
     private string betText = "BET";
-    private bool noGaming = true;
+    private bool onGaming = false;
     private bool cashout = false;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+
+    public Image buttonBetLaranja;
+    public Image buttonBetVermelho;
+
+    private Image buttonBetAtual;
+
     void Start()
     {
-        //betButton.onClick.AddListener(OnBetButtonPressed);
+        buttonBetAtual = buttonBetLaranja;
+        UpdateButtonState();
     }
 
-    // Update is called once per frame
     void Update()
     {
         buttonBetText.text = betText;
+        betButton.image.sprite = buttonBetAtual.sprite;
+    }
 
-        if (noGaming)
+    void UpdateButtonState()
+    {
+        // limpa listeners antigos
+        betButton.onClick.RemoveAllListeners();
+
+        if (!onGaming && !cashout)
         {
             betButton.onClick.AddListener(IsGaming);
-        } else if (!noGaming && cashout)
+        }
+        else if (onGaming && cashout)
         {
             betButton.onClick.AddListener(EndGame);
         }
-        
     }
 
     void IsGaming()
     {
         betText = "CASHOUT\n4,00 BRL";
-        noGaming = false;
+        onGaming = true;
         cashout = true;
+        buttonBetAtual = buttonBetVermelho;
+
+        UpdateButtonState();
     }
 
     void EndGame()
     {
         betText = "BET";
-        noGaming = true;
+        onGaming = false;
         cashout = false;
+        buttonBetAtual = buttonBetLaranja;
+
+        UpdateButtonState();
     }
 }
