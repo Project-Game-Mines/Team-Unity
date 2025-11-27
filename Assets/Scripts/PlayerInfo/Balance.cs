@@ -7,7 +7,7 @@ public class Balance : MonoBehaviour
     [SerializeField] MockPlayer player;
     void Start()
     {
-        balanceAmountText.text = $"{player.balance.ToString()} BLR";
+        balanceAmountText.text = $"R$ {player.balance.ToString()}";
     }
 
     
