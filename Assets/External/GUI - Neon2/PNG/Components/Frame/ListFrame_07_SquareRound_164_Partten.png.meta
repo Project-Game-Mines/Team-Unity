@@ -1,0 +1,4914 @@
+fileFormatVersion: 2
+guid: 9746abb2524c32a428d6a71098ed80fc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4180795531127850210
+    second: ListFrame_07_SquareRound_164_Partten_0
+  - first:
+      213: 8811952116155836927
+    second: ListFrame_07_SquareRound_164_Partten_1
+  - first:
+      213: 3986556849698055313
+    second: ListFrame_07_SquareRound_164_Partten_2
+  - first:
+      213: 8592792158166440499
+    second: ListFrame_07_SquareRound_164_Partten_3
+  - first:
+      213: 1384711422111516491
+    second: ListFrame_07_SquareRound_164_Partten_4
+  - first:
+      213: 1354591945699305794
+    second: ListFrame_07_SquareRound_164_Partten_5
+  - first:
+      213: 7003197691828631275
+    second: ListFrame_07_SquareRound_164_Partten_6
+  - first:
+      213: 6151179780242793880
+    second: ListFrame_07_SquareRound_164_Partten_7
+  - first:
+      213: 4608003917033560439
+    second: ListFrame_07_SquareRound_164_Partten_8
+  - first:
+      213: 750102707470372334
+    second: ListFrame_07_SquareRound_164_Partten_9
+  - first:
+      213: -5046909464915841367
+    second: ListFrame_07_SquareRound_164_Partten_10
+  - first:
+      213: 5028707590792959536
+    second: ListFrame_07_SquareRound_164_Partten_11
+  - first:
+      213: -7143164399410123523
+    second: ListFrame_07_SquareRound_164_Partten_12
+  - first:
+      213: 4588544868182042478
+    second: ListFrame_07_SquareRound_164_Partten_13
+  - first:
+      213: 6797902017991465829
+    second: ListFrame_07_SquareRound_164_Partten_14
+  - first:
+      213: -4748895770111128491
+    second: ListFrame_07_SquareRound_164_Partten_15
+  - first:
+      213: 7608788419692415151
+    second: ListFrame_07_SquareRound_164_Partten_16
+  - first:
+      213: -759470562460648315
+    second: ListFrame_07_SquareRound_164_Partten_17
+  - first:
+      213: -3195076004705971819
+    second: ListFrame_07_SquareRound_164_Partten_18
+  - first:
+      213: 502532927033258436
+    second: ListFrame_07_SquareRound_164_Partten_19
+  - first:
+      213: 2734425237772534260
+    second: ListFrame_07_SquareRound_164_Partten_20
+  - first:
+      213: 3107826423924821188
+    second: ListFrame_07_SquareRound_164_Partten_21
+  - first:
+      213: 4806662281639375335
+    second: ListFrame_07_SquareRound_164_Partten_22
+  - first:
+      213: -9084741340086530713
+    second: ListFrame_07_SquareRound_164_Partten_23
+  - first:
+      213: -6644761349730950051
+    second: ListFrame_07_SquareRound_164_Partten_24
+  - first:
+      213: -3925732176347929741
+    second: ListFrame_07_SquareRound_164_Partten_25
+  - first:
+      213: -8218943698681481437
+    second: ListFrame_07_SquareRound_164_Partten_26
+  - first:
+      213: -3893913354044623653
+    second: ListFrame_07_SquareRound_164_Partten_27
+  - first:
+      213: -6011290852326977412
+    second: ListFrame_07_SquareRound_164_Partten_28
+  - first:
+      213: -5525096476570282429
+    second: ListFrame_07_SquareRound_164_Partten_29
+  - first:
+      213: -9206352459954316543
+    second: ListFrame_07_SquareRound_164_Partten_30
+  - first:
+      213: -6391094569026636565
+    second: ListFrame_07_SquareRound_164_Partten_31
+  - first:
+      213: 6652099480026651651
+    second: ListFrame_07_SquareRound_164_Partten_32
+  - first:
+      213: -8105780450689595252
+    second: ListFrame_07_SquareRound_164_Partten_33
+  - first:
+      213: 8701916002915895899
+    second: ListFrame_07_SquareRound_164_Partten_34
+  - first:
+      213: -7909668340104254053
+    second: ListFrame_07_SquareRound_164_Partten_35
+  - first:
+      213: 3072288605645571675
+    second: ListFrame_07_SquareRound_164_Partten_36
+  - first:
+      213: 2596137761564948855
+    second: ListFrame_07_SquareRound_164_Partten_37
+  - first:
+      213: -6770123531061950638
+    second: ListFrame_07_SquareRound_164_Partten_38
+  - first:
+      213: -6672728602512240199
+    second: ListFrame_07_SquareRound_164_Partten_39
+  - first:
+      213: 258285431047963199
+    second: ListFrame_07_SquareRound_164_Partten_40
+  - first:
+      213: -7099934633784421660
+    second: ListFrame_07_SquareRound_164_Partten_41
+  - first:
+      213: -2694068537816810890
+    second: ListFrame_07_SquareRound_164_Partten_42
+  - first:
+      213: 1410352724539218380
+    second: ListFrame_07_SquareRound_164_Partten_43
+  - first:
+      213: 6773879277426480202
+    second: ListFrame_07_SquareRound_164_Partten_44
+  - first:
+      213: -3174866815556400042
+    second: ListFrame_07_SquareRound_164_Partten_45
+  - first:
+      213: -1374377998715016240
+    second: ListFrame_07_SquareRound_164_Partten_46
+  - first:
+      213: -8332506324401458828
+    second: ListFrame_07_SquareRound_164_Partten_47
+  - first:
+      213: -8893059027837249637
+    second: ListFrame_07_SquareRound_164_Partten_48
+  - first:
+      213: -9202414367288374174
+    second: ListFrame_07_SquareRound_164_Partten_49
+  - first:
+      213: 6577933837507574159
+    second: ListFrame_07_SquareRound_164_Partten_50
+  - first:
+      213: 8678073040828953761
+    second: ListFrame_07_SquareRound_164_Partten_51
+  - first:
+      213: 4305828809905664836
+    second: ListFrame_07_SquareRound_164_Partten_52
+  - first:
+      213: 1268473873515952845
+    second: ListFrame_07_SquareRound_164_Partten_53
+  - first:
+      213: -4378526937675806114
+    second: ListFrame_07_SquareRound_164_Partten_54
+  - first:
+      213: 9086541927313046937
+    second: ListFrame_07_SquareRound_164_Partten_55
+  - first:
+      213: -2997093265135299887
+    second: ListFrame_07_SquareRound_164_Partten_56
+  - first:
+      213: 3914376503810082592
+    second: ListFrame_07_SquareRound_164_Partten_57
+  - first:
+      213: -8955462827923451033
+    second: ListFrame_07_SquareRound_164_Partten_58
+  - first:
+      213: -368610314727919640
+    second: ListFrame_07_SquareRound_164_Partten_59
+  - first:
+      213: -6236073096299200209
+    second: ListFrame_07_SquareRound_164_Partten_60
+  - first:
+      213: -4591558163800485512
+    second: ListFrame_07_SquareRound_164_Partten_61
+  - first:
+      213: 7595436226992853393
+    second: ListFrame_07_SquareRound_164_Partten_62
+  - first:
+      213: -6586075912813708815
+    second: ListFrame_07_SquareRound_164_Partten_63
+  - first:
+      213: -250659446241127606
+    second: ListFrame_07_SquareRound_164_Partten_64
+  - first:
+      213: 8123633846125919898
+    second: ListFrame_07_SquareRound_164_Partten_65
+  - first:
+      213: -5775848321505693592
+    second: ListFrame_07_SquareRound_164_Partten_66
+  - first:
+      213: -4863864229354837164
+    second: ListFrame_07_SquareRound_164_Partten_67
+  - first:
+      213: -5223308004334408307
+    second: ListFrame_07_SquareRound_164_Partten_68
+  - first:
+      213: 2867959790589653995
+    second: ListFrame_07_SquareRound_164_Partten_69
+  - first:
+      213: 6834112458584122255
+    second: ListFrame_07_SquareRound_164_Partten_70
+  - first:
+      213: -3697635779472796144
+    second: ListFrame_07_SquareRound_164_Partten_71
+  - first:
+      213: -4931954729813156607
+    second: ListFrame_07_SquareRound_164_Partten_72
+  - first:
+      213: 2812653568052716137
+    second: ListFrame_07_SquareRound_164_Partten_73
+  - first:
+      213: 3034314723772797125
+    second: ListFrame_07_SquareRound_164_Partten_74
+  - first:
+      213: -7806540684169027897
+    second: ListFrame_07_SquareRound_164_Partten_75
+  - first:
+      213: -1493669482605120041
+    second: ListFrame_07_SquareRound_164_Partten_76
+  - first:
+      213: -3333743103217757536
+    second: ListFrame_07_SquareRound_164_Partten_77
+  - first:
+      213: 6125301598415794638
+    second: ListFrame_07_SquareRound_164_Partten_78
+  - first:
+      213: -8537918117829126419
+    second: ListFrame_07_SquareRound_164_Partten_79
+  - first:
+      213: 3723392040602686615
+    second: ListFrame_07_SquareRound_164_Partten_80
+  - first:
+      213: 2495166008894591859
+    second: ListFrame_07_SquareRound_164_Partten_81
+  - first:
+      213: 4772988016975109396
+    second: ListFrame_07_SquareRound_164_Partten_82
+  - first:
+      213: 5193933212955231667
+    second: ListFrame_07_SquareRound_164_Partten_83
+  - first:
+      213: -5838638298107763062
+    second: ListFrame_07_SquareRound_164_Partten_84
+  - first:
+      213: 2258062413173771954
+    second: ListFrame_07_SquareRound_164_Partten_85
+  - first:
+      213: -5640466774598285106
+    second: ListFrame_07_SquareRound_164_Partten_86
+  - first:
+      213: 8212665065549987172
+    second: ListFrame_07_SquareRound_164_Partten_87
+  - first:
+      213: 5701068644792314676
+    second: ListFrame_07_SquareRound_164_Partten_88
+  - first:
+      213: 5277972738668223387
+    second: ListFrame_07_SquareRound_164_Partten_89
+  - first:
+      213: 2371269019731289669
+    second: ListFrame_07_SquareRound_164_Partten_90
+  - first:
+      213: 7297591295478245483
+    second: ListFrame_07_SquareRound_164_Partten_91
+  - first:
+      213: -4108216808966096219
+    second: ListFrame_07_SquareRound_164_Partten_92
+  - first:
+      213: 3920150985520368639
+    second: ListFrame_07_SquareRound_164_Partten_93
+  - first:
+      213: -1575831944993819237
+    second: ListFrame_07_SquareRound_164_Partten_94
+  - first:
+      213: 8995909040627721029
+    second: ListFrame_07_SquareRound_164_Partten_95
+  - first:
+      213: 7326686457072356860
+    second: ListFrame_07_SquareRound_164_Partten_96
+  - first:
+      213: 6208519571690229578
+    second: ListFrame_07_SquareRound_164_Partten_97
+  - first:
+      213: 2270353743076880611
+    second: ListFrame_07_SquareRound_164_Partten_98
+  - first:
+      213: 364585427213462084
+    second: ListFrame_07_SquareRound_164_Partten_99
+  - first:
+      213: -1191281905855253545
+    second: ListFrame_07_SquareRound_164_Partten_100
+  - first:
+      213: -5424841371687374553
+    second: ListFrame_07_SquareRound_164_Partten_101
+  - first:
+      213: -5393563490574179979
+    second: ListFrame_07_SquareRound_164_Partten_102
+  - first:
+      213: -3539989863511697080
+    second: ListFrame_07_SquareRound_164_Partten_103
+  - first:
+      213: -1995221455779335460
+    second: ListFrame_07_SquareRound_164_Partten_104
+  - first:
+      213: 286783366876384275
+    second: ListFrame_07_SquareRound_164_Partten_105
+  - first:
+      213: 1854623017406145400
+    second: ListFrame_07_SquareRound_164_Partten_106
+  - first:
+      213: -7716839347748878968
+    second: ListFrame_07_SquareRound_164_Partten_107
+  - first:
+      213: -8126592084548873767
+    second: ListFrame_07_SquareRound_164_Partten_108
+  - first:
+      213: 239649062938687591
+    second: ListFrame_07_SquareRound_164_Partten_109
+  - first:
+      213: -5762683356979572883
+    second: ListFrame_07_SquareRound_164_Partten_110
+  - first:
+      213: -7935820516830865268
+    second: ListFrame_07_SquareRound_164_Partten_111
+  - first:
+      213: -3516016994708776689
+    second: ListFrame_07_SquareRound_164_Partten_112
+  - first:
+      213: -2515629139881761689
+    second: ListFrame_07_SquareRound_164_Partten_113
+  - first:
+      213: -6406063045394232104
+    second: ListFrame_07_SquareRound_164_Partten_114
+  - first:
+      213: 5527546955365371811
+    second: ListFrame_07_SquareRound_164_Partten_115
+  - first:
+      213: 7237256126840182042
+    second: ListFrame_07_SquareRound_164_Partten_116
+  - first:
+      213: -7617577850230320982
+    second: ListFrame_07_SquareRound_164_Partten_117
+  - first:
+      213: 3390083952691669044
+    second: ListFrame_07_SquareRound_164_Partten_118
+  - first:
+      213: 3826642662461210583
+    second: ListFrame_07_SquareRound_164_Partten_119
+  - first:
+      213: 7137920099716869695
+    second: ListFrame_07_SquareRound_164_Partten_120
+  - first:
+      213: -2265231034829232669
+    second: ListFrame_07_SquareRound_164_Partten_121
+  - first:
+      213: -941238348198182211
+    second: ListFrame_07_SquareRound_164_Partten_122
+  - first:
+      213: 5201039653760227590
+    second: ListFrame_07_SquareRound_164_Partten_123
+  - first:
+      213: -8863459244560232983
+    second: ListFrame_07_SquareRound_164_Partten_124
+  - first:
+      213: -1240966694340853766
+    second: ListFrame_07_SquareRound_164_Partten_125
+  - first:
+      213: 6016706664843377332
+    second: ListFrame_07_SquareRound_164_Partten_126
+  - first:
+      213: 3346446135285779861
+    second: ListFrame_07_SquareRound_164_Partten_127
+  - first:
+      213: 3587232697766937283
+    second: ListFrame_07_SquareRound_164_Partten_128
+  - first:
+      213: 3958903306408547684
+    second: ListFrame_07_SquareRound_164_Partten_129
+  - first:
+      213: 3407801316497775669
+    second: ListFrame_07_SquareRound_164_Partten_130
+  - first:
+      213: -7551012149781261792
+    second: ListFrame_07_SquareRound_164_Partten_131
+  - first:
+      213: -5233882550731616581
+    second: ListFrame_07_SquareRound_164_Partten_132
+  - first:
+      213: 4375767777969407589
+    second: ListFrame_07_SquareRound_164_Partten_133
+  - first:
+      213: 1017255655815482030
+    second: ListFrame_07_SquareRound_164_Partten_134
+  - first:
+      213: -4881069338316748082
+    second: ListFrame_07_SquareRound_164_Partten_135
+  - first:
+      213: 4386947759838834002
+    second: ListFrame_07_SquareRound_164_Partten_136
+  - first:
+      213: 5505350059405210100
+    second: ListFrame_07_SquareRound_164_Partten_137
+  - first:
+      213: -5400614518484190216
+    second: ListFrame_07_SquareRound_164_Partten_138
+  - first:
+      213: 2935559359794809918
+    second: ListFrame_07_SquareRound_164_Partten_139
+  - first:
+      213: -214845931780226918
+    second: ListFrame_07_SquareRound_164_Partten_140
+  - first:
+      213: -8806099084934173323
+    second: ListFrame_07_SquareRound_164_Partten_141
+  - first:
+      213: -856834344203334582
+    second: ListFrame_07_SquareRound_164_Partten_142
+  - first:
+      213: 6705599028806172631
+    second: ListFrame_07_SquareRound_164_Partten_143
+  - first:
+      213: 5898919806478644388
+    second: ListFrame_07_SquareRound_164_Partten_144
+  - first:
+      213: -548117821286123152
+    second: ListFrame_07_SquareRound_164_Partten_145
+  - first:
+      213: -1895498850570198311
+    second: ListFrame_07_SquareRound_164_Partten_146
+  - first:
+      213: 5634232283246420798
+    second: ListFrame_07_SquareRound_164_Partten_147
+  - first:
+      213: 7617357331115159409
+    second: ListFrame_07_SquareRound_164_Partten_148
+  - first:
+      213: 3292370577880798257
+    second: ListFrame_07_SquareRound_164_Partten_149
+  - first:
+      213: 1430298229774477302
+    second: ListFrame_07_SquareRound_164_Partten_150
+  - first:
+      213: -5606323476555224734
+    second: ListFrame_07_SquareRound_164_Partten_151
+  - first:
+      213: 7982574442562338512
+    second: ListFrame_07_SquareRound_164_Partten_152
+  - first:
+      213: -4922546886384959039
+    second: ListFrame_07_SquareRound_164_Partten_153
+  - first:
+      213: -4488207495800627853
+    second: ListFrame_07_SquareRound_164_Partten_154
+  - first:
+      213: 431845273397812784
+    second: ListFrame_07_SquareRound_164_Partten_155
+  - first:
+      213: 9109928295444958240
+    second: ListFrame_07_SquareRound_164_Partten_156
+  - first:
+      213: 2801210478108809412
+    second: ListFrame_07_SquareRound_164_Partten_157
+  - first:
+      213: 1218639165355922190
+    second: ListFrame_07_SquareRound_164_Partten_158
+  - first:
+      213: 4879776124940832465
+    second: ListFrame_07_SquareRound_164_Partten_159
+  - first:
+      213: 2877111598739747901
+    second: ListFrame_07_SquareRound_164_Partten_160
+  - first:
+      213: 7050253272106511040
+    second: ListFrame_07_SquareRound_164_Partten_161
+  - first:
+      213: 2245772019124735600
+    second: ListFrame_07_SquareRound_164_Partten_162
+  - first:
+      213: 2086213941980473998
+    second: ListFrame_07_SquareRound_164_Partten_163
+  - first:
+      213: 1970386339287513929
+    second: ListFrame_07_SquareRound_164_Partten_164
+  - first:
+      213: 4877638802592905297
+    second: ListFrame_07_SquareRound_164_Partten_165
+  - first:
+      213: 2054591706936553813
+    second: ListFrame_07_SquareRound_164_Partten_166
+  - first:
+      213: -2399826562423894221
+    second: ListFrame_07_SquareRound_164_Partten_167
+  - first:
+      213: -5955994369978037084
+    second: ListFrame_07_SquareRound_164_Partten_168
+  - first:
+      213: 2355504031798381900
+    second: ListFrame_07_SquareRound_164_Partten_169
+  - first:
+      213: 1330566542218587062
+    second: ListFrame_07_SquareRound_164_Partten_170
+  - first:
+      213: 8651164127088459554
+    second: ListFrame_07_SquareRound_164_Partten_171
+  - first:
+      213: -7492954984065189837
+    second: ListFrame_07_SquareRound_164_Partten_172
+  - first:
+      213: -4451885202542312879
+    second: ListFrame_07_SquareRound_164_Partten_173
+  - first:
+      213: 3254402133240187931
+    second: ListFrame_07_SquareRound_164_Partten_174
+  - first:
+      213: -6527209774030451464
+    second: ListFrame_07_SquareRound_164_Partten_175
+  - first:
+      213: -6963668512023677637
+    second: ListFrame_07_SquareRound_164_Partten_176
+  - first:
+      213: 2816067058244408693
+    second: ListFrame_07_SquareRound_164_Partten_177
+  - first:
+      213: 405574107732886424
+    second: ListFrame_07_SquareRound_164_Partten_178
+  - first:
+      213: 3815612978823961918
+    second: ListFrame_07_SquareRound_164_Partten_179
+  - first:
+      213: -8170138259290219325
+    second: ListFrame_07_SquareRound_164_Partten_180
+  - first:
+      213: 2971283305253534315
+    second: ListFrame_07_SquareRound_164_Partten_181
+  - first:
+      213: -6923977581423524338
+    second: ListFrame_07_SquareRound_164_Partten_182
+  - first:
+      213: -879547449501511010
+    second: ListFrame_07_SquareRound_164_Partten_183
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 135
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1b75908d94daf5c0800000000000000
+      internalID: -4180795531127850210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_1
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 146
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff9683d03c75a4a70800000000000000
+      internalID: 8811952116155836927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_2
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 146
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19427274558135730800000000000000
+      internalID: 3986556849698055313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_3
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 146
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33ad548f0fabf3770800000000000000
+      internalID: 8592792158166440499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_4
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 146
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b47026fa3bb773310800000000000000
+      internalID: 1384711422111516491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_5
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 146
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 249230b923a7cc210800000000000000
+      internalID: 1354591945699305794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_6
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 146
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be6f749323b503160800000000000000
+      internalID: 7003197691828631275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_7
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 146
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 895efe67b616d5550800000000000000
+      internalID: 6151179780242793880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_8
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 146
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 779d466f52be2ff30800000000000000
+      internalID: 4608003917033560439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_9
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 146
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eed84df2076e86a00800000000000000
+      internalID: 750102707470372334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_10
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 146
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ae6222d496c5f9b0800000000000000
+      internalID: -5046909464915841367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_11
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 146
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 036568c19ee89c540800000000000000
+      internalID: 5028707590792959536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_12
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 135
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfc61f823d16edc90800000000000000
+      internalID: -7143164399410123523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_13
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 135
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e67aee71f39cdaf30800000000000000
+      internalID: 4588544868182042478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_14
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 114
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56bda485edff65e50800000000000000
+      internalID: 6797902017991465829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_15
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 135
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55ccb233578881eb0800000000000000
+      internalID: -4748895770111128491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_16
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 135
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa84fde21c8d79960800000000000000
+      internalID: 7608788419692415151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_17
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 135
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58cba2b1c81d575f0800000000000000
+      internalID: -759470562460648315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_18
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 135
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 591502d4d4fc8a3d0800000000000000
+      internalID: -3195076004705971819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_19
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 135
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c131cbd80b59f600800000000000000
+      internalID: 502532927033258436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_20
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 135
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f18b422441a2f520800000000000000
+      internalID: 2734425237772534260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_21
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 135
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cc8c95aaa7312b20800000000000000
+      internalID: 3107826423924821188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_22
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 135
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e1326cd0e1b4b240800000000000000
+      internalID: 4806662281639375335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_23
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 125
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76d06db52e38ce180800000000000000
+      internalID: -9084741340086530713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_24
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 125
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d54aa0402c019c3a0800000000000000
+      internalID: -6644761349730950051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_25
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 125
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 373e571926ff489c0800000000000000
+      internalID: -3925732176347929741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_26
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 125
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 327b72b704270fd80800000000000000
+      internalID: -8218943698681481437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_27
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 125
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd435027f6a06f9c0800000000000000
+      internalID: -3893913354044623653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_28
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 125
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c70de79a1da939ca0800000000000000
+      internalID: -6011290852326977412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_29
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 125
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 346144c170ae253b0800000000000000
+      internalID: -5525096476570282429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_30
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 125
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10b116b07377c3080800000000000000
+      internalID: -9206352459954316543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_31
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 125
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be43d37d9554e47a0800000000000000
+      internalID: -6391094569026636565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_32
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 125
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30c9c859b31015c50800000000000000
+      internalID: 6652099480026651651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_33
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 125
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c88475950ab728f80800000000000000
+      internalID: -8105780450689595252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_34
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 125
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5ac61bff7a63c870800000000000000
+      internalID: 8701916002915895899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_35
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 114
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9daee84d863b3290800000000000000
+      internalID: -7909668340104254053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_36
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 114
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b560cfa8536f2aa20800000000000000
+      internalID: 3072288605645571675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_37
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 114
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7797e0a0a85570420800000000000000
+      internalID: 2596137761564948855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_38
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 114
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2570a85a480bb02a0800000000000000
+      internalID: -6770123531061950638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_39
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 114
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b15bac80b4b563a0800000000000000
+      internalID: -6672728602512240199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_40
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 114
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f32c5482b3d959300800000000000000
+      internalID: 258285431047963199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_41
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 114
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e259c05117f77d90800000000000000
+      internalID: -7099934633784421660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_42
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 114
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67a7fda40febc9ad0800000000000000
+      internalID: -2694068537816810890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_43
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 114
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc91a22a454929310800000000000000
+      internalID: 1410352724539218380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_44
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 114
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4492623057a10e50800000000000000
+      internalID: 6773879277426480202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_45
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 114
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65cc591d37b90f3d0800000000000000
+      internalID: -3174866815556400042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_46
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 114
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dbaa7fed7a3dece0800000000000000
+      internalID: -1374377998715016240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_47
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 93
+        width: 5
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 471fa5d35adfc5c80800000000000000
+      internalID: -8332506324401458828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_48
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 104
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b971e2f7ee1859480800000000000000
+      internalID: -8893059027837249637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_49
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 104
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26c43d1b3e47a4080800000000000000
+      internalID: -9202414367288374174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_50
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 104
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8939ac49f3894b50800000000000000
+      internalID: 6577933837507574159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_51
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 83
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a4f085c375be6870800000000000000
+      internalID: 8678073040828953761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_52
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 104
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 443f1164d7061cb30800000000000000
+      internalID: 4305828809905664836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_53
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 104
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dca38cd64468a9110800000000000000
+      internalID: 1268473873515952845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_54
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 104
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5aca58d2f85c33c0800000000000000
+      internalID: -4378526937675806114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_55
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 104
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99dff268db1e91e70800000000000000
+      internalID: 9086541927313046937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_56
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 104
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d215ecfd8f2866d0800000000000000
+      internalID: -2997093265135299887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_57
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 104
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0274cb2e0b8a25630800000000000000
+      internalID: 3914376503810082592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_58
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 104
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 763586e810ec7b380800000000000000
+      internalID: -8955462827923451033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_59
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 104
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8efe81a2fde62eaf0800000000000000
+      internalID: -368610314727919640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_60
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 104
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2147bd1f840579a0800000000000000
+      internalID: -6236073096299200209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_61
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 72
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87190295d228740c0800000000000000
+      internalID: -4591558163800485512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_62
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 72
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 191da009109686960800000000000000
+      internalID: 7595436226992853393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_63
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 93
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f97bf01ade8994a0800000000000000
+      internalID: -6586075912813708815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_64
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 93
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a43933bcf8a758cf0800000000000000
+      internalID: -250659446241127606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_65
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 93
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9efca331f1fcb070800000000000000
+      internalID: 8123633846125919898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_66
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 93
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 860fd18ad8018dfa0800000000000000
+      internalID: -5775848321505693592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_67
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 93
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45b6395d045108cb0800000000000000
+      internalID: -4863864229354837164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_68
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 93
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8d61395b051387b0800000000000000
+      internalID: -5223308004334408307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_69
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 83
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be333340c3a0dc720800000000000000
+      internalID: 2867959790589653995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_70
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 83
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f836af88215a7de50800000000000000
+      internalID: 6834112458584122255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_71
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 83
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 016dfb779db5facc0800000000000000
+      internalID: -3697635779472796144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_72
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 83
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10ddd29cd4d2e8bb0800000000000000
+      internalID: -4931954729813156607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_73
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 83
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9626400a48d880720800000000000000
+      internalID: 2812653568052716137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_74
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 83
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c0173f2a2d0c1a20800000000000000
+      internalID: 3034314723772797125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_75
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 83
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ce587bcb9899a390800000000000000
+      internalID: -7806540684169027897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_76
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 72
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d5fa75f48b654be0800000000000000
+      internalID: -1493669482605120041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_77
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 72
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a21c408f4a2cb1d0800000000000000
+      internalID: -3333743103217757536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_78
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 72
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec1b4bbb951710550800000000000000
+      internalID: 6125301598415794638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_79
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 72
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de65c6925b8338980800000000000000
+      internalID: -8537918117829126419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_80
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 72
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 794d3a365552ca330800000000000000
+      internalID: 3723392040602686615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_81
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 72
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3739acfd34c90a220800000000000000
+      internalID: 2495166008894591859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_82
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 72
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41d5ff4205f0d3240800000000000000
+      internalID: 4772988016975109396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_83
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 72
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b5cc411dbe841840800000000000000
+      internalID: 5193933212955231667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_84
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 72
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a86ab4df66df8fea0800000000000000
+      internalID: -5838638298107763062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_85
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 72
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2be42e11dcf365f10800000000000000
+      internalID: 2258062413173771954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_86
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 62
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec80dac5a5909b1b0800000000000000
+      internalID: -5640466774598285106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_87
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 62
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46dfd535d5f39f170800000000000000
+      internalID: 8212665065549987172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_88
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 62
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43ba6f41ab34e1f40800000000000000
+      internalID: 5701068644792314676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_89
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 62
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9bd38eed302f3940800000000000000
+      internalID: 5277972738668223387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_90
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 62
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 546e8f32c9078e020800000000000000
+      internalID: 2371269019731289669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_91
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 62
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b68a6f27e90464560800000000000000
+      internalID: 7297591295478245483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_92
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 62
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aa7949149eacf6c0800000000000000
+      internalID: -4108216808966096219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_93
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 62
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffbc6dd2d8c276630800000000000000
+      internalID: 3920150985520368639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_94
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 62
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b953ee4f135812ae0800000000000000
+      internalID: -1575831944993819237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_95
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 62
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 543275e2c93e7dc70800000000000000
+      internalID: 8995909040627721029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_96
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 62
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfd8676a38e9da560800000000000000
+      internalID: 7326686457072356860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_97
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 62
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4f08a308a7192650800000000000000
+      internalID: 6208519571690229578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_98
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 62
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e0739253bae18f10800000000000000
+      internalID: 2270353743076880611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_99
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 62
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44aa75fa3844f0500800000000000000
+      internalID: 364585427213462084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_100
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 62
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d3b5261b67b77fe0800000000000000
+      internalID: -1191281905855253545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_101
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 62
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7213bb5b38717b4b0800000000000000
+      internalID: -5424841371687374553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_102
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 51
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5716fc6e4963625b0800000000000000
+      internalID: -5393563490574179979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_103
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 51
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 849d6ec89fd6fdec0800000000000000
+      internalID: -3539989863511697080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_104
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 51
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd2f80838ac8f44e0800000000000000
+      internalID: -1995221455779335460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_105
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 51
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31c4826e3fbdaf300800000000000000
+      internalID: 286783366876384275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_106
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 51
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 873a1c0eec1fcb910800000000000000
+      internalID: 1854623017406145400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_107
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 51
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 885cba0bf7748e490800000000000000
+      internalID: -7716839347748878968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_108
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 51
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d196fd3e8b883f80800000000000000
+      internalID: -8126592084548873767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_109
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 51
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76837339d87635300800000000000000
+      internalID: 239649062938687591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_110
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 51
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6f4d22d406d600b0800000000000000
+      internalID: -5762683356979572883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_111
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 51
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c881a05294d4ed190800000000000000
+      internalID: -7935820516830865268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_112
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 51
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0995260c29943fc0800000000000000
+      internalID: -3516016994708776689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_113
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 51
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 764e9ba20a0b61dd0800000000000000
+      internalID: -2515629139881761689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_114
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 51
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dc058ad9971917a0800000000000000
+      internalID: -6406063045394232104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_115
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 51
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3af48d17baac5bc40800000000000000
+      internalID: 5527546955365371811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_116
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 51
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1514dc4a16ef6460800000000000000
+      internalID: 7237256126840182042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_117
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 51
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa0532c0e4de84690800000000000000
+      internalID: -7617577850230320982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_118
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 41
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43860feb46ffb0f20800000000000000
+      internalID: 3390083952691669044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_119
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 41
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dffa522a37fa1530800000000000000
+      internalID: 3826642662461210583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_120
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 41
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3eaeba238cfe0360800000000000000
+      internalID: 7137920099716869695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_121
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 41
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e520d220684090e0800000000000000
+      internalID: -2265231034829232669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_122
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 41
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db20cae85bc00f2f0800000000000000
+      internalID: -941238348198182211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_123
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 41
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6095911420ecd2840800000000000000
+      internalID: 5201039653760227590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_124
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 41
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9edc5d617caaef480800000000000000
+      internalID: -8863459244560232983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_125
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 41
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afff8bdcd5337cee0800000000000000
+      internalID: -1240966694340853766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_126
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 41
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4baf6b375d2af7350800000000000000
+      internalID: 6016706664843377332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_127
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 41
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59d00b1a707f07e20800000000000000
+      internalID: 3346446135285779861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_128
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 41
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c28015f12968c130800000000000000
+      internalID: 3587232697766937283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_129
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 41
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 465d99ef499d0f630800000000000000
+      internalID: 3958903306408547684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_130
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 41
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53c55f6fd31fa4f20800000000000000
+      internalID: 3407801316497775669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_131
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 41
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02211ade47a653790800000000000000
+      internalID: -7551012149781261792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_132
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 41
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbec687ec838d57b0800000000000000
+      internalID: -5233882550731616581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_133
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 30
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56687793c99d9bc30800000000000000
+      internalID: 4375767777969407589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_134
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 30
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaa83aa11a40e1e00800000000000000
+      internalID: 1017255655815482030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_135
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 30
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eca449d3c45f24cb0800000000000000
+      internalID: -4881069338316748082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_136
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 30
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25da3699eb191ec30800000000000000
+      internalID: 4386947759838834002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_137
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 30
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f1f50fd5bee66c40800000000000000
+      internalID: 5505350059405210100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_138
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 30
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fbbee885b92d05b0800000000000000
+      internalID: -5400614518484190216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_139
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 30
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3c84a93fa33db820800000000000000
+      internalID: 2935559359794809918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_140
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 30
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a904dca63c6b40df0800000000000000
+      internalID: -214845931780226918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_141
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 30
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57d2b99f9837ac580800000000000000
+      internalID: -8806099084934173323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_142
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 30
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4cc76224b9eb14f0800000000000000
+      internalID: -856834344203334582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_143
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 30
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7df3236f9c21f0d50800000000000000
+      internalID: 6705599028806172631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_144
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 30
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a4fca76f4c2dd150800000000000000
+      internalID: 5898919806478644388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_145
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 30
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 079fd2fdeb1b468f0800000000000000
+      internalID: -548117821286123152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_146
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 30
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d22a9396d5d1b5e0800000000000000
+      internalID: -1895498850570198311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_147
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 30
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e33e0f00960d03e40800000000000000
+      internalID: 5634232283246420798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_148
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 20
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17f2658522a46b960800000000000000
+      internalID: 7617357331115159409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_149
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 20
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 134588bc899d0bd20800000000000000
+      internalID: 3292370577880798257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_150
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 20
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f7e39479a079d310800000000000000
+      internalID: 1430298229774477302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_151
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 20
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2692efb60865232b0800000000000000
+      internalID: -5606323476555224734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_152
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 20
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0de3a0a792dc7ce60800000000000000
+      internalID: 7982574442562338512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_153
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 20
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c1c1d600b99fabb0800000000000000
+      internalID: -4922546886384959039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_154
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 20
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37dde86ef0fa6b1c0800000000000000
+      internalID: -4488207495800627853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_155
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 20
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03edec6fcf83ef500800000000000000
+      internalID: 431845273397812784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_156
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 20
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02cc64ba487fc6e70800000000000000
+      internalID: 9109928295444958240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_157
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 20
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c817c0a616efd620800000000000000
+      internalID: 2801210478108809412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_158
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 20
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e031b604dd979e010800000000000000
+      internalID: 1218639165355922190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_159
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 20
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dec78e088278b340800000000000000
+      internalID: 4879776124940832465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_160
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 20
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d34f90661cd8de720800000000000000
+      internalID: 2877111598739747901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_161
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 20
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0caa1744ff787d160800000000000000
+      internalID: 7050253272106511040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_162
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 20
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07e0176b0c59a2f10800000000000000
+      internalID: 2245772019124735600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_163
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8aa639e688b3fc10800000000000000
+      internalID: 2086213941980473998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_164
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 9
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94bb38f9fe7385b10800000000000000
+      internalID: 1970386339287513929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_165
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 9
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 158363be5aad0b340800000000000000
+      internalID: 4877638802592905297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_166
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 9
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 551ba629540638c10800000000000000
+      internalID: 2054591706936553813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_167
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 9
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33f4d20d47a12bed0800000000000000
+      internalID: -2399826562423894221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_168
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 9
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ac8b3d3dae085da0800000000000000
+      internalID: -5955994369978037084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_169
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 9
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4dc75adf6e60b020800000000000000
+      internalID: 2355504031798381900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_170
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 9
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bb65f2783f177210800000000000000
+      internalID: 1330566542218587062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_171
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 9
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22fb5b010fb1f0870800000000000000
+      internalID: 8651164127088459554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_172
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 9
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3383dc0342da30890800000000000000
+      internalID: -7492954984065189837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_173
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 9
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 152c5a1def9b732c0800000000000000
+      internalID: -4451885202542312879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_174
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 9
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1c0e046f75f92d20800000000000000
+      internalID: 3254402133240187931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_175
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 0
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fc057c0b41ba65a0800000000000000
+      internalID: -6527209774030451464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_176
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 0
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b35714722641c5f90800000000000000
+      internalID: -6963668512023677637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_177
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 0
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 575565eb11ea41720800000000000000
+      internalID: 2816067058244408693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_178
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 0
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 893c38d8083e0a500800000000000000
+      internalID: 405574107732886424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_179
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 0
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3d1c2bc9c7c3f430800000000000000
+      internalID: 3815612978823961918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_180
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 0
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cc9d295a86dd9e80800000000000000
+      internalID: -8170138259290219325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_181
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 0
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6a7fa07c6e1c3920800000000000000
+      internalID: 2971283305253534315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_182
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e068b72131719ef90800000000000000
+      internalID: -6923977581423524338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ListFrame_07_SquareRound_164_Partten_183
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 0
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e929c5531483bc3f0800000000000000
+      internalID: -879547449501511010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ListFrame_07_SquareRound_164_Partten_0: -4180795531127850210
+      ListFrame_07_SquareRound_164_Partten_1: 8811952116155836927
+      ListFrame_07_SquareRound_164_Partten_10: -5046909464915841367
+      ListFrame_07_SquareRound_164_Partten_100: -1191281905855253545
+      ListFrame_07_SquareRound_164_Partten_101: -5424841371687374553
+      ListFrame_07_SquareRound_164_Partten_102: -5393563490574179979
+      ListFrame_07_SquareRound_164_Partten_103: -3539989863511697080
+      ListFrame_07_SquareRound_164_Partten_104: -1995221455779335460
+      ListFrame_07_SquareRound_164_Partten_105: 286783366876384275
+      ListFrame_07_SquareRound_164_Partten_106: 1854623017406145400
+      ListFrame_07_SquareRound_164_Partten_107: -7716839347748878968
+      ListFrame_07_SquareRound_164_Partten_108: -8126592084548873767
+      ListFrame_07_SquareRound_164_Partten_109: 239649062938687591
+      ListFrame_07_SquareRound_164_Partten_11: 5028707590792959536
+      ListFrame_07_SquareRound_164_Partten_110: -5762683356979572883
+      ListFrame_07_SquareRound_164_Partten_111: -7935820516830865268
+      ListFrame_07_SquareRound_164_Partten_112: -3516016994708776689
+      ListFrame_07_SquareRound_164_Partten_113: -2515629139881761689
+      ListFrame_07_SquareRound_164_Partten_114: -6406063045394232104
+      ListFrame_07_SquareRound_164_Partten_115: 5527546955365371811
+      ListFrame_07_SquareRound_164_Partten_116: 7237256126840182042
+      ListFrame_07_SquareRound_164_Partten_117: -7617577850230320982
+      ListFrame_07_SquareRound_164_Partten_118: 3390083952691669044
+      ListFrame_07_SquareRound_164_Partten_119: 3826642662461210583
+      ListFrame_07_SquareRound_164_Partten_12: -7143164399410123523
+      ListFrame_07_SquareRound_164_Partten_120: 7137920099716869695
+      ListFrame_07_SquareRound_164_Partten_121: -2265231034829232669
+      ListFrame_07_SquareRound_164_Partten_122: -941238348198182211
+      ListFrame_07_SquareRound_164_Partten_123: 5201039653760227590
+      ListFrame_07_SquareRound_164_Partten_124: -8863459244560232983
+      ListFrame_07_SquareRound_164_Partten_125: -1240966694340853766
+      ListFrame_07_SquareRound_164_Partten_126: 6016706664843377332
+      ListFrame_07_SquareRound_164_Partten_127: 3346446135285779861
+      ListFrame_07_SquareRound_164_Partten_128: 3587232697766937283
+      ListFrame_07_SquareRound_164_Partten_129: 3958903306408547684
+      ListFrame_07_SquareRound_164_Partten_13: 4588544868182042478
+      ListFrame_07_SquareRound_164_Partten_130: 3407801316497775669
+      ListFrame_07_SquareRound_164_Partten_131: -7551012149781261792
+      ListFrame_07_SquareRound_164_Partten_132: -5233882550731616581
+      ListFrame_07_SquareRound_164_Partten_133: 4375767777969407589
+      ListFrame_07_SquareRound_164_Partten_134: 1017255655815482030
+      ListFrame_07_SquareRound_164_Partten_135: -4881069338316748082
+      ListFrame_07_SquareRound_164_Partten_136: 4386947759838834002
+      ListFrame_07_SquareRound_164_Partten_137: 5505350059405210100
+      ListFrame_07_SquareRound_164_Partten_138: -5400614518484190216
+      ListFrame_07_SquareRound_164_Partten_139: 2935559359794809918
+      ListFrame_07_SquareRound_164_Partten_14: 6797902017991465829
+      ListFrame_07_SquareRound_164_Partten_140: -214845931780226918
+      ListFrame_07_SquareRound_164_Partten_141: -8806099084934173323
+      ListFrame_07_SquareRound_164_Partten_142: -856834344203334582
+      ListFrame_07_SquareRound_164_Partten_143: 6705599028806172631
+      ListFrame_07_SquareRound_164_Partten_144: 5898919806478644388
+      ListFrame_07_SquareRound_164_Partten_145: -548117821286123152
+      ListFrame_07_SquareRound_164_Partten_146: -1895498850570198311
+      ListFrame_07_SquareRound_164_Partten_147: 5634232283246420798
+      ListFrame_07_SquareRound_164_Partten_148: 7617357331115159409
+      ListFrame_07_SquareRound_164_Partten_149: 3292370577880798257
+      ListFrame_07_SquareRound_164_Partten_15: -4748895770111128491
+      ListFrame_07_SquareRound_164_Partten_150: 1430298229774477302
+      ListFrame_07_SquareRound_164_Partten_151: -5606323476555224734
+      ListFrame_07_SquareRound_164_Partten_152: 7982574442562338512
+      ListFrame_07_SquareRound_164_Partten_153: -4922546886384959039
+      ListFrame_07_SquareRound_164_Partten_154: -4488207495800627853
+      ListFrame_07_SquareRound_164_Partten_155: 431845273397812784
+      ListFrame_07_SquareRound_164_Partten_156: 9109928295444958240
+      ListFrame_07_SquareRound_164_Partten_157: 2801210478108809412
+      ListFrame_07_SquareRound_164_Partten_158: 1218639165355922190
+      ListFrame_07_SquareRound_164_Partten_159: 4879776124940832465
+      ListFrame_07_SquareRound_164_Partten_16: 7608788419692415151
+      ListFrame_07_SquareRound_164_Partten_160: 2877111598739747901
+      ListFrame_07_SquareRound_164_Partten_161: 7050253272106511040
+      ListFrame_07_SquareRound_164_Partten_162: 2245772019124735600
+      ListFrame_07_SquareRound_164_Partten_163: 2086213941980473998
+      ListFrame_07_SquareRound_164_Partten_164: 1970386339287513929
+      ListFrame_07_SquareRound_164_Partten_165: 4877638802592905297
+      ListFrame_07_SquareRound_164_Partten_166: 2054591706936553813
+      ListFrame_07_SquareRound_164_Partten_167: -2399826562423894221
+      ListFrame_07_SquareRound_164_Partten_168: -5955994369978037084
+      ListFrame_07_SquareRound_164_Partten_169: 2355504031798381900
+      ListFrame_07_SquareRound_164_Partten_17: -759470562460648315
+      ListFrame_07_SquareRound_164_Partten_170: 1330566542218587062
+      ListFrame_07_SquareRound_164_Partten_171: 8651164127088459554
+      ListFrame_07_SquareRound_164_Partten_172: -7492954984065189837
+      ListFrame_07_SquareRound_164_Partten_173: -4451885202542312879
+      ListFrame_07_SquareRound_164_Partten_174: 3254402133240187931
+      ListFrame_07_SquareRound_164_Partten_175: -6527209774030451464
+      ListFrame_07_SquareRound_164_Partten_176: -6963668512023677637
+      ListFrame_07_SquareRound_164_Partten_177: 2816067058244408693
+      ListFrame_07_SquareRound_164_Partten_178: 405574107732886424
+      ListFrame_07_SquareRound_164_Partten_179: 3815612978823961918
+      ListFrame_07_SquareRound_164_Partten_18: -3195076004705971819
+      ListFrame_07_SquareRound_164_Partten_180: -8170138259290219325
+      ListFrame_07_SquareRound_164_Partten_181: 2971283305253534315
+      ListFrame_07_SquareRound_164_Partten_182: -6923977581423524338
+      ListFrame_07_SquareRound_164_Partten_183: -879547449501511010
+      ListFrame_07_SquareRound_164_Partten_19: 502532927033258436
+      ListFrame_07_SquareRound_164_Partten_2: 3986556849698055313
+      ListFrame_07_SquareRound_164_Partten_20: 2734425237772534260
+      ListFrame_07_SquareRound_164_Partten_21: 3107826423924821188
+      ListFrame_07_SquareRound_164_Partten_22: 4806662281639375335
+      ListFrame_07_SquareRound_164_Partten_23: -9084741340086530713
+      ListFrame_07_SquareRound_164_Partten_24: -6644761349730950051
+      ListFrame_07_SquareRound_164_Partten_25: -3925732176347929741
+      ListFrame_07_SquareRound_164_Partten_26: -8218943698681481437
+      ListFrame_07_SquareRound_164_Partten_27: -3893913354044623653
+      ListFrame_07_SquareRound_164_Partten_28: -6011290852326977412
+      ListFrame_07_SquareRound_164_Partten_29: -5525096476570282429
+      ListFrame_07_SquareRound_164_Partten_3: 8592792158166440499
+      ListFrame_07_SquareRound_164_Partten_30: -9206352459954316543
+      ListFrame_07_SquareRound_164_Partten_31: -6391094569026636565
+      ListFrame_07_SquareRound_164_Partten_32: 6652099480026651651
+      ListFrame_07_SquareRound_164_Partten_33: -8105780450689595252
+      ListFrame_07_SquareRound_164_Partten_34: 8701916002915895899
+      ListFrame_07_SquareRound_164_Partten_35: -7909668340104254053
+      ListFrame_07_SquareRound_164_Partten_36: 3072288605645571675
+      ListFrame_07_SquareRound_164_Partten_37: 2596137761564948855
+      ListFrame_07_SquareRound_164_Partten_38: -6770123531061950638
+      ListFrame_07_SquareRound_164_Partten_39: -6672728602512240199
+      ListFrame_07_SquareRound_164_Partten_4: 1384711422111516491
+      ListFrame_07_SquareRound_164_Partten_40: 258285431047963199
+      ListFrame_07_SquareRound_164_Partten_41: -7099934633784421660
+      ListFrame_07_SquareRound_164_Partten_42: -2694068537816810890
+      ListFrame_07_SquareRound_164_Partten_43: 1410352724539218380
+      ListFrame_07_SquareRound_164_Partten_44: 6773879277426480202
+      ListFrame_07_SquareRound_164_Partten_45: -3174866815556400042
+      ListFrame_07_SquareRound_164_Partten_46: -1374377998715016240
+      ListFrame_07_SquareRound_164_Partten_47: -8332506324401458828
+      ListFrame_07_SquareRound_164_Partten_48: -8893059027837249637
+      ListFrame_07_SquareRound_164_Partten_49: -9202414367288374174
+      ListFrame_07_SquareRound_164_Partten_5: 1354591945699305794
+      ListFrame_07_SquareRound_164_Partten_50: 6577933837507574159
+      ListFrame_07_SquareRound_164_Partten_51: 8678073040828953761
+      ListFrame_07_SquareRound_164_Partten_52: 4305828809905664836
+      ListFrame_07_SquareRound_164_Partten_53: 1268473873515952845
+      ListFrame_07_SquareRound_164_Partten_54: -4378526937675806114
+      ListFrame_07_SquareRound_164_Partten_55: 9086541927313046937
+      ListFrame_07_SquareRound_164_Partten_56: -2997093265135299887
+      ListFrame_07_SquareRound_164_Partten_57: 3914376503810082592
+      ListFrame_07_SquareRound_164_Partten_58: -8955462827923451033
+      ListFrame_07_SquareRound_164_Partten_59: -368610314727919640
+      ListFrame_07_SquareRound_164_Partten_6: 7003197691828631275
+      ListFrame_07_SquareRound_164_Partten_60: -6236073096299200209
+      ListFrame_07_SquareRound_164_Partten_61: -4591558163800485512
+      ListFrame_07_SquareRound_164_Partten_62: 7595436226992853393
+      ListFrame_07_SquareRound_164_Partten_63: -6586075912813708815
+      ListFrame_07_SquareRound_164_Partten_64: -250659446241127606
+      ListFrame_07_SquareRound_164_Partten_65: 8123633846125919898
+      ListFrame_07_SquareRound_164_Partten_66: -5775848321505693592
+      ListFrame_07_SquareRound_164_Partten_67: -4863864229354837164
+      ListFrame_07_SquareRound_164_Partten_68: -5223308004334408307
+      ListFrame_07_SquareRound_164_Partten_69: 2867959790589653995
+      ListFrame_07_SquareRound_164_Partten_7: 6151179780242793880
+      ListFrame_07_SquareRound_164_Partten_70: 6834112458584122255
+      ListFrame_07_SquareRound_164_Partten_71: -3697635779472796144
+      ListFrame_07_SquareRound_164_Partten_72: -4931954729813156607
+      ListFrame_07_SquareRound_164_Partten_73: 2812653568052716137
+      ListFrame_07_SquareRound_164_Partten_74: 3034314723772797125
+      ListFrame_07_SquareRound_164_Partten_75: -7806540684169027897
+      ListFrame_07_SquareRound_164_Partten_76: -1493669482605120041
+      ListFrame_07_SquareRound_164_Partten_77: -3333743103217757536
+      ListFrame_07_SquareRound_164_Partten_78: 6125301598415794638
+      ListFrame_07_SquareRound_164_Partten_79: -8537918117829126419
+      ListFrame_07_SquareRound_164_Partten_8: 4608003917033560439
+      ListFrame_07_SquareRound_164_Partten_80: 3723392040602686615
+      ListFrame_07_SquareRound_164_Partten_81: 2495166008894591859
+      ListFrame_07_SquareRound_164_Partten_82: 4772988016975109396
+      ListFrame_07_SquareRound_164_Partten_83: 5193933212955231667
+      ListFrame_07_SquareRound_164_Partten_84: -5838638298107763062
+      ListFrame_07_SquareRound_164_Partten_85: 2258062413173771954
+      ListFrame_07_SquareRound_164_Partten_86: -5640466774598285106
+      ListFrame_07_SquareRound_164_Partten_87: 8212665065549987172
+      ListFrame_07_SquareRound_164_Partten_88: 5701068644792314676
+      ListFrame_07_SquareRound_164_Partten_89: 5277972738668223387
+      ListFrame_07_SquareRound_164_Partten_9: 750102707470372334
+      ListFrame_07_SquareRound_164_Partten_90: 2371269019731289669
+      ListFrame_07_SquareRound_164_Partten_91: 7297591295478245483
+      ListFrame_07_SquareRound_164_Partten_92: -4108216808966096219
+      ListFrame_07_SquareRound_164_Partten_93: 3920150985520368639
+      ListFrame_07_SquareRound_164_Partten_94: -1575831944993819237
+      ListFrame_07_SquareRound_164_Partten_95: 8995909040627721029
+      ListFrame_07_SquareRound_164_Partten_96: 7326686457072356860
+      ListFrame_07_SquareRound_164_Partten_97: 6208519571690229578
+      ListFrame_07_SquareRound_164_Partten_98: 2270353743076880611
+      ListFrame_07_SquareRound_164_Partten_99: 364585427213462084
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

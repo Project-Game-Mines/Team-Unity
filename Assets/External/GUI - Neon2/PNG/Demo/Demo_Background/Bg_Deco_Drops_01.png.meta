@@ -1,0 +1,3432 @@
+fileFormatVersion: 2
+guid: 414b38b381e11594ab8b2121071112bd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 877976034587191902
+    second: Bg_Deco_Drops_01_0
+  - first:
+      213: -2454107363355611989
+    second: Bg_Deco_Drops_01_1
+  - first:
+      213: 6522863404581953052
+    second: Bg_Deco_Drops_01_2
+  - first:
+      213: -8162465966139051577
+    second: Bg_Deco_Drops_01_3
+  - first:
+      213: -2685594609780496121
+    second: Bg_Deco_Drops_01_4
+  - first:
+      213: -5303451294271785352
+    second: Bg_Deco_Drops_01_5
+  - first:
+      213: 4301972472713226938
+    second: Bg_Deco_Drops_01_6
+  - first:
+      213: -2076195019874584801
+    second: Bg_Deco_Drops_01_7
+  - first:
+      213: -5698652337129371540
+    second: Bg_Deco_Drops_01_8
+  - first:
+      213: 5056766266486368706
+    second: Bg_Deco_Drops_01_9
+  - first:
+      213: 268869238411552063
+    second: Bg_Deco_Drops_01_10
+  - first:
+      213: 2497583144401031148
+    second: Bg_Deco_Drops_01_11
+  - first:
+      213: -4328685863430201221
+    second: Bg_Deco_Drops_01_12
+  - first:
+      213: -308040989117470163
+    second: Bg_Deco_Drops_01_13
+  - first:
+      213: -5202563463648243498
+    second: Bg_Deco_Drops_01_14
+  - first:
+      213: -6115942943154926341
+    second: Bg_Deco_Drops_01_15
+  - first:
+      213: 6128726473047016477
+    second: Bg_Deco_Drops_01_16
+  - first:
+      213: -4589924860810510403
+    second: Bg_Deco_Drops_01_17
+  - first:
+      213: -2675978552141373227
+    second: Bg_Deco_Drops_01_18
+  - first:
+      213: -3966729891194084409
+    second: Bg_Deco_Drops_01_19
+  - first:
+      213: -589798362465990887
+    second: Bg_Deco_Drops_01_20
+  - first:
+      213: -5348323354064428722
+    second: Bg_Deco_Drops_01_21
+  - first:
+      213: -8804671813252327754
+    second: Bg_Deco_Drops_01_22
+  - first:
+      213: 2409521303042449042
+    second: Bg_Deco_Drops_01_23
+  - first:
+      213: 1324323978152957045
+    second: Bg_Deco_Drops_01_24
+  - first:
+      213: 5565159612018788925
+    second: Bg_Deco_Drops_01_25
+  - first:
+      213: 7121479331107489242
+    second: Bg_Deco_Drops_01_26
+  - first:
+      213: 7169487909822098899
+    second: Bg_Deco_Drops_01_27
+  - first:
+      213: 8540325634621774486
+    second: Bg_Deco_Drops_01_28
+  - first:
+      213: -269943552535302734
+    second: Bg_Deco_Drops_01_29
+  - first:
+      213: -5336963270069735152
+    second: Bg_Deco_Drops_01_30
+  - first:
+      213: -7441000914472580607
+    second: Bg_Deco_Drops_01_31
+  - first:
+      213: 2374072269072913431
+    second: Bg_Deco_Drops_01_32
+  - first:
+      213: 4797850917137329266
+    second: Bg_Deco_Drops_01_33
+  - first:
+      213: 6073711292232671855
+    second: Bg_Deco_Drops_01_34
+  - first:
+      213: 8002778366908624893
+    second: Bg_Deco_Drops_01_35
+  - first:
+      213: 5706712911783386958
+    second: Bg_Deco_Drops_01_36
+  - first:
+      213: 961101762600216358
+    second: Bg_Deco_Drops_01_37
+  - first:
+      213: 6864620799101201436
+    second: Bg_Deco_Drops_01_38
+  - first:
+      213: 8341861304225088846
+    second: Bg_Deco_Drops_01_39
+  - first:
+      213: 7032490530988717915
+    second: Bg_Deco_Drops_01_40
+  - first:
+      213: -3851450539569161673
+    second: Bg_Deco_Drops_01_41
+  - first:
+      213: -3687450042546104227
+    second: Bg_Deco_Drops_01_42
+  - first:
+      213: 3077753404359895651
+    second: Bg_Deco_Drops_01_43
+  - first:
+      213: -8713350423226210275
+    second: Bg_Deco_Drops_01_44
+  - first:
+      213: 7252227104083176022
+    second: Bg_Deco_Drops_01_45
+  - first:
+      213: -8827863054365488722
+    second: Bg_Deco_Drops_01_46
+  - first:
+      213: -756192113181610185
+    second: Bg_Deco_Drops_01_47
+  - first:
+      213: -2578235103939349574
+    second: Bg_Deco_Drops_01_48
+  - first:
+      213: 4829826230481961978
+    second: Bg_Deco_Drops_01_49
+  - first:
+      213: 2380722809349345522
+    second: Bg_Deco_Drops_01_50
+  - first:
+      213: 4246518907758210726
+    second: Bg_Deco_Drops_01_51
+  - first:
+      213: 5319956759812965037
+    second: Bg_Deco_Drops_01_52
+  - first:
+      213: 8652076419568224040
+    second: Bg_Deco_Drops_01_53
+  - first:
+      213: 1820486413364247697
+    second: Bg_Deco_Drops_01_54
+  - first:
+      213: -7879502431522105685
+    second: Bg_Deco_Drops_01_55
+  - first:
+      213: 1798748653075543701
+    second: Bg_Deco_Drops_01_56
+  - first:
+      213: 192027168130818922
+    second: Bg_Deco_Drops_01_57
+  - first:
+      213: 5892005534419382015
+    second: Bg_Deco_Drops_01_58
+  - first:
+      213: 2051740420852137584
+    second: Bg_Deco_Drops_01_59
+  - first:
+      213: 1864711798897069223
+    second: Bg_Deco_Drops_01_60
+  - first:
+      213: 6218927934094478699
+    second: Bg_Deco_Drops_01_61
+  - first:
+      213: 5437110481472180243
+    second: Bg_Deco_Drops_01_62
+  - first:
+      213: 1203841910600781513
+    second: Bg_Deco_Drops_01_63
+  - first:
+      213: 3434088117133905084
+    second: Bg_Deco_Drops_01_64
+  - first:
+      213: -5487671881186428443
+    second: Bg_Deco_Drops_01_65
+  - first:
+      213: -6827466515838566178
+    second: Bg_Deco_Drops_01_66
+  - first:
+      213: -6274361455245177279
+    second: Bg_Deco_Drops_01_67
+  - first:
+      213: -8602291271841044176
+    second: Bg_Deco_Drops_01_68
+  - first:
+      213: -3262333912512285137
+    second: Bg_Deco_Drops_01_69
+  - first:
+      213: -208082604965902038
+    second: Bg_Deco_Drops_01_70
+  - first:
+      213: -194314438778396388
+    second: Bg_Deco_Drops_01_71
+  - first:
+      213: 2734266825196128761
+    second: Bg_Deco_Drops_01_72
+  - first:
+      213: -5067130567161997275
+    second: Bg_Deco_Drops_01_73
+  - first:
+      213: 6875481656344397088
+    second: Bg_Deco_Drops_01_74
+  - first:
+      213: -983732137341707221
+    second: Bg_Deco_Drops_01_75
+  - first:
+      213: 4656742913718405627
+    second: Bg_Deco_Drops_01_76
+  - first:
+      213: 4526448438418728488
+    second: Bg_Deco_Drops_01_77
+  - first:
+      213: 3796904963425504933
+    second: Bg_Deco_Drops_01_78
+  - first:
+      213: -3442363082549610075
+    second: Bg_Deco_Drops_01_79
+  - first:
+      213: 8024874349490402790
+    second: Bg_Deco_Drops_01_80
+  - first:
+      213: 2222689523308525502
+    second: Bg_Deco_Drops_01_81
+  - first:
+      213: -2845561057200477368
+    second: Bg_Deco_Drops_01_82
+  - first:
+      213: -3007094464555934777
+    second: Bg_Deco_Drops_01_83
+  - first:
+      213: 7384897665157923547
+    second: Bg_Deco_Drops_01_84
+  - first:
+      213: -1783214329155030518
+    second: Bg_Deco_Drops_01_85
+  - first:
+      213: 2051845814936072415
+    second: Bg_Deco_Drops_01_86
+  - first:
+      213: 3474640746508804844
+    second: Bg_Deco_Drops_01_87
+  - first:
+      213: 1922206876435369361
+    second: Bg_Deco_Drops_01_88
+  - first:
+      213: -1009244389542702824
+    second: Bg_Deco_Drops_01_89
+  - first:
+      213: 1957263426526506988
+    second: Bg_Deco_Drops_01_90
+  - first:
+      213: 8212313815508136281
+    second: Bg_Deco_Drops_01_91
+  - first:
+      213: 55655494715321655
+    second: Bg_Deco_Drops_01_92
+  - first:
+      213: -5213238342419334444
+    second: Bg_Deco_Drops_01_93
+  - first:
+      213: -4943716031824091764
+    second: Bg_Deco_Drops_01_94
+  - first:
+      213: 6116261460682650367
+    second: Bg_Deco_Drops_01_95
+  - first:
+      213: -1115399686666266933
+    second: Bg_Deco_Drops_01_96
+  - first:
+      213: -897439721180851102
+    second: Bg_Deco_Drops_01_97
+  - first:
+      213: 6953049671599084035
+    second: Bg_Deco_Drops_01_98
+  - first:
+      213: -7169992059803609794
+    second: Bg_Deco_Drops_01_99
+  - first:
+      213: 8151838121028132180
+    second: Bg_Deco_Drops_01_100
+  - first:
+      213: 2767691693203887843
+    second: Bg_Deco_Drops_01_101
+  - first:
+      213: -6868568028532323054
+    second: Bg_Deco_Drops_01_102
+  - first:
+      213: 6228026943302051985
+    second: Bg_Deco_Drops_01_103
+  - first:
+      213: -5431300894373812544
+    second: Bg_Deco_Drops_01_104
+  - first:
+      213: -2463823557017093739
+    second: Bg_Deco_Drops_01_105
+  - first:
+      213: -5805904968998038215
+    second: Bg_Deco_Drops_01_106
+  - first:
+      213: 1577606826551608576
+    second: Bg_Deco_Drops_01_107
+  - first:
+      213: 3849047703083982364
+    second: Bg_Deco_Drops_01_108
+  - first:
+      213: -4814350391857189086
+    second: Bg_Deco_Drops_01_109
+  - first:
+      213: -421388801988349835
+    second: Bg_Deco_Drops_01_110
+  - first:
+      213: -8547822094625021462
+    second: Bg_Deco_Drops_01_111
+  - first:
+      213: 7753848703800774055
+    second: Bg_Deco_Drops_01_112
+  - first:
+      213: 3576158063217163922
+    second: Bg_Deco_Drops_01_113
+  - first:
+      213: 6495639579250551795
+    second: Bg_Deco_Drops_01_114
+  - first:
+      213: -2909447052531110643
+    second: Bg_Deco_Drops_01_115
+  - first:
+      213: -2014441209147953122
+    second: Bg_Deco_Drops_01_116
+  - first:
+      213: -2769341845610374629
+    second: Bg_Deco_Drops_01_117
+  - first:
+      213: 559439239193352105
+    second: Bg_Deco_Drops_01_118
+  - first:
+      213: -4234348226595052341
+    second: Bg_Deco_Drops_01_119
+  - first:
+      213: 1501645041716310622
+    second: Bg_Deco_Drops_01_120
+  - first:
+      213: 5388753934940649645
+    second: Bg_Deco_Drops_01_121
+  - first:
+      213: 586164409338275293
+    second: Bg_Deco_Drops_01_122
+  - first:
+      213: 4293503792658990456
+    second: Bg_Deco_Drops_01_123
+  - first:
+      213: -110664713989452789
+    second: Bg_Deco_Drops_01_124
+  - first:
+      213: 3272337449750015914
+    second: Bg_Deco_Drops_01_125
+  - first:
+      213: -3878574779835335353
+    second: Bg_Deco_Drops_01_126
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_0
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 1181
+        width: 31
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5a20ee3d823f2c00800000000000000
+      internalID: 877976034587191902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_1
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 1155
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baca48efa5241fdd0800000000000000
+      internalID: -2454107363355611989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_2
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 1115
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1e9084f4bdd58a50800000000000000
+      internalID: 6522863404581953052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_3
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 1140
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c1f01d437819be80800000000000000
+      internalID: -8162465966139051577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_4
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 1140
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70964596ee9dabad0800000000000000
+      internalID: -2685594609780496121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_5
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 1125
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8763851952b5666b0800000000000000
+      internalID: -5303451294271785352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1096
+        width: 6
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abaa49dcb2da3bb30800000000000000
+      internalID: 4301972472713226938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_7
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 1068
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f17b0fb21afdf23e0800000000000000
+      internalID: -2076195019874584801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_8
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 1103
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6844f264e15ae0b0800000000000000
+      internalID: -5698652337129371540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_9
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 1098
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c92912a02e3d2640800000000000000
+      internalID: 5056766266486368706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_10
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 1088
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f35ec86d5273bb300800000000000000
+      internalID: 268869238411552063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_11
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 1059
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cefc60713a239a220800000000000000
+      internalID: 2497583144401031148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_12
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 1061
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b70ecfd342b6de3c0800000000000000
+      internalID: -4328685863430201221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_13
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1061
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2aa46b3a5e99bbf0800000000000000
+      internalID: -308040989117470163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_14
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 1059
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d012db1818ccc7b0800000000000000
+      internalID: -5202563463648243498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_15
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 1042
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfc81befb4ecf1ba0800000000000000
+      internalID: -6115942943154926341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_16
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 1059
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d14008f714c9d0550800000000000000
+      internalID: 6128726473047016477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_17
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 1039
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbfb7a558af4d40c0800000000000000
+      internalID: -4589924860810510403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_18
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 994
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d0ac0d4fa30ddad0800000000000000
+      internalID: -2675978552141373227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_19
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 997
+        width: 43
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c3e37b3e2853f8c0800000000000000
+      internalID: -3966729891194084409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_20
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 1014
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9178b14a38d90d7f0800000000000000
+      internalID: -589798362465990887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_21
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 982
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4160110f30f6c5b0800000000000000
+      internalID: -5348323354064428722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_22
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 968
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b6533f82a58fc580800000000000000
+      internalID: -8804671813252327754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_23
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 985
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29ed492ebd6507120800000000000000
+      internalID: 2409521303042449042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_24
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 949
+        width: 42
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 574d65d34a1f06210800000000000000
+      internalID: 1324323978152957045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_25
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 975
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3a0bb08e2b6b3d40800000000000000
+      internalID: 5565159612018788925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_26
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 953
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad5c2fd68b394d260800000000000000
+      internalID: 7121479331107489242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_27
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 957
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dd6766b4432f7360800000000000000
+      internalID: 7169487909822098899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_28
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 948
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69a1bc58ae4558670800000000000000
+      internalID: 8540325634621774486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_29
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 939
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bde9b9e4c7f04cf0800000000000000
+      internalID: -269943552535302734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_30
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 922
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 011bf2cae2c4fe5b0800000000000000
+      internalID: -5336963270069735152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_31
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 934
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10a4187a7114cb890800000000000000
+      internalID: -7441000914472580607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_32
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 907
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 714523d762662f020800000000000000
+      internalID: 2374072269072913431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_33
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 938
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27ca0413df3659240800000000000000
+      internalID: 4797850917137329266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_34
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 936
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f62aec98d382a4450800000000000000
+      internalID: 6073711292232671855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_35
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 922
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dffe4cf26849f0f60800000000000000
+      internalID: 8002778366908624893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_36
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 930
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4fdbf56821523f40800000000000000
+      internalID: 5706712911783386958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_37
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 902
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 627a9c006f4865d00800000000000000
+      internalID: 961101762600216358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_38
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 913
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1c6f281f38044f50800000000000000
+      internalID: 6864620799101201436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_39
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 917
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e45c9ebb8ae34c370800000000000000
+      internalID: 8341861304225088846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_40
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 902
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5771e1d0ec689160800000000000000
+      internalID: 7032490530988717915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_41
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 899
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73a5efed326ec8ac0800000000000000
+      internalID: -3851450539569161673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_42
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 868
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d585a0729bb83dcc0800000000000000
+      internalID: -3687450042546104227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_43
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 867
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36aee152a6066ba20800000000000000
+      internalID: 3077753404359895651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_44
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 882
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d182a1494f5f31780800000000000000
+      internalID: -8713350423226210275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_45
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 888
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65a6651902615a460800000000000000
+      internalID: 7252227104083176022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_46
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 850
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea900c6f2512d7580800000000000000
+      internalID: -8827863054365488722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_47
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 871
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73fabdf87477185f0800000000000000
+      internalID: -756192113181610185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_48
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 860
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab3b04245d4483cd0800000000000000
+      internalID: -2578235103939349574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_49
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 856
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af3cdbafd5df60340800000000000000
+      internalID: 4829826230481961978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_50
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 847
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f010ff08c60a0120800000000000000
+      internalID: 2380722809349345522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_51
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 823
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ae68e4927aaeea30800000000000000
+      internalID: 4246518907758210726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_52
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 840
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da207199c7844d940800000000000000
+      internalID: 5319956759812965037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_53
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 833
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 827c5e5b9a9521870800000000000000
+      internalID: 8652076419568224040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_54
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 832
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19c30036fbaa34910800000000000000
+      internalID: 1820486413364247697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_55
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 789
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba65c42394266a290800000000000000
+      internalID: -7879502431522105685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_56
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 774
+        width: 42
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 596b7caae5076f810800000000000000
+      internalID: 1798748653075543701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_57
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 816
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6369a721b73aa200800000000000000
+      internalID: 192027168130818922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_58
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 774
+        width: 52
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffee3bdf0db94c150800000000000000
+      internalID: 5892005534419382015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_59
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 768
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07eb33cca0f397c10800000000000000
+      internalID: 2051740420852137584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_60
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 776
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ac4dbd5089c0e910800000000000000
+      internalID: 1864711798897069223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_61
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 764
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6d847bb1021e4650800000000000000
+      internalID: 6218927934094478699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_62
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 777
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 310d3b40d2f747b40800000000000000
+      internalID: 5437110481472180243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_63
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 776
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ce4617e6d7e4b010800000000000000
+      internalID: 1203841910600781513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_64
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 762
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbc082da2f458af20800000000000000
+      internalID: 3434088117133905084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_65
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 734
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e9bbfdbf7fd7d3b0800000000000000
+      internalID: -5487671881186428443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_66
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 719
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed081979067ff31a0800000000000000
+      internalID: -6827466515838566178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_67
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 696
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14e45bbdf7dfce8a0800000000000000
+      internalID: -6274361455245177279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_68
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 726
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 039a8774aa58e9880800000000000000
+      internalID: -8602291271841044176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_69
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 732
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f26bef5579cd9b2d0800000000000000
+      internalID: -3262333912512285137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_70
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 697
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a29c11729fdbc1df0800000000000000
+      internalID: -208082604965902038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_71
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 681
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1162e52c08ad4df0800000000000000
+      internalID: -194314438778396388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_72
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 720
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f943f4d03112f520800000000000000
+      internalID: 2734266825196128761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_73
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 655
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52819c1989feda9b0800000000000000
+      internalID: -5067130567161997275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_74
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 694
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0254f1a732e9a6f50800000000000000
+      internalID: 6875481656344397088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_75
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 677
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2c9c9745d41952f0800000000000000
+      internalID: -983732137341707221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_76
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 697
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf9c08ee10310a040800000000000000
+      internalID: 4656742913718405627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_77
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 667
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 826e1126fdc21de30800000000000000
+      internalID: 4526448438418728488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_78
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 653
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ae05e682f051b430800000000000000
+      internalID: 3796904963425504933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_79
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 656
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a936bcc3054a30d0800000000000000
+      internalID: -3442363082549610075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_80
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 657
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e5f48804b41e5f60800000000000000
+      internalID: 8024874349490402790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_81
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 660
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb779ca585498de10800000000000000
+      internalID: 2222689523308525502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_82
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 660
+        width: 8
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84b61ee7b498288d0800000000000000
+      internalID: -2845561057200477368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_83
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 630
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cb991a4487a446d0800000000000000
+      internalID: -3007094464555934777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_84
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 621
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd28952bc4d6c7660800000000000000
+      internalID: 7384897665157923547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_85
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 605
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a02f358f300c047e0800000000000000
+      internalID: -1783214329155030518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_86
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 589
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd0f225c5ee997c10800000000000000
+      internalID: 2051845814936072415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_87
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 607
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce261c97957683030800000000000000
+      internalID: 3474640746508804844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_88
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 554
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19d4eb648fc0daa10800000000000000
+      internalID: 1922206876435369361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_89
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 586
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81150cd23917ef1f0800000000000000
+      internalID: -1009244389542702824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_90
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 590
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cefe9f567b8992b10800000000000000
+      internalID: 1957263426526506988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_91
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 572
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 951356d87eff7f170800000000000000
+      internalID: 8212313815508136281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_92
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 574
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73d2e48a06ab5c000800000000000000
+      internalID: 55655494715321655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_93
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 551
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4da36a6395bd6a7b0800000000000000
+      internalID: -5213238342419334444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_94
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 510
+        width: 57
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c85a8b44674646bb0800000000000000
+      internalID: -4943716031824091764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_95
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 562
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff2b665a46351e450800000000000000
+      internalID: 6116261460682650367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_96
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 532
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc6dca505ed4580f0800000000000000
+      internalID: -1115399686666266933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_97
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 528
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26490b31457ab83f0800000000000000
+      internalID: -897439721180851102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_98
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 539
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3025f4566d13e7060800000000000000
+      internalID: 6953049671599084035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_99
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 539
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e35d809b5321f7c90800000000000000
+      internalID: -7169992059803609794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_100
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 536
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45d9e5ea495212170800000000000000
+      internalID: 8151838121028132180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_101
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 483
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e6973d5ee0d86620800000000000000
+      internalID: 2767691693203887843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_102
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 524
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21dc9bfe4c1fda0a0800000000000000
+      internalID: -6868568028532323054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_103
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 440
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 198a417e1856e6650800000000000000
+      internalID: 6228026943302051985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_104
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 483
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c66692ec9420a4b0800000000000000
+      internalID: -5431300894373812544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_105
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 488
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 599b1ce578dbecdd0800000000000000
+      internalID: -2463823557017093739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_106
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 479
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 935523311384d6fa0800000000000000
+      internalID: -5805904968998038215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_107
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 477
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00507dbdc09c4e510800000000000000
+      internalID: 1577606826551608576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_108
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 445
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1e9ad92e709a6530800000000000000
+      internalID: 3849047703083982364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_109
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 448
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22fe61d73ddff2db0800000000000000
+      internalID: -4814350391857189086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_110
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 445
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57038210e1de62af0800000000000000
+      internalID: -421388801988349835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_111
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 442
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae1e3aed719006980800000000000000
+      internalID: -8547822094625021462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_112
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 411
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ad0b2080543b9b60800000000000000
+      internalID: 7753848703800774055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_113
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 401
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29e35baafc011a130800000000000000
+      internalID: 3576158063217163922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_114
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 423
+        width: 5
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fb623e28c5252a50800000000000000
+      internalID: 6495639579250551795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_115
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 375
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0d631512519f97d0800000000000000
+      internalID: -2909447052531110643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_116
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 401
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e10f3dba4644b04e0800000000000000
+      internalID: -2014441209147953122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_117
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 374
+        width: 7
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1ad4c693425199d0800000000000000
+      internalID: -2769341845610374629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_118
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 308
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a7d885260783c700800000000000000
+      internalID: 559439239193352105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_119
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 292
+        width: 39
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc42f72f8b29c35c0800000000000000
+      internalID: -4234348226595052341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_120
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 213
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e523a3a953ae6d410800000000000000
+      internalID: 1501645041716310622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_121
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 236
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da8302a2723b8ca40800000000000000
+      internalID: 5388753934940649645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_122
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 232
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd5a596bc69722800800000000000000
+      internalID: 586164409338275293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_123
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 48
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8754b3393f6959b30800000000000000
+      internalID: 4293503792658990456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_124
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 67
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0c0d796707d67ef0800000000000000
+      internalID: -110664713989452789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_125
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 22
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aafae8da29da96d20800000000000000
+      internalID: 3272337449750015914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bg_Deco_Drops_01_126
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 0
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74d302d89c88c2ac0800000000000000
+      internalID: -3878574779835335353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Bg_Deco_Drops_01_0: 877976034587191902
+      Bg_Deco_Drops_01_1: -2454107363355611989
+      Bg_Deco_Drops_01_10: 268869238411552063
+      Bg_Deco_Drops_01_100: 8151838121028132180
+      Bg_Deco_Drops_01_101: 2767691693203887843
+      Bg_Deco_Drops_01_102: -6868568028532323054
+      Bg_Deco_Drops_01_103: 6228026943302051985
+      Bg_Deco_Drops_01_104: -5431300894373812544
+      Bg_Deco_Drops_01_105: -2463823557017093739
+      Bg_Deco_Drops_01_106: -5805904968998038215
+      Bg_Deco_Drops_01_107: 1577606826551608576
+      Bg_Deco_Drops_01_108: 3849047703083982364
+      Bg_Deco_Drops_01_109: -4814350391857189086
+      Bg_Deco_Drops_01_11: 2497583144401031148
+      Bg_Deco_Drops_01_110: -421388801988349835
+      Bg_Deco_Drops_01_111: -8547822094625021462
+      Bg_Deco_Drops_01_112: 7753848703800774055
+      Bg_Deco_Drops_01_113: 3576158063217163922
+      Bg_Deco_Drops_01_114: 6495639579250551795
+      Bg_Deco_Drops_01_115: -2909447052531110643
+      Bg_Deco_Drops_01_116: -2014441209147953122
+      Bg_Deco_Drops_01_117: -2769341845610374629
+      Bg_Deco_Drops_01_118: 559439239193352105
+      Bg_Deco_Drops_01_119: -4234348226595052341
+      Bg_Deco_Drops_01_12: -4328685863430201221
+      Bg_Deco_Drops_01_120: 1501645041716310622
+      Bg_Deco_Drops_01_121: 5388753934940649645
+      Bg_Deco_Drops_01_122: 586164409338275293
+      Bg_Deco_Drops_01_123: 4293503792658990456
+      Bg_Deco_Drops_01_124: -110664713989452789
+      Bg_Deco_Drops_01_125: 3272337449750015914
+      Bg_Deco_Drops_01_126: -3878574779835335353
+      Bg_Deco_Drops_01_13: -308040989117470163
+      Bg_Deco_Drops_01_14: -5202563463648243498
+      Bg_Deco_Drops_01_15: -6115942943154926341
+      Bg_Deco_Drops_01_16: 6128726473047016477
+      Bg_Deco_Drops_01_17: -4589924860810510403
+      Bg_Deco_Drops_01_18: -2675978552141373227
+      Bg_Deco_Drops_01_19: -3966729891194084409
+      Bg_Deco_Drops_01_2: 6522863404581953052
+      Bg_Deco_Drops_01_20: -589798362465990887
+      Bg_Deco_Drops_01_21: -5348323354064428722
+      Bg_Deco_Drops_01_22: -8804671813252327754
+      Bg_Deco_Drops_01_23: 2409521303042449042
+      Bg_Deco_Drops_01_24: 1324323978152957045
+      Bg_Deco_Drops_01_25: 5565159612018788925
+      Bg_Deco_Drops_01_26: 7121479331107489242
+      Bg_Deco_Drops_01_27: 7169487909822098899
+      Bg_Deco_Drops_01_28: 8540325634621774486
+      Bg_Deco_Drops_01_29: -269943552535302734
+      Bg_Deco_Drops_01_3: -8162465966139051577
+      Bg_Deco_Drops_01_30: -5336963270069735152
+      Bg_Deco_Drops_01_31: -7441000914472580607
+      Bg_Deco_Drops_01_32: 2374072269072913431
+      Bg_Deco_Drops_01_33: 4797850917137329266
+      Bg_Deco_Drops_01_34: 6073711292232671855
+      Bg_Deco_Drops_01_35: 8002778366908624893
+      Bg_Deco_Drops_01_36: 5706712911783386958
+      Bg_Deco_Drops_01_37: 961101762600216358
+      Bg_Deco_Drops_01_38: 6864620799101201436
+      Bg_Deco_Drops_01_39: 8341861304225088846
+      Bg_Deco_Drops_01_4: -2685594609780496121
+      Bg_Deco_Drops_01_40: 7032490530988717915
+      Bg_Deco_Drops_01_41: -3851450539569161673
+      Bg_Deco_Drops_01_42: -3687450042546104227
+      Bg_Deco_Drops_01_43: 3077753404359895651
+      Bg_Deco_Drops_01_44: -8713350423226210275
+      Bg_Deco_Drops_01_45: 7252227104083176022
+      Bg_Deco_Drops_01_46: -8827863054365488722
+      Bg_Deco_Drops_01_47: -756192113181610185
+      Bg_Deco_Drops_01_48: -2578235103939349574
+      Bg_Deco_Drops_01_49: 4829826230481961978
+      Bg_Deco_Drops_01_5: -5303451294271785352
+      Bg_Deco_Drops_01_50: 2380722809349345522
+      Bg_Deco_Drops_01_51: 4246518907758210726
+      Bg_Deco_Drops_01_52: 5319956759812965037
+      Bg_Deco_Drops_01_53: 8652076419568224040
+      Bg_Deco_Drops_01_54: 1820486413364247697
+      Bg_Deco_Drops_01_55: -7879502431522105685
+      Bg_Deco_Drops_01_56: 1798748653075543701
+      Bg_Deco_Drops_01_57: 192027168130818922
+      Bg_Deco_Drops_01_58: 5892005534419382015
+      Bg_Deco_Drops_01_59: 2051740420852137584
+      Bg_Deco_Drops_01_6: 4301972472713226938
+      Bg_Deco_Drops_01_60: 1864711798897069223
+      Bg_Deco_Drops_01_61: 6218927934094478699
+      Bg_Deco_Drops_01_62: 5437110481472180243
+      Bg_Deco_Drops_01_63: 1203841910600781513
+      Bg_Deco_Drops_01_64: 3434088117133905084
+      Bg_Deco_Drops_01_65: -5487671881186428443
+      Bg_Deco_Drops_01_66: -6827466515838566178
+      Bg_Deco_Drops_01_67: -6274361455245177279
+      Bg_Deco_Drops_01_68: -8602291271841044176
+      Bg_Deco_Drops_01_69: -3262333912512285137
+      Bg_Deco_Drops_01_7: -2076195019874584801
+      Bg_Deco_Drops_01_70: -208082604965902038
+      Bg_Deco_Drops_01_71: -194314438778396388
+      Bg_Deco_Drops_01_72: 2734266825196128761
+      Bg_Deco_Drops_01_73: -5067130567161997275
+      Bg_Deco_Drops_01_74: 6875481656344397088
+      Bg_Deco_Drops_01_75: -983732137341707221
+      Bg_Deco_Drops_01_76: 4656742913718405627
+      Bg_Deco_Drops_01_77: 4526448438418728488
+      Bg_Deco_Drops_01_78: 3796904963425504933
+      Bg_Deco_Drops_01_79: -3442363082549610075
+      Bg_Deco_Drops_01_8: -5698652337129371540
+      Bg_Deco_Drops_01_80: 8024874349490402790
+      Bg_Deco_Drops_01_81: 2222689523308525502
+      Bg_Deco_Drops_01_82: -2845561057200477368
+      Bg_Deco_Drops_01_83: -3007094464555934777
+      Bg_Deco_Drops_01_84: 7384897665157923547
+      Bg_Deco_Drops_01_85: -1783214329155030518
+      Bg_Deco_Drops_01_86: 2051845814936072415
+      Bg_Deco_Drops_01_87: 3474640746508804844
+      Bg_Deco_Drops_01_88: 1922206876435369361
+      Bg_Deco_Drops_01_89: -1009244389542702824
+      Bg_Deco_Drops_01_9: 5056766266486368706
+      Bg_Deco_Drops_01_90: 1957263426526506988
+      Bg_Deco_Drops_01_91: 8212313815508136281
+      Bg_Deco_Drops_01_92: 55655494715321655
+      Bg_Deco_Drops_01_93: -5213238342419334444
+      Bg_Deco_Drops_01_94: -4943716031824091764
+      Bg_Deco_Drops_01_95: 6116261460682650367
+      Bg_Deco_Drops_01_96: -1115399686666266933
+      Bg_Deco_Drops_01_97: -897439721180851102
+      Bg_Deco_Drops_01_98: 6953049671599084035
+      Bg_Deco_Drops_01_99: -7169992059803609794
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
