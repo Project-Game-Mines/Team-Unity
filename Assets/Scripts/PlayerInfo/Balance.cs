@@ -5,7 +5,8 @@ public class Balance : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI balanceAmountText;
     [SerializeField] MockPlayer player;
-    void Start()
+    
+    void Update()
     {
         balanceAmountText.text = $"{player.balance.ToString()} BLR";
     }
