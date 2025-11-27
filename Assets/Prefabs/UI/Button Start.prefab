@@ -39,7 +39,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 25, y: -374}
-  m_SizeDelta: {x: 500, y: 100}
+  m_SizeDelta: {x: 500, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8676893061460842040
 CanvasRenderer:
@@ -158,6 +158,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ButtonBet
   betButton: {fileID: 4153926102814063058}
+  _gameManager: {fileID: 0}
   buttonBetText: {fileID: 8061864997880110189}
   buttonBetLaranja: {fileID: 0}
   buttonBetVermelho: {fileID: 0}
