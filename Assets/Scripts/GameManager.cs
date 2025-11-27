@@ -5,6 +5,9 @@ public class GameManager : MonoBehaviour
 {
     public int betAmount = 1;
     public bool active = false;
+    
+    [SerializeField] private BetButton betButton;
+    [SerializeField] private MockPlayer player;
 
    // [SerializeField] private BetAmount betAmount;
     
@@ -13,12 +16,19 @@ public class GameManager : MonoBehaviour
     public void SetGameActive()
     {
         active = true;
+        
     }
 
     public void StartGame()
     {
         SetGameActive();
+        DebitBalance();
         
+    }
+
+    public void DebitBalance()
+    {
+        player.balance -= betAmount;
     }
 
     
