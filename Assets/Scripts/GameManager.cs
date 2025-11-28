@@ -39,6 +39,7 @@ public class GameManager : MonoBehaviour
         active = false;
         gameOver = true;
         gameFase = 0;
+        
     }
     
     

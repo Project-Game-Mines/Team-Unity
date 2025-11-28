@@ -37,8 +37,8 @@ public class MineButtonBehavior : MonoBehaviour
         if (gameManager.gameOver)
         {
             animator.SetBool("Active", false);
-            StartCoroutine(CloseIcons());
             StartCoroutine(HandleGameOver());
+            StartCoroutine(CloseIcons());
 
         }
 
@@ -60,6 +60,10 @@ public class MineButtonBehavior : MonoBehaviour
             
             Debug.Log($"Clicou na mina {mineValue}");
         }
+        else
+        {
+            
+        }
         
         
     }
@@ -72,6 +76,7 @@ public class MineButtonBehavior : MonoBehaviour
         bombImage.SetActive(true);
         gameManager.GameOver();
         StartCoroutine(HandleGameOver());
+        
         
     }
 
