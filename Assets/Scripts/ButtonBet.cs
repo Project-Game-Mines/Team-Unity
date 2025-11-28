@@ -25,16 +25,14 @@ public class ButtonBet : MonoBehaviour
 
     void Update()
     {
-        if (!_gameManager.active)
-        {
-            RestartGame();
-        }
+        //if (!_gameManager.active)
+        //{
+        //    RestartGame();
+        //}
         if (_gameManager.active && (_gameManager.gameFase > 0) && !cashout)
         {
             PossibleCashout();
         }
-
-        
     }
 
     void UpdateButtonState()
@@ -49,7 +47,7 @@ public class ButtonBet : MonoBehaviour
 
         else if (_gameManager.active && (_gameManager.gameFase > 0) && cashout)
         {
-            betButton.onClick.AddListener(RestartGame);
+            betButton.onClick.AddListener(RestartButtonBet);
         }
 
     }
@@ -71,9 +69,8 @@ public class ButtonBet : MonoBehaviour
         UpdateButtonState();
     }
 
-    void RestartGame()
+    public void RestartButtonBet()
     {
-        _gameManager.GameOver();
         buttonBetText.text = "BET";
         buttonBetText.fontSize = 40;
         //SetButtonAlpha(betButton, 1.0f);
