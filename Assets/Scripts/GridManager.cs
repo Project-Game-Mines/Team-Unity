@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -21,6 +22,9 @@ public class GridManager : MonoBehaviour
       {
          mine.ResetButtons();
       }
+      StartCoroutine(WaitSeconds());
+      
+      
    }
 
    public void UnlockGridMines()
@@ -30,6 +34,15 @@ public class GridManager : MonoBehaviour
       {
          mine.animator.SetBool("Active", true);
          mine.active = true;
+      }
+   }
+
+   private IEnumerator WaitSeconds()
+   {
+      yield return new WaitForSeconds(3);
+      foreach (var mine in mineButtons)
+      {
+         mine.ResetButtonsIcons();
       }
    }
 }

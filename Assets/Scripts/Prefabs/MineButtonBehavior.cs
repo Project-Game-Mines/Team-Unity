@@ -72,16 +72,16 @@ public class MineButtonBehavior : MonoBehaviour
     {
         animator.SetBool("Active", false);
         active = false;
-        bombImage.gameObject.SetActive(false);
-        coinImage.gameObject.SetActive(false);
-        //StartCoroutine(ResetButtonsCorroutine());
+        
     }
 
-    //public IEnumerator ResetButtonsCorroutine()
-   // {
-    //    yield return new WaitForSeconds(3f);
+    public void ResetButtonsIcons()
+    {
+       
+       bombImage.gameObject.SetActive(false);
+       coinImage.gameObject.SetActive(false);
         
-   // }
+   }
 
     
 }
