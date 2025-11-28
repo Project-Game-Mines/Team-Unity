@@ -61,8 +61,7 @@ public class MineButtonBehavior : MonoBehaviour
         active=false;
         gameManager.GameOver();
         StartCoroutine(HandleGameOver());
-
-
+        
     }
 
     private void PlayWinAnimation()
@@ -70,6 +69,8 @@ public class MineButtonBehavior : MonoBehaviour
         animator.SetTrigger("Win");
         coinImage.SetActive(true);
         active=false;
+        gameManager.gameFase +=1;
+        
         
     }
     
