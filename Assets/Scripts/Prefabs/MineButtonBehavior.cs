@@ -59,7 +59,6 @@ public class MineButtonBehavior : MonoBehaviour
     {
         PlayHitParticle();
         bombImage.SetActive(true);
-        active=false;
         gameManager.GameOver();
         StartCoroutine(HandleGameOver());
         
