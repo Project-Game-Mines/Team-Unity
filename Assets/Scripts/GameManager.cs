@@ -6,6 +6,7 @@ public class GameManager : MonoBehaviour
     public int betAmount = 1;
     public bool active = false;
     public bool gameOver = false;
+    public int gameFase = 0;
     
     [SerializeField] private BetButton betButton;
     [SerializeField] private MockPlayer player;
@@ -36,6 +37,7 @@ public class GameManager : MonoBehaviour
     {
         active = false;
         gameOver = true;
+        gameFase = 0;
     }
     
 }
