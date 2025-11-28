@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using UnityEngine;
 
 public class MineButtonBehavior : MonoBehaviour
@@ -26,13 +27,25 @@ public class MineButtonBehavior : MonoBehaviour
             active = true;
             canActivate=false;
         }
+
+        if (gameManager.active == false)
+        {
+            active = false;
+        }
+
+        if (gameManager.gameOver)
+        {
+            animator.SetBool("Active", false);
+        }
+
+        
+        
     }
     public void OnClickWinOrLose()
     {
         if (active)
         {
             PlayLoseAnimation();
-            active=false;
             Debug.Log($"Clicou na mina {mineValue}");
         }
         
@@ -43,10 +56,12 @@ public class MineButtonBehavior : MonoBehaviour
 
     private void PlayLoseAnimation()
     {
-        animator.SetTrigger("Lose");
         PlayHitParticle();
-        bombImage.SetActive(true);  
-        
+        bombImage.SetActive(true);
+        active=false;
+        gameManager.GameOver();
+        StartCoroutine(HandleGameOver());
+
 
     }
 
@@ -54,6 +69,7 @@ public class MineButtonBehavior : MonoBehaviour
     {
         animator.SetTrigger("Win");
         coinImage.SetActive(true);
+        active=false;
         
     }
     
@@ -62,6 +78,13 @@ public class MineButtonBehavior : MonoBehaviour
         ParticleSystem instantiatedParticle = Instantiate(hitParticle, transform.position, transform.rotation);
         instantiatedParticle.Play();
         Destroy(instantiatedParticle.gameObject, instantiatedParticle.main.duration);
+    }
+
+    private IEnumerator HandleGameOver()
+    {
+        yield return new WaitForSeconds(3f);
+        
+        canActivate = true;
     }
 
     
