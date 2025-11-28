@@ -18,7 +18,8 @@ public class GameManager : MonoBehaviour
     public void SetGameActive()
     {
         active = true;
-        
+        gameOver = false;
+
     }
 
     public void StartGame()

@@ -11,6 +11,7 @@ public class MineButtonBehavior : MonoBehaviour
     [SerializeField] private GameObject bombImage;
     [SerializeField] private GameObject coinImage;
     [SerializeField] private GameManager gameManager;
+    [SerializeField] private MockPlayer player;
     public int mineValue;
 
 
@@ -37,6 +38,8 @@ public class MineButtonBehavior : MonoBehaviour
         {
             animator.SetBool("Active", false);
             StartCoroutine(CloseIcons());
+            StartCoroutine(HandleGameOver());
+
         }
 
         
@@ -46,7 +49,15 @@ public class MineButtonBehavior : MonoBehaviour
     {
         if (active)
         {
-            PlayLoseAnimation();
+            if (player.mineList.Contains(mineValue))
+            {
+                PlayLoseAnimation();
+            }
+            else
+            {
+                PlayWinAnimation();
+            }
+            
             Debug.Log($"Clicou na mina {mineValue}");
         }
         
@@ -84,7 +95,6 @@ public class MineButtonBehavior : MonoBehaviour
     private IEnumerator HandleGameOver()
     {
         yield return new WaitForSeconds(3f);
-        
         canActivate = true;
     }
 
