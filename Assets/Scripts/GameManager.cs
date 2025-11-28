@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
     
     [SerializeField] private BetButton betButton;
     [SerializeField] private MockPlayer player;
+    [SerializeField] private GridManager gridManager;
 
    // [SerializeField] private BetAmount betAmount;
     
@@ -26,6 +27,7 @@ public class GameManager : MonoBehaviour
     {
         SetGameActive();
         DebitBalance();
+        gridManager.UnlockGridMines();
         
     }
 
@@ -39,8 +41,11 @@ public class GameManager : MonoBehaviour
         active = false;
         gameOver = true;
         gameFase = 0;
+        gridManager.ResetMinesButtons();
         
     }
+
+    
     
     
     

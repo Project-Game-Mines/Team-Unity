@@ -133,6 +133,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1389282593}
     m_Modifications:
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2096904531}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: mineValue
       value: 20
       objectReference: {fileID: 0}
@@ -237,6 +241,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1389282593}
     m_Modifications:
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2096904531}
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: mineValue
       value: 8
@@ -532,6 +540,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1389282593}
     m_Modifications:
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2096904531}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: mineValue
       value: 23
       objectReference: {fileID: 0}
@@ -637,6 +649,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1389282593}
     m_Modifications:
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2096904531}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: mineValue
       value: 4
       objectReference: {fileID: 0}
@@ -733,6 +749,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+--- !u!114 &186418382 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+  m_PrefabInstance: {fileID: 1200607876}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4df4cace726b844291124076af9a187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MineButtonBehavior
 --- !u!1001 &241146589
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -741,6 +768,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1389282593}
     m_Modifications:
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2096904531}
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: mineValue
       value: 15
@@ -946,6 +977,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1389282593}
     m_Modifications:
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2096904531}
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: mineValue
       value: 18
@@ -1164,6 +1199,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1389282593}
     m_Modifications:
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2096904531}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: mineValue
       value: 6
       objectReference: {fileID: 0}
@@ -1291,8 +1330,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
   betAmount: 1
   active: 0
+  gameOver: 0
+  gameFase: 0
   betButton: {fileID: 0}
   player: {fileID: 2096904531}
+  gridManager: {fileID: 1351138373}
 --- !u!4 &485537638
 Transform:
   m_ObjectHideFlags: 0
@@ -1301,12 +1343,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 485537636}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 220.24998, y: 203.55324, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 221.22438, y: 205.92436, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1130518327}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!224 &491684636 stripped
 RectTransform:
@@ -1465,6 +1507,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6969718459041047510, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
   m_PrefabInstance: {fileID: 25766657}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &535504944 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+  m_PrefabInstance: {fileID: 25766657}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4df4cace726b844291124076af9a187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MineButtonBehavior
 --- !u!1001 &542796462
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1473,6 +1526,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1389282593}
     m_Modifications:
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2096904531}
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: mineValue
       value: 12
@@ -1673,6 +1730,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1389282593}
     m_Modifications:
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2096904531}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: mineValue
       value: 14
       objectReference: {fileID: 0}
@@ -1774,6 +1835,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6969718459041047510, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
   m_PrefabInstance: {fileID: 924100986}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &657849098 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+  m_PrefabInstance: {fileID: 924100986}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4df4cace726b844291124076af9a187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MineButtonBehavior
 --- !u!1001 &757979123
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1782,6 +1854,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1389282593}
     m_Modifications:
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2096904531}
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: mineValue
       value: 10
@@ -1965,6 +2041,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 837604640}
   m_CullTransparentMesh: 1
+--- !u!114 &847215653 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+  m_PrefabInstance: {fileID: 241146589}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4df4cace726b844291124076af9a187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MineButtonBehavior
 --- !u!224 &860664097 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6969718459041047510, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
@@ -1983,6 +2070,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1389282593}
     m_Modifications:
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2096904531}
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: mineValue
       value: 13
@@ -2080,6 +2171,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+--- !u!114 &908706904 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+  m_PrefabInstance: {fileID: 159948363}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4df4cace726b844291124076af9a187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MineButtonBehavior
 --- !u!1001 &920940755
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2088,6 +2190,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1389282593}
     m_Modifications:
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2096904531}
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: mineValue
       value: 16
@@ -2185,6 +2291,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+--- !u!114 &923403945 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+  m_PrefabInstance: {fileID: 1115902541}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4df4cace726b844291124076af9a187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MineButtonBehavior
 --- !u!1001 &924100986
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2193,6 +2310,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1389282593}
     m_Modifications:
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2096904531}
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: mineValue
       value: 5
@@ -2328,6 +2449,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1389282593}
     m_Modifications:
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2096904531}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: mineValue
       value: 22
       objectReference: {fileID: 0}
@@ -2429,6 +2554,50 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6969718459041047510, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
   m_PrefabInstance: {fileID: 170150314}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1126932384 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+  m_PrefabInstance: {fileID: 170150314}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4df4cace726b844291124076af9a187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MineButtonBehavior
+--- !u!1 &1130518326
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1130518327}
+  m_Layer: 0
+  m_Name: Managers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1130518327
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1130518326}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.97439, y: -2.37113, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 485537638}
+  - {fileID: 1351138372}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1173746359
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2437,6 +2606,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1389282593}
     m_Modifications:
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2096904531}
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: mineValue
       value: 21
@@ -2539,6 +2712,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6969718459041047510, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
   m_PrefabInstance: {fileID: 892204592}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1185821834 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+  m_PrefabInstance: {fileID: 892204592}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4df4cace726b844291124076af9a187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MineButtonBehavior
 --- !u!1001 &1200607876
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2547,6 +2731,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1389282593}
     m_Modifications:
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2096904531}
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: mineValue
       value: 2
@@ -2653,6 +2841,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1389282593}
     m_Modifications:
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2096904531}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: mineValue
       value: 19
       objectReference: {fileID: 0}
@@ -2749,11 +2941,115 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+--- !u!114 &1299120674 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+  m_PrefabInstance: {fileID: 68629321}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4df4cace726b844291124076af9a187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MineButtonBehavior
+--- !u!114 &1310987078 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+  m_PrefabInstance: {fileID: 2130550062}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4df4cace726b844291124076af9a187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MineButtonBehavior
+--- !u!1 &1351138371
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1351138372}
+  - component: {fileID: 1351138373}
+  m_Layer: 0
+  m_Name: GridControler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1351138372
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1351138371}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1130518327}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1351138373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1351138371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28f5334a587d5f849a11fd842df47e96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GridManager
+  gameManager: {fileID: 485537637}
+  mineButtons:
+  - {fileID: 1656415546}
+  - {fileID: 1489627895}
+  - {fileID: 186418382}
+  - {fileID: 1496462906}
+  - {fileID: 1126932384}
+  - {fileID: 657849098}
+  - {fileID: 1791410877}
+  - {fileID: 1368290968}
+  - {fileID: 1299120674}
+  - {fileID: 1644656173}
+  - {fileID: 1996713162}
+  - {fileID: 1681530019}
+  - {fileID: 1630790662}
+  - {fileID: 1185821834}
+  - {fileID: 1904187949}
+  - {fileID: 847215653}
+  - {fileID: 1837474223}
+  - {fileID: 1310987078}
+  - {fileID: 1429121691}
+  - {fileID: 1532485418}
+  - {fileID: 535504944}
+  - {fileID: 1778644056}
+  - {fileID: 923403945}
+  - {fileID: 908706904}
+  - {fileID: 1478500745}
 --- !u!224 &1368290967 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6969718459041047510, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
   m_PrefabInstance: {fileID: 1514204948}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1368290968 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+  m_PrefabInstance: {fileID: 1514204948}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4df4cace726b844291124076af9a187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MineButtonBehavior
 --- !u!1001 &1377928458
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2762,6 +3058,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1389282593}
     m_Modifications:
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2096904531}
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: mineValue
       value: 11
@@ -2984,6 +3284,17 @@ MonoBehaviour:
   m_Spacing: {x: 10, y: 10}
   m_Constraint: 0
   m_ConstraintCount: 2
+--- !u!114 &1429121691 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+  m_PrefabInstance: {fileID: 343389533}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4df4cace726b844291124076af9a187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MineButtonBehavior
 --- !u!1001 &1438841974
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2992,6 +3303,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1389282593}
     m_Modifications:
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2096904531}
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: mineValue
       value: 1
@@ -3098,6 +3413,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1389282593}
     m_Modifications:
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2096904531}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: mineValue
       value: 3
       objectReference: {fileID: 0}
@@ -3199,11 +3518,44 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6969718459041047510, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
   m_PrefabInstance: {fileID: 1605591393}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1478500745 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+  m_PrefabInstance: {fileID: 1605591393}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4df4cace726b844291124076af9a187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MineButtonBehavior
 --- !u!224 &1489627894 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6969718459041047510, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
   m_PrefabInstance: {fileID: 1438841974}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1489627895 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+  m_PrefabInstance: {fileID: 1438841974}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4df4cace726b844291124076af9a187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MineButtonBehavior
+--- !u!114 &1496462906 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+  m_PrefabInstance: {fileID: 1463893941}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4df4cace726b844291124076af9a187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MineButtonBehavior
 --- !u!1 &1496772373
 GameObject:
   m_ObjectHideFlags: 0
@@ -3319,6 +3671,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1389282593}
     m_Modifications:
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2096904531}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: mineValue
       value: 7
       objectReference: {fileID: 0}
@@ -3415,6 +3771,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+--- !u!114 &1532485418 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+  m_PrefabInstance: {fileID: 1287555005}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4df4cace726b844291124076af9a187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MineButtonBehavior
 --- !u!1001 &1605591393
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3423,6 +3790,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1389282593}
     m_Modifications:
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2096904531}
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: mineValue
       value: 24
@@ -3525,6 +3896,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6969718459041047510, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
   m_PrefabInstance: {fileID: 542796462}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1630790662 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+  m_PrefabInstance: {fileID: 542796462}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4df4cace726b844291124076af9a187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MineButtonBehavior
 --- !u!114 &1633985362 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2259405751794975133, guid: 3fe90ea5e3a612447b61727e392ee6db, type: 3}
@@ -3536,6 +3918,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+--- !u!114 &1644656173 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+  m_PrefabInstance: {fileID: 2003511312}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4df4cace726b844291124076af9a187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MineButtonBehavior
+--- !u!114 &1656415546 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+  m_PrefabInstance: {fileID: 2105771645}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4df4cace726b844291124076af9a187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MineButtonBehavior
 --- !u!224 &1665956408 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6969718459041047510, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
@@ -3546,6 +3950,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6969718459041047510, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
   m_PrefabInstance: {fileID: 1377928458}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1681530019 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+  m_PrefabInstance: {fileID: 1377928458}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4df4cace726b844291124076af9a187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MineButtonBehavior
 --- !u!1 &1722727840
 GameObject:
   m_ObjectHideFlags: 0
@@ -3621,16 +4036,71 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1722727840}
   m_CullTransparentMesh: 1
+--- !u!114 &1778644056 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+  m_PrefabInstance: {fileID: 1173746359}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4df4cace726b844291124076af9a187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MineButtonBehavior
 --- !u!224 &1791410876 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6969718459041047510, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
   m_PrefabInstance: {fileID: 420559328}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1791410877 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+  m_PrefabInstance: {fileID: 420559328}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4df4cace726b844291124076af9a187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MineButtonBehavior
+--- !u!114 &1837474223 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+  m_PrefabInstance: {fileID: 920940755}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4df4cace726b844291124076af9a187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MineButtonBehavior
+--- !u!114 &1904187949 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+  m_PrefabInstance: {fileID: 657136406}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4df4cace726b844291124076af9a187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MineButtonBehavior
 --- !u!224 &1996713161 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6969718459041047510, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
   m_PrefabInstance: {fileID: 757979123}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1996713162 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+  m_PrefabInstance: {fileID: 757979123}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4df4cace726b844291124076af9a187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MineButtonBehavior
 --- !u!1001 &2003511312
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3639,6 +4109,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1389282593}
     m_Modifications:
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2096904531}
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: mineValue
       value: 9
@@ -3768,6 +4242,7 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   playerid: 123
   balance: 5000.45
+  mineList: 
 --- !u!4 &2096904532
 Transform:
   m_ObjectHideFlags: 0
@@ -3792,9 +4267,25 @@ PrefabInstance:
     m_TransformParent: {fileID: 1389282593}
     m_Modifications:
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2096904531}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 485537637}
+    - target: {fileID: 5352670800858726023, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5352670800858726023, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5352670800858726023, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6416954281982649585, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: m_Name
       value: MinesButtonPrefab
@@ -3892,6 +4383,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1389282593}
     m_Modifications:
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2096904531}
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: mineValue
       value: 17
@@ -4094,9 +4589,9 @@ PrefabInstance:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 485537638}
   - {fileID: 519420032}
   - {fileID: 619394802}
   - {fileID: 417672941}
   - {fileID: 1496772377}
   - {fileID: 2096904532}
+  - {fileID: 1130518327}

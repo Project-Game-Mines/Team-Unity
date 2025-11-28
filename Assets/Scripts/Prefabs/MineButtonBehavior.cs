@@ -4,9 +4,8 @@ using UnityEngine;
 
 public class MineButtonBehavior : MonoBehaviour
 {
-    private bool active = false;
-    private bool canActivate = true;
-    private Animator animator;
+    public bool active = false;
+    public Animator animator;
     [SerializeField] private ParticleSystem hitParticle;
     [SerializeField] private GameObject bombImage;
     [SerializeField] private GameObject coinImage;
@@ -19,32 +18,7 @@ public class MineButtonBehavior : MonoBehaviour
     {
         animator = GetComponent<Animator>();
     }
-
-    private void Update()
-    {
-        if (gameManager.active == true && canActivate)
-        {
-            animator.SetBool("Active", true);
-            active = true;
-            canActivate=false;
-        }
-
-        if (gameManager.active == false)
-        {
-            active = false;
-        }
-
-        if (gameManager.gameOver)
-        {
-            animator.SetBool("Active", false);
-            StartCoroutine(HandleGameOver());
-            StartCoroutine(CloseIcons());
-
-        }
-
-        
-        
-    }
+    
     public void OnClickWinOrLose()
     {
         if (active)
@@ -75,7 +49,6 @@ public class MineButtonBehavior : MonoBehaviour
         PlayHitParticle();
         bombImage.SetActive(true);
         gameManager.GameOver();
-        StartCoroutine(HandleGameOver());
         
         
     }
@@ -84,10 +57,8 @@ public class MineButtonBehavior : MonoBehaviour
     {
         animator.SetTrigger("Win");
         coinImage.SetActive(true);
-        active=false;
+        active = false;
         gameManager.gameFase +=1;
-        
-        
     }
     
     private void PlayHitParticle()
@@ -97,18 +68,20 @@ public class MineButtonBehavior : MonoBehaviour
         Destroy(instantiatedParticle.gameObject, instantiatedParticle.main.duration);
     }
 
-    private IEnumerator HandleGameOver()
+    public void ResetButtons()
     {
-        yield return new WaitForSeconds(3f);
-        canActivate = true;
-    }
-
-    private IEnumerator CloseIcons()
-    {
-        yield return new WaitForSeconds(3f);
+        animator.SetBool("Active", false);
+        active = false;
         bombImage.gameObject.SetActive(false);
         coinImage.gameObject.SetActive(false);
+        //StartCoroutine(ResetButtonsCorroutine());
     }
+
+    //public IEnumerator ResetButtonsCorroutine()
+   // {
+    //    yield return new WaitForSeconds(3f);
+        
+   // }
 
     
 }
