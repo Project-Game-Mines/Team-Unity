@@ -31,7 +31,7 @@ public class ButtonBet : MonoBehaviour
             betButton.onClick.AddListener(IsGaming);
         }
         
-        //else if (onGaming && mineActive)
+        //else if (_gameManager && mineActive)
         //{
         //    betButton.onClick.AddListener(PossibleCashout);
         //}
@@ -45,7 +45,8 @@ public class ButtonBet : MonoBehaviour
     void IsGaming()
     {
         buttonBetText.text = "CASHOUT\n4,00 BRL";
-        SetButtonAlpha(betButton, 0.5f);
+        SetButtonAlpha(betButton, 0.2f);
+        buttonBetText.fontSize = 25;
         betButton.image.sprite = buttonBetVermelho.sprite;
         UpdateButtonState();
     }

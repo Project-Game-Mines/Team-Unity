@@ -347,6 +347,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1496772377}
     m_Modifications:
+    - target: {fileID: 1471331100189088656, guid: 430e9f552c3c5794f8a2714ac14d6422, type: 3}
+      propertyPath: m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1471331100189088656, guid: 430e9f552c3c5794f8a2714ac14d6422, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 34479f102ce7ce048a1197bdf54edd1f, type: 3}
+    - target: {fileID: 1471331100189088656, guid: 430e9f552c3c5794f8a2714ac14d6422, type: 3}
+      propertyPath: m_PixelsPerUnitMultiplier
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4153926102814063058, guid: 430e9f552c3c5794f8a2714ac14d6422, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -378,6 +390,38 @@ PrefabInstance:
     - target: {fileID: 7129435382489123128, guid: 430e9f552c3c5794f8a2714ac14d6422, type: 3}
       propertyPath: m_Name
       value: Button Start
+      objectReference: {fileID: 0}
+    - target: {fileID: 8061864997880110189, guid: 430e9f552c3c5794f8a2714ac14d6422, type: 3}
+      propertyPath: m_fontSize
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 8061864997880110189, guid: 430e9f552c3c5794f8a2714ac14d6422, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 6020bab9c738d4a4b8b5835c2bddef21, type: 2}
+    - target: {fileID: 8061864997880110189, guid: 430e9f552c3c5794f8a2714ac14d6422, type: 3}
+      propertyPath: m_fontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8061864997880110189, guid: 430e9f552c3c5794f8a2714ac14d6422, type: 3}
+      propertyPath: m_lineSpacing
+      value: -30
+      objectReference: {fileID: 0}
+    - target: {fileID: 8061864997880110189, guid: 430e9f552c3c5794f8a2714ac14d6422, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 8061864997880110189, guid: 430e9f552c3c5794f8a2714ac14d6422, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 8482075301557899224, guid: 6020bab9c738d4a4b8b5835c2bddef21, type: 2}
+    - target: {fileID: 8061864997880110189, guid: 430e9f552c3c5794f8a2714ac14d6422, type: 3}
+      propertyPath: m_characterSpacing
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8061864997880110189, guid: 430e9f552c3c5794f8a2714ac14d6422, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8354492537458476023, guid: 430e9f552c3c5794f8a2714ac14d6422, type: 3}
       propertyPath: _gameManager
