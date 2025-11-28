@@ -5,6 +5,7 @@ using UnityEngine.UI;
 public class ButtonBet : MonoBehaviour
 {
     public Button betButton;
+    public bool cashout;
     [SerializeField] private GameManager _gameManager;
 
     public TextMeshProUGUI buttonBetText;
@@ -17,8 +18,23 @@ public class ButtonBet : MonoBehaviour
     void Start()
     {
         buttonBetAtual = buttonBetLaranja;
+        cashout = false;
 
         UpdateButtonState();
+    }
+
+    void Update()
+    {
+        if (!_gameManager.active)
+        {
+            RestartGame();
+        }
+        if (_gameManager.active && (_gameManager.gameFase > 0) && !cashout)
+        {
+            PossibleCashout();
+        }
+
+        
     }
 
     void UpdateButtonState()
@@ -30,22 +46,18 @@ public class ButtonBet : MonoBehaviour
         {
             betButton.onClick.AddListener(IsGaming);
         }
-        
-        //else if (_gameManager && mineActive)
-        //{
-        //    betButton.onClick.AddListener(PossibleCashout);
-        //}
-        else if (_gameManager.active)
+
+        else if (_gameManager.active && (_gameManager.gameFase > 0) && cashout)
         {
-            //cashout = true;
-            betButton.onClick.AddListener(PossibleCashout);
+            betButton.onClick.AddListener(RestartGame);
         }
+
     }
 
     void IsGaming()
     {
         buttonBetText.text = "CASHOUT\n4,00 BRL";
-        SetButtonAlpha(betButton, 0.2f);
+        SetButtonAlpha(betButton, 0.7f);
         buttonBetText.fontSize = 25;
         betButton.image.sprite = buttonBetVermelho.sprite;
         UpdateButtonState();
@@ -54,10 +66,19 @@ public class ButtonBet : MonoBehaviour
 
     void PossibleCashout()
     {
-        buttonBetText.text = "BET";
-        
-        betButton.image.sprite = buttonBetLaranja.sprite;
+        cashout = true;
+        SetButtonAlpha(betButton, 1.0f);       
+        UpdateButtonState();
+    }
 
+    void RestartGame()
+    {
+        _gameManager.GameOver();
+        buttonBetText.text = "BET";
+        buttonBetText.fontSize = 40;
+        //SetButtonAlpha(betButton, 1.0f);
+        betButton.image.sprite = buttonBetLaranja.sprite;
+        cashout = false;
         UpdateButtonState();
     }
 
