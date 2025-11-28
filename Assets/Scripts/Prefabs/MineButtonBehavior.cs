@@ -36,6 +36,7 @@ public class MineButtonBehavior : MonoBehaviour
         if (gameManager.gameOver)
         {
             animator.SetBool("Active", false);
+            StartCoroutine(CloseIcons());
         }
 
         
@@ -86,6 +87,13 @@ public class MineButtonBehavior : MonoBehaviour
         yield return new WaitForSeconds(3f);
         
         canActivate = true;
+    }
+
+    private IEnumerator CloseIcons()
+    {
+        yield return new WaitForSeconds(3f);
+        bombImage.gameObject.SetActive(false);
+        coinImage.gameObject.SetActive(false);
     }
 
     
