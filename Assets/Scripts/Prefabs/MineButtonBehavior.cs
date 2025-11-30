@@ -13,6 +13,7 @@ public class MineButtonBehavior : MonoBehaviour
     [SerializeField] private MockPlayer player;
     public int mineValue;
 
+    [SerializeField] private ButtonBet buttonBet;
 
     private void Awake()
     {
@@ -30,6 +31,7 @@ public class MineButtonBehavior : MonoBehaviour
             else
             {
                 PlayWinAnimation();
+                buttonBet.PossibleCashout();
             }
             
             Debug.Log($"Clicou na mina {mineValue}");
@@ -49,8 +51,7 @@ public class MineButtonBehavior : MonoBehaviour
         PlayHitParticle();
         bombImage.SetActive(true);
         gameManager.GameOver();
-        
-        
+        buttonBet.RestartButtonBet();
     }
 
     private void PlayWinAnimation()
