@@ -45,11 +45,21 @@ public class GameManager : MonoBehaviour
         active = false;
         gameOver = true;
         gameFase = 0;
+        CheckOutWin();
         gridManager.ResetMinesButtons();
         
     }
 
-    
+    public void CheckOutWin()
+    {
+        player.balance += totalCheckout;
+        GameOver();
+    }
+
+    public void CheckOutLose()
+    {
+        totalCheckout = 0;
+    }
     
     
     

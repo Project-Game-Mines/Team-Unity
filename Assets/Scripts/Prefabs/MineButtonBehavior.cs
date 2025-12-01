@@ -50,6 +50,7 @@ public class MineButtonBehavior : MonoBehaviour
     {
         PlayHitParticle();
         bombImage.SetActive(true);
+        gameManager.CheckOutLose();
         gameManager.GameOver();
         buttonBet.RestartButtonBet();
     }
