@@ -137,6 +137,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2096904531}
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: buttonBet
+      value: 
+      objectReference: {fileID: 409819404}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: mineValue
       value: 20
       objectReference: {fileID: 0}
@@ -245,6 +249,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 2096904531}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: buttonBet
+      value: 
+      objectReference: {fileID: 409819404}
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: mineValue
       value: 8
@@ -544,6 +552,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2096904531}
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: buttonBet
+      value: 
+      objectReference: {fileID: 409819404}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: mineValue
       value: 23
       objectReference: {fileID: 0}
@@ -652,6 +664,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 2096904531}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: buttonBet
+      value: 
+      objectReference: {fileID: 409819404}
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: mineValue
       value: 4
@@ -772,6 +788,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 2096904531}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: buttonBet
+      value: 
+      objectReference: {fileID: 409819404}
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: mineValue
       value: 15
@@ -982,6 +1002,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2096904531}
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: buttonBet
+      value: 
+      objectReference: {fileID: 409819404}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: mineValue
       value: 18
       objectReference: {fileID: 0}
@@ -1111,6 +1135,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BetButton
   gameManager: {fileID: 485537637}
+--- !u!114 &409819404 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8354492537458476023, guid: 430e9f552c3c5794f8a2714ac14d6422, type: 3}
+  m_PrefabInstance: {fileID: 143804697}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 409819401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90a4da3f1f666304ca5c74dbe7b211b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonBet
 --- !u!1 &417672938
 GameObject:
   m_ObjectHideFlags: 0
@@ -1202,6 +1237,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 2096904531}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: buttonBet
+      value: 
+      objectReference: {fileID: 409819404}
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: mineValue
       value: 6
@@ -1329,10 +1368,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
   betAmount: 1
+  totalCheckout: 0
   active: 0
   gameOver: 0
   gameFase: 0
-  betButton: {fileID: 0}
+  buttonBet: {fileID: 409819404}
   player: {fileID: 2096904531}
   gridManager: {fileID: 1351138373}
 --- !u!4 &485537638
@@ -1530,6 +1570,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 2096904531}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: buttonBet
+      value: 
+      objectReference: {fileID: 409819404}
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: mineValue
       value: 12
@@ -1734,6 +1778,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2096904531}
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: buttonBet
+      value: 
+      objectReference: {fileID: 409819404}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: mineValue
       value: 14
       objectReference: {fileID: 0}
@@ -1858,6 +1906,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 2096904531}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: buttonBet
+      value: 
+      objectReference: {fileID: 409819404}
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: mineValue
       value: 10
@@ -2075,6 +2127,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2096904531}
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: buttonBet
+      value: 
+      objectReference: {fileID: 409819404}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: mineValue
       value: 13
       objectReference: {fileID: 0}
@@ -2195,6 +2251,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2096904531}
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: buttonBet
+      value: 
+      objectReference: {fileID: 409819404}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: mineValue
       value: 16
       objectReference: {fileID: 0}
@@ -2314,6 +2374,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 2096904531}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: buttonBet
+      value: 
+      objectReference: {fileID: 409819404}
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: mineValue
       value: 5
@@ -2452,6 +2516,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 2096904531}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: buttonBet
+      value: 
+      objectReference: {fileID: 409819404}
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: mineValue
       value: 22
@@ -2611,6 +2679,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2096904531}
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: buttonBet
+      value: 
+      objectReference: {fileID: 409819404}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: mineValue
       value: 21
       objectReference: {fileID: 0}
@@ -2736,6 +2808,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2096904531}
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: buttonBet
+      value: 
+      objectReference: {fileID: 409819404}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: mineValue
       value: 2
       objectReference: {fileID: 0}
@@ -2844,6 +2920,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 2096904531}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: buttonBet
+      value: 
+      objectReference: {fileID: 409819404}
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: mineValue
       value: 19
@@ -3062,6 +3142,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 2096904531}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: buttonBet
+      value: 
+      objectReference: {fileID: 409819404}
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: mineValue
       value: 11
@@ -3308,6 +3392,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2096904531}
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: buttonBet
+      value: 
+      objectReference: {fileID: 409819404}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: mineValue
       value: 1
       objectReference: {fileID: 0}
@@ -3416,6 +3504,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 2096904531}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: buttonBet
+      value: 
+      objectReference: {fileID: 409819404}
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: mineValue
       value: 3
@@ -3675,6 +3767,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2096904531}
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: buttonBet
+      value: 
+      objectReference: {fileID: 409819404}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: mineValue
       value: 7
       objectReference: {fileID: 0}
@@ -3794,6 +3890,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 2096904531}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: buttonBet
+      value: 
+      objectReference: {fileID: 409819404}
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: mineValue
       value: 24
@@ -4114,6 +4214,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2096904531}
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: buttonBet
+      value: 
+      objectReference: {fileID: 409819404}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: mineValue
       value: 9
       objectReference: {fileID: 0}
@@ -4271,6 +4375,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2096904531}
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: buttonBet
+      value: 
+      objectReference: {fileID: 409819404}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 485537637}
@@ -4387,6 +4495,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 2096904531}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: buttonBet
+      value: 
+      objectReference: {fileID: 409819404}
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: mineValue
       value: 17
