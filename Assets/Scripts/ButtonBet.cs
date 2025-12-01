@@ -57,8 +57,11 @@ public class ButtonBet : MonoBehaviour
 
     private void CheckOut()
     {
-        _gameManager.CheckOutWin();
-        RestartButtonBet();
+        if (_gameManager.active)
+        {
+            _gameManager.CheckOutWin();
+            RestartButtonBet();
+        }
     }
 
     void IsGaming()
@@ -83,16 +86,22 @@ public class ButtonBet : MonoBehaviour
         UpdateButtonState();
     }
 
-    public void RestartButtonBet()
-    {
-        StartCoroutine(WaitSeconds());
-    }
-
+    
     void SetButtonAlpha(Button button, float alpha)
     {
         Color c = button.image.color;
         c.a = alpha;
         button.image.color = c;
+    }
+
+    public void RestartButtonBet()
+    {
+        StartCoroutine(WaitSeconds());
+    }
+
+    public void UpdateCheckOutPrice()
+    {
+        buttonBetText.text = $"CASHOUT\n{_gameManager.totalCheckout:F2} BRL";
     }
 
     private IEnumerator WaitSeconds()
@@ -104,10 +113,5 @@ public class ButtonBet : MonoBehaviour
         UpdateButtonState();
     }
 
-    public void UpdateCheckOutPrice()
-    {
-        buttonBetText.text = $"CASHOUT\n{_gameManager.totalCheckout:F2} BRL";
-    }
-    
 
 }

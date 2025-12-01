@@ -43,7 +43,6 @@ public class GameManager : MonoBehaviour
     {
         active = false;
         gameFase = 0;
-        CheckOutWin();
         gridManager.ResetMinesButtons();
         
     }
