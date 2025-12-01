@@ -7,7 +7,7 @@ public class MockPlayer : MonoBehaviour
     [SerializeField] private GameManager _gameManager;
     
     public int playerid = 123;
-    public float balance = 5000.45f;
+    public float balance = 498.45f;
     public List<int> mineList = new();
 
 

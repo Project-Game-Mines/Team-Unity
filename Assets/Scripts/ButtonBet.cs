@@ -66,12 +66,15 @@ public class ButtonBet : MonoBehaviour
 
     void IsGaming()
     {
-        _gameManager.StartGame();
-        buttonBetText.text = $"CASHOUT\n{_gameManager.totalCheckout} BRL";
-        betButton.image.sprite = buttonBetVermelho.sprite;
-        SetButtonAlpha(betButton, 0.5f);
-        buttonBetText.fontSize = 25;
-        UpdateButtonState();
+        if (_gameManager.CheckIfCanPlay())
+        {
+            _gameManager.StartGame();
+            buttonBetText.text = $"CASHOUT\n{_gameManager.totalCheckout} BRL";
+            betButton.image.sprite = buttonBetVermelho.sprite;
+            SetButtonAlpha(betButton, 0.5f);
+            buttonBetText.fontSize = 25;
+            UpdateButtonState();
+        }
     }
 
 
