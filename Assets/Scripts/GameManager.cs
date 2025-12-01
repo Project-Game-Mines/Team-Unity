@@ -6,7 +6,6 @@ public class GameManager : MonoBehaviour
     public int betAmount = 1;
     public float totalCheckout = 0;
     public bool active = false;
-    public bool gameOver = false;
     public int gameFase = 0;
 
     [SerializeField] private ButtonBet buttonBet;
@@ -22,7 +21,7 @@ public class GameManager : MonoBehaviour
     public void SetGameActive()
     {
         active = true;
-        gameOver = false;
+        
 
     }
 
@@ -43,13 +42,22 @@ public class GameManager : MonoBehaviour
     public void GameOver()
     {
         active = false;
-        gameOver = true;
         gameFase = 0;
+        CheckOutWin();
         gridManager.ResetMinesButtons();
         
     }
 
-    
+    public void CheckOutWin()
+    {
+        player.balance += totalCheckout;
+        GameOver();
+    }
+
+    public void CheckOutLose()
+    {
+        totalCheckout = 0;
+    }
     
     
     

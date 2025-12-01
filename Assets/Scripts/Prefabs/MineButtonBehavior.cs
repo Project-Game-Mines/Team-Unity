@@ -50,6 +50,7 @@ public class MineButtonBehavior : MonoBehaviour
     {
         PlayHitParticle();
         bombImage.SetActive(true);
+        gameManager.CheckOutLose();
         gameManager.GameOver();
         buttonBet.RestartButtonBet();
     }
@@ -83,8 +84,21 @@ public class MineButtonBehavior : MonoBehaviour
        
        bombImage.gameObject.SetActive(false);
        coinImage.gameObject.SetActive(false);
-        
    }
 
-    
+    public void ShowIconsEndGame()
+    {
+        
+            if (player.mineList.Contains(mineValue))
+            {
+                bombImage.SetActive(true);
+            }
+            else
+            {
+                coinImage.SetActive(true);
+            }
+
+    }
+
+
 }
