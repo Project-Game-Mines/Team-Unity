@@ -29,12 +29,12 @@ public class GameManager : MonoBehaviour
 
     public void StartGame()
     {
-        Bombselector.SetBombAmount();
-        player.StartGame();
-        SetGameActive();
-        DebitBalance();
-        totalCheckout = betAmount;
-        gridManager.UnlockGridMines();
+            Bombselector.SetBombAmount();
+            player.StartGame();
+            SetGameActive();
+            DebitBalance();
+            totalCheckout = betAmount;
+            gridManager.UnlockGridMines();
         
     }
 
@@ -60,6 +60,21 @@ public class GameManager : MonoBehaviour
     public void CheckOutLose()
     {
         totalCheckout = 0;
+    }
+
+    public bool CheckIfCanPlay()
+    {
+        
+        if (betAmount > player.balance)
+        {
+            return false;
+        }
+        else
+        {
+            return true;
+        }
+
+        
     }
     
     
