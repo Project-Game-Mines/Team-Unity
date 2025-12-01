@@ -4,6 +4,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public int betAmount = 1;
+    public int bombAmount;
     public float totalCheckout = 0;
     public bool active = false;
     public int gameFase = 0;
@@ -13,6 +14,7 @@ public class GameManager : MonoBehaviour
     //[SerializeField] private BetButton betButton;
     [SerializeField] private MockPlayer player;
     [SerializeField] private GridManager gridManager;
+    [SerializeField] private Bombselector Bombselector;
 
    // [SerializeField] private BetAmount betAmount;
     
@@ -27,6 +29,8 @@ public class GameManager : MonoBehaviour
 
     public void StartGame()
     {
+        Bombselector.SetBombAmount();
+        player.StartGame();
         SetGameActive();
         DebitBalance();
         totalCheckout = betAmount;
