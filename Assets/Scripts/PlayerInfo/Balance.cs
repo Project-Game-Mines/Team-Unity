@@ -8,7 +8,7 @@ public class Balance : MonoBehaviour
     
     void Update()
     {
-        balanceAmountText.text = $"{player.balance.ToString()} BLR";
+        balanceAmountText.text = $"R$ {player.balance.ToString()}";
     }
 
     
