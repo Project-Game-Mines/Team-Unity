@@ -59,7 +59,9 @@ public class MineButtonBehavior : MonoBehaviour
         animator.SetTrigger("Win");
         coinImage.SetActive(true);
         active = false;
-        gameManager.gameFase +=1;
+        gameManager.gameFase += 1;
+        gameManager.totalCheckout *= 1.2f;
+        buttonBet.UpdateCheckOutPrice();
     }
     
     private void PlayHitParticle()

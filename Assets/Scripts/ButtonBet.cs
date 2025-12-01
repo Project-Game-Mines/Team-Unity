@@ -29,22 +29,22 @@ public class ButtonBet : MonoBehaviour
         // limpa listeners antigos
         betButton.onClick.RemoveAllListeners();
 
-        // jogo ainda não iniciou, botão está laranja e escrito "BET"
+        // jogo ainda nï¿½o iniciou, botï¿½o estï¿½ laranja e escrito "BET"
         if (!_gameManager.active)
         {
             Debug.Log("Caso 1");
             betButton.onClick.AddListener(IsGaming);
         }
         
-        // jogo já começou, o jogador já pelo menos uma jogada, botão está vermelho e escrito "cashout"
+        // jogo jï¿½ comeï¿½ou, o jogador jï¿½ pelo menos uma jogada, botï¿½o estï¿½ vermelho e escrito "cashout"
         else if (_gameManager.active && (_gameManager.gameFase > 0))
         {
             Debug.Log("Caso 2");
             betButton.onClick.AddListener(RestartButtonBet);
         }
 
-        // jogo começou mas o jogador ainda não fez nenhuma jogada, botão está vermelho claro e escrito "cashout"
-        // (não faz nada)
+        // jogo comeï¿½ou mas o jogador ainda nï¿½o fez nenhuma jogada, botï¿½o estï¿½ vermelho claro e escrito "cashout"
+        // (nï¿½o faz nada)
         else
         {
             Debug.Log("Caso 3");
@@ -56,7 +56,7 @@ public class ButtonBet : MonoBehaviour
     void IsGaming()
     {
         _gameManager.StartGame();
-        buttonBetText.text = "CASHOUT\n4,00 BRL";
+        buttonBetText.text = $"CASHOUT\n{_gameManager.totalCheckout} BRL";
         betButton.image.sprite = buttonBetVermelho.sprite;
         SetButtonAlpha(betButton, 0.5f);
         buttonBetText.fontSize = 25;
@@ -95,6 +95,11 @@ public class ButtonBet : MonoBehaviour
         buttonBetText.fontSize = 40;
         betButton.image.sprite = buttonBetLaranja.sprite;
         UpdateButtonState();
+    }
+
+    public void UpdateCheckOutPrice()
+    {
+        buttonBetText.text = $"CASHOUT\n{_gameManager.totalCheckout} BRL";
     }
     
 

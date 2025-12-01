@@ -4,6 +4,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public int betAmount = 1;
+    public float totalCheckout = 0;
     public bool active = false;
     public bool gameOver = false;
     public int gameFase = 0;
@@ -29,6 +30,7 @@ public class GameManager : MonoBehaviour
     {
         SetGameActive();
         DebitBalance();
+        totalCheckout = betAmount;
         gridManager.UnlockGridMines();
         
     }
