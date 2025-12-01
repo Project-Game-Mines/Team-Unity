@@ -83,8 +83,21 @@ public class MineButtonBehavior : MonoBehaviour
        
        bombImage.gameObject.SetActive(false);
        coinImage.gameObject.SetActive(false);
-        
    }
 
-    
+    public void ShowIconsEndGame()
+    {
+        
+            if (player.mineList.Contains(mineValue))
+            {
+                bombImage.SetActive(true);
+            }
+            else
+            {
+                coinImage.SetActive(true);
+            }
+
+    }
+
+
 }

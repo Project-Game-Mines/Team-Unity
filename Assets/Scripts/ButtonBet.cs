@@ -90,7 +90,6 @@ public class ButtonBet : MonoBehaviour
     private IEnumerator WaitSeconds()
     {
         yield return new WaitForSeconds(3);
-        _gameManager.GameOver();
         buttonBetText.text = "BET";
         buttonBetText.fontSize = 40;
         betButton.image.sprite = buttonBetLaranja.sprite;

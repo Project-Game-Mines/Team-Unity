@@ -21,6 +21,7 @@ public class GridManager : MonoBehaviour
       foreach (var mine in mineButtons)
       {
          mine.ResetButtons();
+         mine.ShowIconsEndGame();
       }
       StartCoroutine(WaitSeconds());
       
@@ -45,4 +46,6 @@ public class GridManager : MonoBehaviour
          mine.ResetButtonsIcons();
       }
    }
+
+   
 }
