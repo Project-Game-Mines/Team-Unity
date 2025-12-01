@@ -223,6 +223,10 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 485537637}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 893237112}
     - target: {fileID: 6416954281982649585, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: m_Name
       value: MinesButtonPrefab (20)
@@ -336,6 +340,10 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 485537637}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 893237112}
     - target: {fileID: 6416954281982649585, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: m_Name
       value: MinesButtonPrefab (8)
@@ -435,7 +443,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2259405751794975133, guid: 3fe90ea5e3a612447b61727e392ee6db, type: 3}
       propertyPath: m_text
-      value: 10000
+      value: 5000.45
       objectReference: {fileID: 0}
     - target: {fileID: 2259405751794975133, guid: 3fe90ea5e3a612447b61727e392ee6db, type: 3}
       propertyPath: m_fontSize
@@ -655,6 +663,18 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 485537637}
     - target: {fileID: 8354492537458476023, guid: 430e9f552c3c5794f8a2714ac14d6422, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 893237112}
+    - target: {fileID: 8354492537458476023, guid: 430e9f552c3c5794f8a2714ac14d6422, type: 3}
+      propertyPath: cashoutSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 1b1097051852aba448f25637891f3ca8, type: 3}
+    - target: {fileID: 8354492537458476023, guid: 430e9f552c3c5794f8a2714ac14d6422, type: 3}
+      propertyPath: _audioManager
+      value: 
+      objectReference: {fileID: 893237112}
+    - target: {fileID: 8354492537458476023, guid: 430e9f552c3c5794f8a2714ac14d6422, type: 3}
       propertyPath: buttonBetLaranja
       value: 
       objectReference: {fileID: 8476821478226046118, guid: 9106069810bba2247b7ecf93d977542d, type: 3}
@@ -745,7 +765,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7129435382489123128, guid: 430e9f552c3c5794f8a2714ac14d6422, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1497119219}
   m_SourcePrefab: {fileID: 100100000, guid: 430e9f552c3c5794f8a2714ac14d6422, type: 3}
 --- !u!1 &149746341
 GameObject:
@@ -846,6 +869,10 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 485537637}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 893237112}
     - target: {fileID: 6416954281982649585, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: m_Name
       value: MinesButtonPrefab (23)
@@ -959,6 +986,10 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 485537637}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 893237112}
     - target: {fileID: 6416954281982649585, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: m_Name
       value: MinesButtonPrefab (4)
@@ -1083,6 +1114,10 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 485537637}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 893237112}
     - target: {fileID: 6416954281982649585, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: m_Name
       value: MinesButtonPrefab (15)
@@ -1300,6 +1335,10 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 485537637}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 893237112}
     - target: {fileID: 6416954281982649585, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: m_Name
       value: MinesButtonPrefab (18)
@@ -1409,7 +1448,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8354492537458476023, guid: 430e9f552c3c5794f8a2714ac14d6422, type: 3}
   m_PrefabInstance: {fileID: 143804697}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1497119214}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 90a4da3f1f666304ca5c74dbe7b211b7, type: 3}
@@ -1518,6 +1557,10 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 485537637}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 893237112}
     - target: {fileID: 6416954281982649585, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: m_Name
       value: MinesButtonPrefab (6)
@@ -1693,6 +1736,7 @@ GameObject:
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
   - component: {fileID: 519420030}
+  - component: {fileID: 519420033}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1818,6 +1862,103 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &519420033
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: 7c39d97811d04ac499a1e09a64b1e69d, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!224 &533973742 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6969718459041047510, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
@@ -1863,6 +2004,10 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 485537637}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 893237112}
     - target: {fileID: 6416954281982649585, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: m_Name
       value: MinesButtonPrefab (12)
@@ -2081,6 +2226,10 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 485537637}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 893237112}
     - target: {fileID: 6416954281982649585, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: m_Name
       value: MinesButtonPrefab (14)
@@ -2355,6 +2504,10 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 485537637}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 893237112}
     - target: {fileID: 6416954281982649585, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: m_Name
       value: MinesButtonPrefab (10)
@@ -2665,6 +2818,10 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 485537637}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 893237112}
     - target: {fileID: 6416954281982649585, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: m_Name
       value: MinesButtonPrefab (13)
@@ -2754,6 +2911,150 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+--- !u!1 &893237111
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 893237113}
+  - component: {fileID: 893237112}
+  - component: {fileID: 893237114}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &893237112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 893237111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd01879c283c2a64b86ac07f52a9e3ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AudioManager
+  cashout: {fileID: 8300000, guid: 1b1097051852aba448f25637891f3ca8, type: 3}
+  bomb: {fileID: 8300000, guid: 3af9cd3597e86dd4d8e4efe4cc69ef25, type: 3}
+--- !u!4 &893237113
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 893237111}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.03879994, y: 2.9842, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1130518327}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &893237114
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 893237111}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!114 &908706904 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
@@ -2789,6 +3090,10 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 485537637}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 893237112}
     - target: {fileID: 6416954281982649585, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: m_Name
       value: MinesButtonPrefab (16)
@@ -2913,6 +3218,10 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 485537637}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 893237112}
     - target: {fileID: 6416954281982649585, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: m_Name
       value: MinesButtonPrefab (5)
@@ -3608,6 +3917,10 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 485537637}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 893237112}
     - target: {fileID: 6416954281982649585, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: m_Name
       value: MinesButtonPrefab (22)
@@ -3744,6 +4057,7 @@ Transform:
   m_Children:
   - {fileID: 485537638}
   - {fileID: 1351138372}
+  - {fileID: 893237113}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1173746359
@@ -3770,6 +4084,10 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 485537637}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 893237112}
     - target: {fileID: 6416954281982649585, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: m_Name
       value: MinesButtonPrefab (21)
@@ -4035,6 +4353,10 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 485537637}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 893237112}
     - target: {fileID: 6416954281982649585, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: m_Name
       value: MinesButtonPrefab (2)
@@ -4349,6 +4671,10 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 485537637}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 893237112}
     - target: {fileID: 6416954281982649585, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: m_Name
       value: MinesButtonPrefab (19)
@@ -4646,6 +4972,10 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 485537637}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 893237112}
     - target: {fileID: 6416954281982649585, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: m_Name
       value: MinesButtonPrefab (11)
@@ -4970,6 +5300,10 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 485537637}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 893237112}
     - target: {fileID: 6416954281982649585, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: m_Name
       value: MinesButtonPrefab (1)
@@ -5083,6 +5417,10 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 485537637}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 893237112}
     - target: {fileID: 6416954281982649585, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: m_Name
       value: MinesButtonPrefab (3)
@@ -5268,7 +5606,7 @@ MonoBehaviour:
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0.5
+  m_MatchWidthOrHeight: 1
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -5322,6 +5660,108 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &1497119214 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7129435382489123128, guid: 430e9f552c3c5794f8a2714ac14d6422, type: 3}
+  m_PrefabInstance: {fileID: 143804697}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1497119219
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1497119214}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &1514204948
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5346,6 +5786,10 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 485537637}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 893237112}
     - target: {fileID: 6416954281982649585, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: m_Name
       value: MinesButtonPrefab (7)
@@ -5530,6 +5974,10 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 485537637}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 893237112}
     - target: {fileID: 6416954281982649585, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: m_Name
       value: MinesButtonPrefab (24)
@@ -6037,6 +6485,10 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 485537637}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 893237112}
     - target: {fileID: 6416954281982649585, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: m_Name
       value: MinesButtonPrefab (9)
@@ -6199,6 +6651,10 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 485537637}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 893237112}
     - target: {fileID: 5352670800858726023, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 0
@@ -6324,6 +6780,10 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 485537637}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 893237112}
     - target: {fileID: 6416954281982649585, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: m_Name
       value: MinesButtonPrefab (17)

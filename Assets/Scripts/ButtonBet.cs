@@ -16,6 +16,8 @@ public class ButtonBet : MonoBehaviour
     public Image buttonBetLaranja;
     public Image buttonBetVermelho;
 
+    [SerializeField] private AudioManager _audioManager;
+
     void Start()
     {
         UpdateButtonState();
@@ -59,6 +61,7 @@ public class ButtonBet : MonoBehaviour
     {
         if (_gameManager.active)
         {
+            _audioManager.CashoutSound();
             _gameManager.CheckOutWin();
             RestartButtonBet();
         }

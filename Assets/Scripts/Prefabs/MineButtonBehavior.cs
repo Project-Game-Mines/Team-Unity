@@ -14,6 +14,8 @@ public class MineButtonBehavior : MonoBehaviour
     public int mineValue;
 
     [SerializeField] private ButtonBet buttonBet;
+    [SerializeField] private AudioManager audioManager;
+
 
     private void Awake()
     {
@@ -50,6 +52,7 @@ public class MineButtonBehavior : MonoBehaviour
     {
         PlayHitParticle();
         bombImage.SetActive(true);
+        audioManager.BombSound();
         gameManager.CheckOutLose();
         gameManager.GameOver();
         buttonBet.RestartButtonBet();
