@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] private ButtonBet buttonBet;
     
-    [SerializeField] private BetButton betButton;
+    //[SerializeField] private BetButton betButton;
     [SerializeField] private MockPlayer player;
     [SerializeField] private GridManager gridManager;
 
@@ -43,7 +43,6 @@ public class GameManager : MonoBehaviour
         active = false;
         gameOver = true;
         gameFase = 0;
-        buttonBet.RestartButtonBet();
         gridManager.ResetMinesButtons();
         
     }
