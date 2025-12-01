@@ -2,6 +2,8 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using UnityEngine.Events;
+using System;
 
 public class ButtonBet : MonoBehaviour
 {
@@ -40,7 +42,7 @@ public class ButtonBet : MonoBehaviour
         else if (_gameManager.active && (_gameManager.gameFase > 0))
         {
             Debug.Log("Caso 2");
-            betButton.onClick.AddListener(RestartButtonBet);
+            betButton.onClick.AddListener(CheckOut);
         }
 
         // jogo come�ou mas o jogador ainda n�o fez nenhuma jogada, bot�o est� vermelho claro e escrito "cashout"
@@ -51,6 +53,12 @@ public class ButtonBet : MonoBehaviour
             betButton.onClick.AddListener(Nothing);
         }
 
+    }
+
+    private void CheckOut()
+    {
+        _gameManager.CheckOutWin();
+        RestartButtonBet();
     }
 
     void IsGaming()
@@ -98,7 +106,7 @@ public class ButtonBet : MonoBehaviour
 
     public void UpdateCheckOutPrice()
     {
-        buttonBetText.text = $"CASHOUT\n{_gameManager.totalCheckout} BRL";
+        buttonBetText.text = $"CASHOUT\n{_gameManager.totalCheckout:F2} BRL";
     }
     
 

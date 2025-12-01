@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MockPlayer : MonoBehaviour
 {
-    [SerializeField] private GameManager gameManager;
+    [SerializeField] private GameManager _gameManager;
     
     public int playerid = 123;
     public float balance = 5000.45f;
@@ -24,5 +24,6 @@ public class MockPlayer : MonoBehaviour
             mineList.Add(numeroAleatorio);
         }
     }
+
 
 }
