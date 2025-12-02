@@ -73,6 +73,7 @@ public class ButtonBet : MonoBehaviour
         if (_gameManager.CheckIfCanPlay())
         {
             _gameManager.StartGame();
+            _audioManager.BetClick();
             buttonBetText.text = $"CASHOUT\n{_gameManager.totalCheckout} BRL";
             betButton.image.sprite = buttonBetVermelho.sprite;
             SetButtonAlpha(betButton, 0.5f);

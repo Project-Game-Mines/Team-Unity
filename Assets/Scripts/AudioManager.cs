@@ -4,7 +4,9 @@ public class AudioManager : MonoBehaviour
 {
     private AudioSource audioSource;
     public AudioClip cashout;
-    public AudioClip bomb;
+    public AudioClip foundBomb;
+    public AudioClip betClick;
+    public AudioClip foundCoin;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -24,6 +26,16 @@ public class AudioManager : MonoBehaviour
 
     public void BombSound()
     {
-        audioSource.PlayOneShot(bomb, 2.0f);
+        audioSource.PlayOneShot(foundBomb, 2.0f);
+    }
+
+    public void FoundCoin()
+    {
+        audioSource.PlayOneShot(foundCoin, 2.0f);
+    }
+
+    public void BetClick()
+    {
+        audioSource.PlayOneShot(betClick, 2.0f);
     }
 }

@@ -2941,8 +2941,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd01879c283c2a64b86ac07f52a9e3ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AudioManager
-  cashout: {fileID: 8300000, guid: 1b1097051852aba448f25637891f3ca8, type: 3}
-  bomb: {fileID: 8300000, guid: 3af9cd3597e86dd4d8e4efe4cc69ef25, type: 3}
+  cashout: {fileID: 8300000, guid: b6e996501976a9549b78c94a067e787c, type: 3}
+  foundBomb: {fileID: 8300000, guid: 3af9cd3597e86dd4d8e4efe4cc69ef25, type: 3}
+  betClick: {fileID: 8300000, guid: 6807cdb0274ff4041b7495336fd5ab36, type: 3}
+  foundCoin: {fileID: 8300000, guid: 1b1097051852aba448f25637891f3ca8, type: 3}
 --- !u!4 &893237113
 Transform:
   m_ObjectHideFlags: 0

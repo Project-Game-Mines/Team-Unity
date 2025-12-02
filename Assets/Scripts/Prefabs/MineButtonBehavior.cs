@@ -62,6 +62,7 @@ public class MineButtonBehavior : MonoBehaviour
     {
         animator.SetTrigger("Win");
         coinImage.SetActive(true);
+        audioManager.FoundCoin();
         active = false;
         gameManager.gameFase += 1;
         gameManager.totalCheckout *= 1.2f;
