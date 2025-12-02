@@ -18,15 +18,10 @@ public class ButtonBet : MonoBehaviour
     public Image buttonBetVermelho;
 
     [SerializeField] private AudioManager _audioManager;
-
+    
     void Start()
     {
         UpdateButtonState();
-    }
-
-    void Update()
-    {
-        
     }
 
     void UpdateButtonState()
