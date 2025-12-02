@@ -76,7 +76,7 @@ public class ButtonBet : MonoBehaviour
             _audioManager.BetClick();
             buttonBetText.text = $"CASHOUT\n{_gameManager.totalCheckout} BRL";
             betButton.image.sprite = buttonBetVermelho.sprite;
-            SetButtonAlpha(betButton, 0.5f);
+            ImpossibleCashout();
             buttonBetText.fontSize = 25;
             UpdateButtonState();
         }
@@ -86,6 +86,10 @@ public class ButtonBet : MonoBehaviour
         }
     }
 
+    public void ImpossibleCashout()
+    {
+        SetButtonAlpha(betButton, 0.5f);
+    }
 
     public void PossibleCashout()
     {

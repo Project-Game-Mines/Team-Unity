@@ -52,6 +52,7 @@ public class MineButtonBehavior : MonoBehaviour
     {
         PlayHitParticle();
         bombImage.SetActive(true);
+        buttonBet.ImpossibleCashout();
         audioManager.BombSound();
         gameManager.CheckOutLose();
         gameManager.GameOver();
