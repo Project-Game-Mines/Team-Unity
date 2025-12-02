@@ -5,7 +5,7 @@ public class GameManager : MonoBehaviour
 {
     public int betAmount = 1;
     public int bombAmount;
-    public float totalCheckout = 0;
+    public double totalCheckout = 0;
     public bool active = false;
     public int gameFase = 0;
 
@@ -75,6 +75,16 @@ public class GameManager : MonoBehaviour
         }
 
         
+    }
+    public double CalculateQuadraticTerm(int n)
+    {
+        // Coeficientes da função quadrática
+        const double A = 0.0182435383;
+        const double B = -0.0673799784;
+        const double C = 1.0677417112;
+
+        // Cálculo: A * n^2 + B * n + C
+        return (gameFase/1.7) *(A * n * n) + (B * n) + C  ;
     }
     
     

@@ -11,6 +11,7 @@ public class ButtonBet : MonoBehaviour
     [SerializeField] private GameManager _gameManager;
 
     public TextMeshProUGUI buttonBetText;
+    [SerializeField] private TextMeshProUGUI insufficientBalance;
   
 
     public Image buttonBetLaranja;
@@ -78,6 +79,11 @@ public class ButtonBet : MonoBehaviour
             buttonBetText.fontSize = 25;
             UpdateButtonState();
         }
+        else
+        {
+            StartCoroutine(InsufficientBalance());
+        }
+        
     }
 
 
@@ -117,6 +123,14 @@ public class ButtonBet : MonoBehaviour
         buttonBetText.fontSize = 40;
         betButton.image.sprite = buttonBetLaranja.sprite;
         UpdateButtonState();
+    }
+
+    private IEnumerator InsufficientBalance()
+    {
+        insufficientBalance.gameObject.SetActive(true);
+        yield return new WaitForSeconds(2);
+        insufficientBalance.gameObject.SetActive(false);
+        
     }
 
 

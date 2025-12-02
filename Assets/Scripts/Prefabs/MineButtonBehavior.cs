@@ -64,7 +64,7 @@ public class MineButtonBehavior : MonoBehaviour
         coinImage.SetActive(true);
         active = false;
         gameManager.gameFase += 1;
-        gameManager.totalCheckout *= 1.2f;
+        gameManager.totalCheckout *= gameManager.CalculateQuadraticTerm(gameManager.bombAmount);
         buttonBet.UpdateCheckOutPrice();
     }
     
