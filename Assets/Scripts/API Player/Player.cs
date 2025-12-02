@@ -9,7 +9,7 @@ public class Player
     public string id;
     public string name;
     public string created_at;
-    public string balance;
+    public float balance;
     
 }
 

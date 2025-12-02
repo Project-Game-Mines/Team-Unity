@@ -72,7 +72,7 @@ public class GameManager : MonoBehaviour
     public bool CheckIfCanPlay()
     {
         
-        if (betAmount > player.balance)
+        if (betAmount > apiManager.playerAPI.balance)
         {
             return false;
         }
@@ -84,14 +84,7 @@ public class GameManager : MonoBehaviour
         
     }
 
- //   private void Update()
- //   {
-    //    if (apiManager.playerAPI != null)
-    //    {
-            // Esta linha repete 60+ vezes por segundo desnecessariamente!
-    //        Debug.Log(apiManager.playerAPI.name); 
-     //   }
-    //}
+ 
    
     
 

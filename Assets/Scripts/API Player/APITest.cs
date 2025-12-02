@@ -34,6 +34,6 @@ public class PlayerDisplay : MonoBehaviour
 
     public void UpdateBalance()
     {
-        balanceText.text = apiManager.playerAPI.balance.ToString();
+        balanceText.text = apiManager.playerAPI.balance.ToString("F2");
     }
 }
