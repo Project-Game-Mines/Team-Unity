@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
@@ -8,6 +9,7 @@ public class GameManager : MonoBehaviour
     public float totalCheckout = 0;
     public bool active = false;
     public int gameFase = 0;
+    [SerializeField] private APIManager apiManager;
 
     [SerializeField] private ButtonBet buttonBet;
     
@@ -15,12 +17,17 @@ public class GameManager : MonoBehaviour
     [SerializeField] private MockPlayer player;
     [SerializeField] private GridManager gridManager;
     [SerializeField] private Bombselector Bombselector;
+    
 
    // [SerializeField] private BetAmount betAmount;
-    
 
-    
-    public void SetGameActive()
+   private void Awake()
+   {
+       apiManager.StartFetchingPlayer();
+       apiManager.UpdatePlayerBalance();
+   }
+
+   public void SetGameActive()
     {
         active = true;
         
@@ -76,8 +83,17 @@ public class GameManager : MonoBehaviour
 
         
     }
+
+ //   private void Update()
+ //   {
+    //    if (apiManager.playerAPI != null)
+    //    {
+            // Esta linha repete 60+ vezes por segundo desnecessariamente!
+    //        Debug.Log(apiManager.playerAPI.name); 
+     //   }
+    //}
+   
     
-    
-    
+
     
 }
