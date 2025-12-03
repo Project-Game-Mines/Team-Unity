@@ -37,11 +37,13 @@ public class GameManager : MonoBehaviour
     public void StartGame()
     {
             Bombselector.SetBombAmount();
+            apiManager.RequestStartGame("692f1d6cedc0062c96dd0dc5", betAmount, bombAmount);
             player.StartGame();
             SetGameActive();
             DebitBalance();
             totalCheckout = betAmount;
             gridManager.UnlockGridMines();
+
         
     }
 
@@ -80,9 +82,8 @@ public class GameManager : MonoBehaviour
         {
             return true;
         }
-
-        
     }
+
 
  
    
