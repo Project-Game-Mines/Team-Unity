@@ -11,8 +11,8 @@ public class BetUIController : MonoBehaviour
     [SerializeField] private TextMeshProUGUI insufficientBalanceText;
     
     [Header("Visual Assets")]
-    [SerializeField] private Sprite buttonBetLaranja;
-    [SerializeField] private Sprite buttonBetVermelho;
+    [SerializeField] private Sprite buttonBetOrange;
+    [SerializeField] private Sprite buttonBetRed;
     
     [Header("Configuration")]
     private float disabledAlpha = 0.5f;
@@ -52,7 +52,7 @@ public class BetUIController : MonoBehaviour
     private void ReadyToBetState()
     {
         SetButtonText("BET", betFontSize);
-        SetButtonSprite(buttonBetLaranja);
+        SetButtonSprite(buttonBetOrange);
         SetButtonAlpha(enabledAlpha);
         betButton.interactable = true;
     }
@@ -60,14 +60,14 @@ public class BetUIController : MonoBehaviour
     private void WaitingCashoutState()
     {
         SetButtonText("CASHOUT\n0.00 BRL", cashoutFontSize);
-        SetButtonSprite(buttonBetVermelho);
+        SetButtonSprite(buttonBetRed);
         SetButtonAlpha(disabledAlpha);
         betButton.interactable = false;
     }
     
     private void CanCashoutState()
     {
-        SetButtonSprite(buttonBetVermelho);
+        SetButtonSprite(buttonBetRed);
         SetButtonAlpha(enabledAlpha);
         betButton.interactable = true;
     }
@@ -77,6 +77,7 @@ public class BetUIController : MonoBehaviour
         SetButtonText($"CASHOUT\n{value:F2} BRL", cashoutFontSize);
     }
     
+    // PopUp de saldo insuficiente
     public void ShowInsufficientBalanceMessage()
     {
         if (insufficientBalanceCoroutine != null)
@@ -85,6 +86,8 @@ public class BetUIController : MonoBehaviour
         insufficientBalanceCoroutine = StartCoroutine(InsufficientBalanceRoutine());
     }
     
+    // inicia uma coroutine que aguarda um tempo antes de restaurar o botão para o estado inicial.
+    // Ela garante que, após o cashout, o botão volte visualmente para ReadyToBet.
     public void StartRestartSequence()
     {
         if (restartCoroutine != null)
@@ -111,6 +114,7 @@ public class BetUIController : MonoBehaviour
         buttonImage.color = color;
     }
     
+    // rotina usada para automatizar o retorno ao estado “ReadyToBet” após o cashout.
     private IEnumerator RestartButtonRoutine()
     {
         yield return new WaitForSeconds(restartDelay);

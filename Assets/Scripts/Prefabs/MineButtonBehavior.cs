@@ -13,7 +13,9 @@ public class MineButtonBehavior : MonoBehaviour
     [SerializeField] private MockPlayer player;
     public int mineValue;
 
-    [SerializeField] private ButtonBet buttonBet;
+    [SerializeField] private ButtonBetTemp buttonBet;
+    [SerializeField] private BetStateManager _betStateManager;
+    [SerializeField] private BetUIController _betUIController;
     [SerializeField] private AudioManager audioManager;
 
 
@@ -33,7 +35,7 @@ public class MineButtonBehavior : MonoBehaviour
             else
             {
                 PlayWinAnimation();
-                buttonBet.PossibleCashout();
+                _betStateManager.UpdateState();
             }
             
             Debug.Log($"Clicou na mina {mineValue}");
@@ -52,11 +54,11 @@ public class MineButtonBehavior : MonoBehaviour
     {
         PlayHitParticle();
         bombImage.SetActive(true);
-        buttonBet.ImpossibleCashout();
         audioManager.BombSound();
         gameManager.CheckOutLose();
         gameManager.GameOver();
-        buttonBet.RestartButtonBet();
+        
+        _betUIController.StartRestartSequence();
     }
 
     private void PlayWinAnimation()
@@ -67,7 +69,8 @@ public class MineButtonBehavior : MonoBehaviour
         active = false;
         gameManager.gameFase += 1;
         gameManager.totalCheckout *= 1.2f;
-        buttonBet.UpdateCheckOutPrice();
+        
+        _betStateManager.UpdateCashoutValue();
     }
     
     private void PlayHitParticle()

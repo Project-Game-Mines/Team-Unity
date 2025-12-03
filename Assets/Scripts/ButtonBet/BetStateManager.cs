@@ -54,6 +54,8 @@ public class BetStateManager : MonoBehaviour
         return BetButtonState.WaitingCashout;
     }
     
+    // verifica se o jogador pode apostar e inicia o jogo caso seja permitido.
+    // Se a aposta for aceita, atualiza o estado e dispara o evento com o valor inicial de cashout.
     public bool TryPlaceBet()
     {
         if (!_gameManager.CheckIfCanPlay())

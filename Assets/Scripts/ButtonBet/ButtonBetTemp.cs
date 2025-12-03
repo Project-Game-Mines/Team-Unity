@@ -15,6 +15,8 @@ public class ButtonBetTemp : MonoBehaviour
         UpdateButtonBehavior(stateManager.CurrentState);
     }
     
+    // é chamado quando o objeto é destruído e limpa inscrições de eventos.
+    // Isso evita erros e referências quando o GameObject deixar de existir.
     void OnDestroy()
     {
         RemoveEventListeners();
@@ -32,6 +34,8 @@ public class ButtonBetTemp : MonoBehaviour
         stateManager.OnCashoutValueChanged -= OnCashoutValueChanged;
     }
     
+    // atualiza a aparência e a função do botão quando o estado muda.
+    // sincroniza a UI e o comportamento conforme o novo estado recebido.
     private void OnStateChanged(BetButtonState newState)
     {
         uiController.ApplyVisualState(newState);
@@ -66,17 +70,20 @@ public class ButtonBetTemp : MonoBehaviour
     private void HandleBetClick()
     {
         bool betPlaced = stateManager.TryPlaceBet();
-        
+        // se o jogador puder apostar toca o som
         if (betPlaced)
         {
             audioManager.BetClick();
         }
+        // se não puder mostra o popup de saldo insuficiente
         else
         {
             uiController.ShowInsufficientBalanceMessage();
         }
     }
     
+    // toca o som, executa o cashout e chama o método do estado.
+    // Depois disso, inicia a sequência que restaura o botão ao estado inicial.
     private void HandleCashoutClick()
     {
         audioManager.CashoutSound();
@@ -84,7 +91,9 @@ public class ButtonBetTemp : MonoBehaviour
         uiController.StartRestartSequence();
     }
     
-    // Método público caso precise atualizar o valor do cashout externamente
+    // repassa a solicitação para atualizar o valor de cashout ao stateManager.
+    // Ele serve apenas para encaminhar, para manter a lógica organizada.
+    // Método público caso precise atualizar o valor do cashout no unity
     public void UpdateCashoutValue()
     {
         stateManager.UpdateCashoutValue();
