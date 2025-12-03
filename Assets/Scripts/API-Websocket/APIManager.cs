@@ -8,6 +8,8 @@ public class APIManager : MonoBehaviour
 {
     [SerializeField] private PlayerDisplay playerDisplay;
     public Player playerAPI;
+    public Match match;
+
 
 
     //-----------------------------Player Fetch--------------------------------//
@@ -120,11 +122,16 @@ public class APIManager : MonoBehaviour
         {
             Debug.Log("Jogo iniciado com sucesso! Resposta: " + request.downloadHandler.text);
             UpdatePlayerBalance();
-
-            // Exemplo de como desserializar a resposta da API (se necessário)
-            // GameStartResponse responseData = JsonUtility.FromJson<GameStartResponse>(request.downloadHandler.text);
-            // Debug.Log("ID do Jogo (Game ID): " + responseData.game_id);
+            //-------Generate Match ID-------//
+            string json = request.downloadHandler.text;
+            match = JsonUtility.FromJson<Match>(json);
+            Debug.Log(match.match_id);
         }
+
+        // Exemplo de como desserializar a resposta da API (se necessário)
+        // GameStartResponse responseData = JsonUtility.FromJson<GameStartResponse>(request.downloadHandler.text);
+        // Debug.Log("ID do Jogo (Game ID): " + responseData.game_id);
+    
         else
         {
             Debug.LogError("Erro ao iniciar o jogo: " + request.error);
