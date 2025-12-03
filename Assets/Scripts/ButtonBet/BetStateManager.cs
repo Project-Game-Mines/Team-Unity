@@ -16,9 +16,13 @@ public class BetStateManager : MonoBehaviour
     public event Action<float> OnCashoutValueChanged;
     
     private BetButtonState _currentState;
-    
-    public BetButtonState CurrentState => _currentState;
-    
+
+    //public BetButtonState CurrentState => _currentState;
+    public BetButtonState CurrentState
+    {
+        get { return _currentState; }
+    }
+
     void Start()
     {
         UpdateState();
@@ -31,7 +35,11 @@ public class BetStateManager : MonoBehaviour
         if (newState != _currentState)
         {
             _currentState = newState;
-            OnStateChanged?.Invoke(_currentState);
+            //OnStateChanged?.Invoke(_currentState);
+            if (OnStateChanged != null)
+            {
+                OnStateChanged.Invoke(_currentState);
+            }
         }
     }
     

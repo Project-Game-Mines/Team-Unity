@@ -15,12 +15,12 @@ public class BetUIController : MonoBehaviour
     [SerializeField] private Sprite buttonBetVermelho;
     
     [Header("Configuration")]
-    private const float DISABLED_ALPHA = 0.5f;
-    private const float ENABLED_ALPHA = 1.0f;
-    private const float RESTART_DELAY = 3f;
-    private const float INSUFFICIENT_BALANCE_DELAY = 2f;
-    private const int BET_FONT_SIZE = 40;
-    private const int CASHOUT_FONT_SIZE = 25;
+    private float disabledAlpha = 0.5f;
+    private float enabledAlpha = 1.0f;
+    private float restartDelay = 3f;
+    private float insufficientBalanceDelay = 2f;
+    private int betFontSize = 40;
+    private int cashoutFontSize = 25;
     
     private Image buttonImage;
     private Coroutine restartCoroutine;
@@ -36,45 +36,45 @@ public class BetUIController : MonoBehaviour
         switch (state)
         {
             case BetButtonState.ReadyToBet:
-                ShowReadyToBetState();
+                ReadyToBetState();
                 break;
                 
             case BetButtonState.WaitingCashout:
-                ShowWaitingCashoutState();
+                WaitingCashoutState();
                 break;
                 
             case BetButtonState.CanCashout:
-                ShowCanCashoutState();
+                CanCashoutState();
                 break;
         }
     }
     
-    private void ShowReadyToBetState()
+    private void ReadyToBetState()
     {
-        SetButtonText("BET", BET_FONT_SIZE);
+        SetButtonText("BET", betFontSize);
         SetButtonSprite(buttonBetLaranja);
-        SetButtonAlpha(ENABLED_ALPHA);
+        SetButtonAlpha(enabledAlpha);
         betButton.interactable = true;
     }
     
-    private void ShowWaitingCashoutState()
+    private void WaitingCashoutState()
     {
-        SetButtonText("CASHOUT\n0.00 BRL", CASHOUT_FONT_SIZE);
+        SetButtonText("CASHOUT\n0.00 BRL", cashoutFontSize);
         SetButtonSprite(buttonBetVermelho);
-        SetButtonAlpha(DISABLED_ALPHA);
+        SetButtonAlpha(disabledAlpha);
         betButton.interactable = false;
     }
     
-    private void ShowCanCashoutState()
+    private void CanCashoutState()
     {
         SetButtonSprite(buttonBetVermelho);
-        SetButtonAlpha(ENABLED_ALPHA);
+        SetButtonAlpha(enabledAlpha);
         betButton.interactable = true;
     }
     
     public void UpdateCashoutDisplay(float value)
     {
-        SetButtonText($"CASHOUT\n{value:F2} BRL", CASHOUT_FONT_SIZE);
+        SetButtonText($"CASHOUT\n{value:F2} BRL", cashoutFontSize);
     }
     
     public void ShowInsufficientBalanceMessage()
@@ -113,14 +113,14 @@ public class BetUIController : MonoBehaviour
     
     private IEnumerator RestartButtonRoutine()
     {
-        yield return new WaitForSeconds(RESTART_DELAY);
-        ShowReadyToBetState();
+        yield return new WaitForSeconds(restartDelay);
+        ReadyToBetState();
     }
     
     private IEnumerator InsufficientBalanceRoutine()
     {
         insufficientBalanceText.gameObject.SetActive(true);
-        yield return new WaitForSeconds(INSUFFICIENT_BALANCE_DELAY);
+        yield return new WaitForSeconds(insufficientBalanceDelay);
         insufficientBalanceText.gameObject.SetActive(false);
     }
 }

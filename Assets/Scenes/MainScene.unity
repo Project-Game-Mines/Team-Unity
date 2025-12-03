@@ -2452,6 +2452,86 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 679869471}
   m_CullTransparentMesh: 1
+--- !u!1 &727328687
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 727328691}
+  - component: {fileID: 727328690}
+  - component: {fileID: 727328689}
+  - component: {fileID: 727328688}
+  m_Layer: 0
+  m_Name: Teste
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &727328688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 727328687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 849c834649c173544a96229530082c7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonBetTemp
+  betButton: {fileID: 0}
+  stateManager: {fileID: 0}
+  uiController: {fileID: 0}
+  audioManager: {fileID: 0}
+--- !u!114 &727328689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 727328687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a0ab2ff29db82240a885670e535ff2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BetUIController
+  betButton: {fileID: 0}
+  buttonBetText: {fileID: 0}
+  insufficientBalanceText: {fileID: 0}
+  buttonBetLaranja: {fileID: 0}
+  buttonBetVermelho: {fileID: 0}
+--- !u!114 &727328690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 727328687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0f72d0703010054fa99e74d927751bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BetStateManager
+  _gameManager: {fileID: 0}
+--- !u!4 &727328691
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 727328687}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.38809, y: -0.32504, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &740927570
 GameObject:
   m_ObjectHideFlags: 0
@@ -3571,6 +3651,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerDisplay
   apiManager: {fileID: 2128488110}
   playerNameText: {fileID: 1018891278}
+  balanceText: {fileID: 0}
 --- !u!4 &970122394
 Transform:
   m_ObjectHideFlags: 0
@@ -7367,3 +7448,4 @@ SceneRoots:
   - {fileID: 1130518327}
   - {fileID: 2128488109}
   - {fileID: 970122394}
+  - {fileID: 727328691}
