@@ -10,7 +10,11 @@ public class Player
     public string name;
     public string created_at;
     public float balance;
-    
+}
+
+public class Match
+{
+    public string match_id;
 }
 
 
