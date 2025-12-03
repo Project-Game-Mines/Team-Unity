@@ -11,7 +11,7 @@ public class GameManager : MonoBehaviour
     public int gameFase = 0;
     [SerializeField] private APIManager apiManager;
 
-    [SerializeField] private ButtonBet buttonBet;
+    [SerializeField] private ButtonBetTemp buttonBet;
     
     //[SerializeField] private BetButton betButton;
     [SerializeField] private MockPlayer player;
