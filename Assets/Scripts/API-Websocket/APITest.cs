@@ -14,10 +14,10 @@ public class PlayerDisplay : MonoBehaviour
     public void UpdatePlayerDisplay()
     {
         // 1. Checa se o APIManager e o Player foram carregados
-        if (apiManager != null && apiManager.playerAPI != null)
+        if (apiManager != null && GameManager.player != null)
         {
             // 2. Exibe o nome
-            string playerName = apiManager.playerAPI.name;
+            string playerName = GameManager.player.name;
             
             if (playerNameText != null)
             {
@@ -34,6 +34,6 @@ public class PlayerDisplay : MonoBehaviour
 
     public void UpdateBalance()
     {
-        balanceText.text = apiManager.playerAPI.balance.ToString("F2");
+        balanceText.text = GameManager.player.balance.ToString("F2");
     }
 }

@@ -122,11 +122,12 @@ public class GameWebSocket : MonoBehaviour
                 Debug.Log(GameManager.match.matchId + "8888");
                 break;
             case "STEP_RESULT":
-                GameManager.match = JsonUtility.FromJson<Match>(message);
+                GameManager.matchStep = JsonUtility.FromJson<MatchStep>(message);
                 Debug.Log(GameManager.match.active);
-                Debug.Log(GameManager.match.step);
-                Debug.Log(GameManager.match.isMine);
+                Debug.Log(GameManager.matchStep.step);
+                Debug.Log(GameManager.matchStep.isMine);
                 break;
+            
         }
     }
 }

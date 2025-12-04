@@ -7,8 +7,7 @@ using TMPro;
 public class APIManager : MonoBehaviour
 {
     [SerializeField] private PlayerDisplay playerDisplay;
-    public Player playerAPI;
-    public Match match;
+    
 
 
 
@@ -28,7 +27,7 @@ public class APIManager : MonoBehaviour
         {
             string json = request.downloadHandler.text;
 
-            playerAPI = JsonUtility.FromJson<Player>(json);
+            GameManager.player = JsonUtility.FromJson<Player>(json);
             if (playerDisplay != null)
             {
                 playerDisplay.UpdatePlayerDisplay();
@@ -55,7 +54,7 @@ public class APIManager : MonoBehaviour
         {
             string json = request.downloadHandler.text;
 
-            playerAPI = JsonUtility.FromJson<Player>(json);
+            GameManager.player = JsonUtility.FromJson<Player>(json);
             if (playerDisplay != null)
             {
                 playerDisplay.UpdateBalance();
@@ -124,8 +123,8 @@ public class APIManager : MonoBehaviour
             UpdatePlayerBalance();
             //-------Generate Match ID-------//
             string json = request.downloadHandler.text;
-            match = JsonUtility.FromJson<Match>(json);
-            Debug.Log(match.matchId);
+            GameManager.match = JsonUtility.FromJson<Match>(json);
+            Debug.Log(GameManager.match.matchId);
         }
 
         // Exemplo de como desserializar a resposta da API (se necessário)
