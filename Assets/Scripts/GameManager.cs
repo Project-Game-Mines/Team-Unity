@@ -31,7 +31,7 @@ public class GameManager : MonoBehaviour
    private void Awake()
    {
        apiManager.StartFetchingPlayer();
-       apiManager.UpdatePlayerBalance();
+       
    }
 
    public void SetGameActive()
@@ -83,13 +83,13 @@ public class GameManager : MonoBehaviour
     public bool CheckIfCanPlay()
     {
         
-        if (betAmount > player.balance)
+        if (betAmount <= player.balance)
         {
-            return false;
+            return true;
         }
         else
         {
-            return true;
+            return false;
         }
     }
 

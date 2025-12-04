@@ -30,6 +30,7 @@ public class APIManager : MonoBehaviour
             GameManager.player = JsonUtility.FromJson<Player>(json);
             if (playerDisplay != null)
             {
+                UpdatePlayerBalance();
                 playerDisplay.UpdatePlayerDisplay();
             }
         }

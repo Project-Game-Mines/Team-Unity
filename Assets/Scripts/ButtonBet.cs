@@ -82,6 +82,7 @@ public class ButtonBet : MonoBehaviour
         }
         else
         {
+            Debug.Log(GameManager.player.balance);
             StartCoroutine(InsufficientBalance());
         }
     }
