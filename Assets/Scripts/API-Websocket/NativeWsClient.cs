@@ -7,7 +7,6 @@ using Newtonsoft.Json.Linq;
 public class GameWebSocket : MonoBehaviour
 {
     WebSocket ws;
-
     private int messageType;
 
     async void Start()
@@ -68,20 +67,12 @@ public class GameWebSocket : MonoBehaviour
         
     }
 
-    private void OnWSMessage(string message)
+    public void GameStep(string matchId, int cell)
     {
-        baseMessage msg = JsonUtility.FromJson<baseMessage>(message);
-        switch (msg.@event)
-        {
-            case "GAME_STARTED":
-                GameManager.match = JsonUtility.FromJson<Match>(message);
-                Debug.Log(GameManager.match.matchId + "8888");
-                break;
-            
-        }
+        StartCoroutine(SendGameStep(matchId, cell));
     }
 
-    public async void SendGameStep(string matchId, int cell)
+    private IEnumerator SendGameStep(string matchId, int cell)
     {
         JObject msg = new JObject
         {
@@ -93,7 +84,7 @@ public class GameWebSocket : MonoBehaviour
             }
         };
 
-        await ws.SendText(msg.ToString());
+        yield return ws.SendText(msg.ToString());
         
     }
 
@@ -116,6 +107,26 @@ public class GameWebSocket : MonoBehaviour
         if (ws != null && ws.State == WebSocketState.Open)
         {
             await ws.Close();
+        }
+    }
+    
+    
+    private void OnWSMessage(string message)
+    {
+        baseMessage msg = JsonUtility.FromJson<baseMessage>(message);
+        switch (msg.@event)
+        {
+            case "GAME_STARTED":
+                GameManager.match = JsonUtility.FromJson<Match>(message);
+                GameManager.match.active = true;
+                Debug.Log(GameManager.match.matchId + "8888");
+                break;
+            case "STEP_RESULT":
+                GameManager.match = JsonUtility.FromJson<Match>(message);
+                Debug.Log(GameManager.match.active);
+                Debug.Log(GameManager.match.step);
+                Debug.Log(GameManager.match.isMine);
+                break;
         }
     }
 }

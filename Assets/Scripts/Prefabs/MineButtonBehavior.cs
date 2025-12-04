@@ -15,6 +15,7 @@ public class MineButtonBehavior : MonoBehaviour
 
     [SerializeField] private ButtonBet buttonBet;
     [SerializeField] private AudioManager audioManager;
+    [SerializeField] private GameWebSocket gameWebSocket;
 
 
     private void Awake()
@@ -24,23 +25,25 @@ public class MineButtonBehavior : MonoBehaviour
     
     public void OnClickWinOrLose()
     {
-        if (active)
+        if (active && GameManager.match.active)
         {
+            gameWebSocket.GameStep(GameManager.match.matchId,mineValue);
             if (player.mineList.Contains(mineValue))
             {
                 PlayLoseAnimation();
             }
             else
             {
+                
                 PlayWinAnimation();
                 buttonBet.PossibleCashout();
             }
             
             Debug.Log($"Clicou na mina {mineValue}");
-        }
+        }           
         else
         {
-            
+            Debug.Log("Game Not started");
         }
         
         

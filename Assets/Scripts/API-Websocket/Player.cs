@@ -15,6 +15,9 @@ public class Match
 {
     public string matchId;
     public bool active;
+    public int step = 0;
+    public bool isMine;
+
 }
 
 public class baseMessage
