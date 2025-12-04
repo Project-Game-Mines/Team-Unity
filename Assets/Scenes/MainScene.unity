@@ -612,7 +612,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4153926102814063058, guid: 430e9f552c3c5794f8a2714ac14d6422, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4153926102814063058, guid: 430e9f552c3c5794f8a2714ac14d6422, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -7385,7 +7385,7 @@ MonoBehaviour:
     id: 
     name: 
     created_at: 
-    balance: 
+    balance: 0
 --- !u!1001 &2130550062
 PrefabInstance:
   m_ObjectHideFlags: 0
