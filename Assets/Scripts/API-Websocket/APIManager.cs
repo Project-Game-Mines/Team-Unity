@@ -125,7 +125,7 @@ public class APIManager : MonoBehaviour
             //-------Generate Match ID-------//
             string json = request.downloadHandler.text;
             match = JsonUtility.FromJson<Match>(json);
-            Debug.Log(match.match_id);
+            Debug.Log(match.matchId);
         }
 
         // Exemplo de como desserializar a resposta da API (se necessário)

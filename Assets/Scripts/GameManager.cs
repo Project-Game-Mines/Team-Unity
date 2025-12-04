@@ -4,19 +4,24 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    public static Match match;
+    public static Player player;
     public int betAmount = 1;
     public int bombAmount;
     public float totalCheckout = 0;
     public bool active = false;
     public int gameFase = 0;
     [SerializeField] private APIManager apiManager;
+    [SerializeField] private GameWebSocket  gameWebSocket;
 
     [SerializeField] private ButtonBet buttonBet;
     
     //[SerializeField] private BetButton betButton;
-    [SerializeField] private MockPlayer player;
+    [SerializeField] private MockPlayer mockPlayer;
     [SerializeField] private GridManager gridManager;
     [SerializeField] private Bombselector Bombselector;
+    
+    
     
 
    // [SerializeField] private BetAmount betAmount;
@@ -37,8 +42,9 @@ public class GameManager : MonoBehaviour
     public void StartGame()
     {
             Bombselector.SetBombAmount();
-            apiManager.RequestStartGame("692f1d6cedc0062c96dd0dc5", betAmount, bombAmount);
-            player.StartGame();
+            gameWebSocket.StartGame("692f1d6cedc0062c96dd0dc5", betAmount, bombAmount);
+            //apiManager.RequestStartGame("692f1d6cedc0062c96dd0dc5", betAmount, bombAmount);
+            mockPlayer.StartGame();
             SetGameActive();
             DebitBalance();
             totalCheckout = betAmount;
@@ -49,7 +55,7 @@ public class GameManager : MonoBehaviour
 
     public void DebitBalance()
     {
-        player.balance -= betAmount;
+        mockPlayer.balance -= betAmount;
     }
 
     public void GameOver()
@@ -62,7 +68,7 @@ public class GameManager : MonoBehaviour
 
     public void CheckOutWin()
     {
-        player.balance += totalCheckout;
+        mockPlayer.balance += totalCheckout;
         GameOver();
     }
 

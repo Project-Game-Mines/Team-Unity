@@ -5,7 +5,6 @@ using System.Collections.Generic;
 [System.Serializable]
 public class Player
 {
-    
     public string id;
     public string name;
     public string created_at;
@@ -14,8 +13,16 @@ public class Player
 
 public class Match
 {
-    public string match_id;
+    public string matchId;
+    public bool active;
 }
+
+public class baseMessage
+{
+    public string @event;
+}
+
+
 
 
 
