@@ -23,6 +23,11 @@ public class MatchStep
     public bool isMine;
 }
 
+public class MinesPosition
+{
+    public List <int> mines_positions;
+}
+
 public class baseMessage
 {
     public string @event;

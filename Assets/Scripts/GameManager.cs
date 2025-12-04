@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour
     public static Match match;
     public static Player player;
     public static MatchStep matchStep;
+    public static MinesPosition minesPositions;
     public int betAmount = 1;
     public int bombAmount;
     public float totalCheckout = 0;
@@ -93,12 +94,8 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    
-
-
- 
-   
-    
-
-    
+    public void UpdateBalance()
+    {
+        apiManager.UpdatePlayerBalance();
+    }
 }

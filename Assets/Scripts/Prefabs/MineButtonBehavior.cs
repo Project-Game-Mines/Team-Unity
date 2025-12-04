@@ -82,7 +82,6 @@ public class MineButtonBehavior : MonoBehaviour
         buttonBet.ImpossibleCashout();
         audioManager.BombSound();
         gameManager.CheckOutLose();
-        gameManager.GameOver();
         buttonBet.RestartButtonBet();
     }
 
@@ -121,7 +120,7 @@ public class MineButtonBehavior : MonoBehaviour
     public void ShowIconsEndGame()
     {
         
-            if (player.mineList.Contains(mineValue))
+            if (GameManager.minesPositions.mines_positions.Contains(mineValue))
             {
                 bombImage.SetActive(true);
             }
