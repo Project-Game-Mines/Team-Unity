@@ -14,117 +14,63 @@ public class BetUIController : MonoBehaviour
     [SerializeField] private Sprite buttonBetOrange;
     [SerializeField] private Sprite buttonBetRed;
     
-    [Header("Configuration")]
-    private float disabledAlpha = 0.5f;
-    private float enabledAlpha = 1.0f;
-    private float restartDelay = 3f;
-    private float insufficientBalanceDelay = 2f;
-    private int betFontSize = 40;
-    private int cashoutFontSize = 25;
-    
     private Image buttonImage;
-    private Coroutine restartCoroutine;
-    private Coroutine insufficientBalanceCoroutine;
-    
     void Awake()
     {
         buttonImage = betButton.image;
+        insufficientBalanceText.gameObject.SetActive(false);
     }
-    
+
+    // Atualiza a aparência do botão conforme o estado
     public void ApplyVisualState(BetButtonState state)
     {
-        switch (state)
+        if (state == BetButtonState.ReadyToBet)
         {
-            case BetButtonState.ReadyToBet:
-                ReadyToBetState();
-                break;
-                
-            case BetButtonState.WaitingCashout:
-                WaitingCashoutState();
-                break;
-                
-            case BetButtonState.CanCashout:
-                CanCashoutState();
-                break;
+            buttonBetText.text = "BET";
+            buttonBetText.fontSize = 40;
+            buttonImage.sprite = buttonBetOrange;
+            SetButtonAlpha(1f);
+            betButton.interactable = true;
+        }
+        else if (state == BetButtonState.WaitingCashout)
+        {
+            buttonBetText.text = "CASHOUT\n0.00 BRL";
+            buttonBetText.fontSize = 25;
+            buttonImage.sprite = buttonBetRed;
+            SetButtonAlpha(0.5f);
+            betButton.interactable = false;
+        }
+        else if (state == BetButtonState.CanCashout)
+        {
+            buttonImage.sprite = buttonBetRed;
+            SetButtonAlpha(1f);
+            betButton.interactable = true;
         }
     }
-    
-    private void ReadyToBetState()
-    {
-        SetButtonText("BET", betFontSize);
-        SetButtonSprite(buttonBetOrange);
-        SetButtonAlpha(enabledAlpha);
-        betButton.interactable = true;
-    }
-    
-    private void WaitingCashoutState()
-    {
-        SetButtonText("CASHOUT\n0.00 BRL", cashoutFontSize);
-        SetButtonSprite(buttonBetRed);
-        SetButtonAlpha(disabledAlpha);
-        betButton.interactable = false;
-    }
-    
-    private void CanCashoutState()
-    {
-        SetButtonSprite(buttonBetRed);
-        SetButtonAlpha(enabledAlpha);
-        betButton.interactable = true;
-    }
-    
+
+    // Atualiza o valor mostrado no botão quando o cashout muda
     public void UpdateCashoutDisplay(float value)
     {
-        SetButtonText($"CASHOUT\n{value:F2} BRL", cashoutFontSize);
+        buttonBetText.text = $"CASHOUT\n{value:F2} BRL";
+        buttonBetText.fontSize = 25;
     }
-    
-    // PopUp de saldo insuficiente
+
+    // Mostra uma mensagem simples de saldo insuficiente
     public void ShowInsufficientBalanceMessage()
     {
-        if (insufficientBalanceCoroutine != null)
-            StopCoroutine(insufficientBalanceCoroutine);
-            
-        insufficientBalanceCoroutine = StartCoroutine(InsufficientBalanceRoutine());
+        insufficientBalanceText.gameObject.SetActive(true);
+        Invoke("HideInsufficientBalanceMessage", 2f);
     }
-    
-    // inicia uma coroutine que aguarda um tempo antes de restaurar o botão para o estado inicial.
-    // Ela garante que, após o cashout, o botão volte visualmente para ReadyToBet.
-    public void StartRestartSequence()
+
+    private void HideInsufficientBalanceMessage()
     {
-        if (restartCoroutine != null)
-            StopCoroutine(restartCoroutine);
-            
-        restartCoroutine = StartCoroutine(RestartButtonRoutine());
+        insufficientBalanceText.gameObject.SetActive(false);
     }
-    
-    private void SetButtonText(string text, int fontSize)
-    {
-        buttonBetText.text = text;
-        buttonBetText.fontSize = fontSize;
-    }
-    
-    private void SetButtonSprite(Sprite sprite)
-    {
-        buttonImage.sprite = sprite;
-    }
-    
+
     private void SetButtonAlpha(float alpha)
     {
         Color color = buttonImage.color;
         color.a = alpha;
         buttonImage.color = color;
-    }
-    
-    // rotina usada para automatizar o retorno ao estado “ReadyToBet” após o cashout.
-    private IEnumerator RestartButtonRoutine()
-    {
-        yield return new WaitForSeconds(restartDelay);
-        ReadyToBetState();
-    }
-    
-    private IEnumerator InsufficientBalanceRoutine()
-    {
-        insufficientBalanceText.gameObject.SetActive(true);
-        yield return new WaitForSeconds(insufficientBalanceDelay);
-        insufficientBalanceText.gameObject.SetActive(false);
     }
 }

@@ -42,6 +42,7 @@ public class GameManager : MonoBehaviour
             SetGameActive();
             DebitBalance();
             totalCheckout = betAmount;
+            Debug.Log("betamout = " + betAmount);
             gridManager.UnlockGridMines();
 
         

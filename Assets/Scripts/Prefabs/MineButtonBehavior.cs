@@ -57,8 +57,8 @@ public class MineButtonBehavior : MonoBehaviour
         audioManager.BombSound();
         gameManager.CheckOutLose();
         gameManager.GameOver();
-        
-        _betUIController.StartRestartSequence();
+
+        _betStateManager.UpdateState();
     }
 
     private void PlayWinAnimation()

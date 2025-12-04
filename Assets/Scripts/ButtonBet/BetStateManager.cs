@@ -17,7 +17,6 @@ public class BetStateManager : MonoBehaviour
     
     private BetButtonState _currentState;
 
-    //public BetButtonState CurrentState => _currentState;
     public BetButtonState CurrentState
     {
         get { return _currentState; }
@@ -27,51 +26,65 @@ public class BetStateManager : MonoBehaviour
     {
         UpdateState();
     }
-    
+
+    // Atualiza o estado do botão com base no jogo
     public void UpdateState()
     {
-        BetButtonState newState = DetermineBetState();
-        
+        BetButtonState newState;
+
+        if (!_gameManager.active)
+        {
+            newState = BetButtonState.ReadyToBet;
+        } 
+        else if (_gameManager.gameFase > 0)
+        {
+            newState = BetButtonState.CanCashout;
+        }
+        else
+        {
+            newState = BetButtonState.WaitingCashout;
+        }
+            
+
         if (newState != _currentState)
         {
             _currentState = newState;
-            //OnStateChanged?.Invoke(_currentState);
+
             if (OnStateChanged != null)
             {
                 OnStateChanged.Invoke(_currentState);
             }
+                
         }
     }
-    
-    private BetButtonState DetermineBetState()
-    {
-        if (!_gameManager.active)
-            return BetButtonState.ReadyToBet;
-            
-        if (_gameManager.gameFase > 0)
-            return BetButtonState.CanCashout;
-            
-        return BetButtonState.WaitingCashout;
-    }
-    
+
     // verifica se o jogador pode apostar e inicia o jogo caso seja permitido.
     // Se a aposta for aceita, atualiza o estado e dispara o evento com o valor inicial de cashout.
     public bool TryPlaceBet()
     {
         if (!_gameManager.CheckIfCanPlay())
+        {
             return false;
-            
+        } 
+
         _gameManager.StartGame();
         UpdateState();
-        OnCashoutValueChanged?.Invoke(_gameManager.totalCheckout);
+
+        if (OnCashoutValueChanged != null)
+        {
+            OnCashoutValueChanged.Invoke(_gameManager.totalCheckout);
+        }    
+
         return true;
     }
-    
+
     public void ExecuteCashout()
     {
         if (!_gameManager.active)
+        {
             return;
-            
+        }
+             
         _gameManager.CheckOutWin();
         UpdateState();
     }
@@ -80,7 +93,10 @@ public class BetStateManager : MonoBehaviour
     {
         if (_currentState == BetButtonState.CanCashout)
         {
-            OnCashoutValueChanged?.Invoke(_gameManager.totalCheckout);
+            if (OnCashoutValueChanged != null)
+            {
+                OnCashoutValueChanged.Invoke(_gameManager.totalCheckout);
+            }
         }
     }
     
