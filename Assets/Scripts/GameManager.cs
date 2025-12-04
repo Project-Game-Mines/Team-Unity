@@ -24,6 +24,7 @@ public class GameManager : MonoBehaviour
     
     
     
+    
 
    // [SerializeField] private BetAmount betAmount;
 
@@ -64,7 +65,8 @@ public class GameManager : MonoBehaviour
         active = false;
         gameFase = 0;
         gridManager.ResetMinesButtons();
-        
+        buttonBet.Nothing();
+
     }
 
     public void CheckOutWin()
@@ -90,6 +92,8 @@ public class GameManager : MonoBehaviour
             return true;
         }
     }
+
+    
 
 
  

@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 using NativeWebSocket;
@@ -8,6 +9,9 @@ public class GameWebSocket : MonoBehaviour
 {
     WebSocket ws;
     private int messageType;
+    [SerializeField] private GameManager gameManager;
+    public string latestWsResponse = null;
+    public bool responseReceived = false;
 
     async void Start()
     {
@@ -67,12 +71,12 @@ public class GameWebSocket : MonoBehaviour
         
     }
 
-    public void GameStep(string matchId, int cell)
+    public void GameStep(string matchId, int cell, Action<string> callback)
     {
-        StartCoroutine(SendGameStep(matchId, cell));
+        StartCoroutine(SendGameStep(matchId, cell,  callback));
     }
 
-    private IEnumerator SendGameStep(string matchId, int cell)
+    private IEnumerator SendGameStep(string matchId, int cell, Action<string> callback)
     {
         JObject msg = new JObject
         {
@@ -84,8 +88,37 @@ public class GameWebSocket : MonoBehaviour
             }
         };
 
+        // Reseta o estado da resposta antes de enviar
+        latestWsResponse = null;
+        responseReceived = false;
+
+        // A. Envia a mensagem
         yield return ws.SendText(msg.ToString());
-        
+
+        // B. Lógica de espera: Aguarda a resposta do servidor
+        float timeout = 5f; // Tempo limite para a resposta
+        float startTime = Time.time;
+    
+        // Espera até que a resposta chegue OU o tempo limite seja atingido.
+        while (!responseReceived && Time.time < startTime + timeout)
+        {
+            // Seu listener de WebSocket (OnMessageReceived) deve setar
+            // 'responseReceived = true' e 'latestWsResponse = RESPOSTA_JSON'
+            // quando receber o evento GAME_STEP ou GAME_LOSE para este passo.
+            yield return null; 
+        }
+
+        // C. Chama o callback com a resposta recebida
+        if (responseReceived && latestWsResponse != null)
+        {
+            callback?.Invoke(latestWsResponse);
+        }
+        else
+        {
+            // Trate o erro de timeout
+            Debug.LogError("Tempo limite de resposta do servidor GameStep excedido.");
+            // Opcional: Chama o callback com um erro se for necessário
+        }
     }
 
     public async void SendCashout(string matchId)
@@ -122,12 +155,26 @@ public class GameWebSocket : MonoBehaviour
                 Debug.Log(GameManager.match.matchId + "8888");
                 break;
             case "STEP_RESULT":
+                latestWsResponse = message;
+                responseReceived = true;
                 GameManager.matchStep = JsonUtility.FromJson<MatchStep>(message);
                 Debug.Log(GameManager.match.active);
                 Debug.Log(GameManager.matchStep.step);
                 Debug.Log(GameManager.matchStep.isMine);
                 break;
-            
+            case "GAME_LOSE":
+                latestWsResponse = message;
+                responseReceived = true;
+                GameManager.match = null;
+                GameManager.matchStep = null;
+                break;
+            case "CASHOUT_RESULT":
+                // Adicione a lógica de tratamento para Cashout se necessário
+                break;
+
+            default:
+                Debug.Log($"Evento WS não tratado:");
+                break;
         }
     }
 }

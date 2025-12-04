@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using Newtonsoft.Json.Linq;
 using UnityEngine;
 
 public class MineButtonBehavior : MonoBehaviour
@@ -27,19 +28,42 @@ public class MineButtonBehavior : MonoBehaviour
     {
         if (active && GameManager.match.active)
         {
-            gameWebSocket.GameStep(GameManager.match.matchId,mineValue);
-            if (player.mineList.Contains(mineValue))
+            // **REMOVE A LÓGICA ANTIGA BASEADA NA LISTA LOCAL (player.mineList.Contains)**
+
+            // 1. Chama GameStep, passando a lógica de processamento da resposta no callback
+            gameWebSocket.GameStep(GameManager.match.matchId, mineValue, (response) =>
             {
-                PlayLoseAnimation();
-            }
-            else
-            {
-                
-                PlayWinAnimation();
-                buttonBet.PossibleCashout();
-            }
+                // Este bloco de código só será executado quando a resposta chegar do servidor!
             
-            Debug.Log($"Clicou na mina {mineValue}");
+                try
+                {
+                    JObject jsonResponse = JObject.Parse(response);
+                    string eventType = jsonResponse["event"].ToString();
+                
+                    // 2. Verifica o tipo de evento (GAME_LOSE ou STEP_RESULT)
+                    if (eventType == "GAME_LOSE")
+                    {
+                        // Confirmação do servidor: O clique atingiu uma mina
+                        PlayLoseAnimation();
+                    }
+                    else if (eventType == "STEP_RESULT")
+                    {
+                        // Confirmação do servidor: O clique foi em uma célula segura
+                        PlayWinAnimation();
+                        buttonBet.PossibleCashout();
+                    }
+                    else
+                    {
+                        Debug.LogWarning($"Evento de resposta inesperado do servidor: {eventType}");
+                    }
+                }
+                catch (System.Exception e)
+                {
+                    Debug.LogError($"Erro ao analisar resposta JSON do GameStep: {e.Message}");
+                }
+            });
+        
+            Debug.Log($"Chamada GameStep enviada para a célula {mineValue}. Aguardando resposta do WS...");
         }           
         else
         {
@@ -51,7 +75,7 @@ public class MineButtonBehavior : MonoBehaviour
 
 
 
-    private void PlayLoseAnimation()
+    public void PlayLoseAnimation()
     {
         PlayHitParticle();
         bombImage.SetActive(true);
@@ -62,7 +86,7 @@ public class MineButtonBehavior : MonoBehaviour
         buttonBet.RestartButtonBet();
     }
 
-    private void PlayWinAnimation()
+    public void PlayWinAnimation()
     {
         animator.SetTrigger("Win");
         coinImage.SetActive(true);

@@ -97,7 +97,7 @@ public class ButtonBet : MonoBehaviour
         UpdateButtonState();
     }
 
-    void Nothing()
+    public void Nothing()
     {
         UpdateButtonState();
     }
