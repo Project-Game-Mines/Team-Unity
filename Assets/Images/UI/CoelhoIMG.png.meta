@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: fa01724d3d5e0624887e3cba1abb8b43
+guid: 88d114a3881ad6042a466776caa31c22
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -767301257268918269
-    second: Coin_Transparent_0
+      213: -3662960473018923839
+    second: Coelhin Cassino 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -96,30 +96,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Coin_Transparent_0
+      name: Coelhin Cassino 1_0
       rect:
         serializedVersion: 2
-        x: 1052
-        y: 795
-        width: 5869
-        height: 6381
+        x: 6
+        y: 0
+        width: 589
+        height: 1027
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 30886c4629ff955f0800000000000000
-      internalID: -767301257268918269
+      spriteID: 1c409636bdc8a2dc0800000000000000
+      internalID: -3662960473018923839
       vertices: []
       indices: 
       edges: []
@@ -148,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Coin_Transparent_0: -767301257268918269
+      Coelhin Cassino 1_0: -3662960473018923839
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
