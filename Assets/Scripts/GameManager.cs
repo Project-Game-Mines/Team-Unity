@@ -97,7 +97,7 @@ public class GameManager : MonoBehaviour
 
     public void UpdatePrizeStart()
     {
-        match.prize = betAmount;
+        matchStep.prize = betAmount;
         
     }
     
