@@ -47,20 +47,15 @@ public class GameManager : MonoBehaviour
     {
             Bombselector.SetBombAmount();
             gameWebSocket.StartGame("692f1d6cedc0062c96dd0dc5", betAmount, bombAmount);
-            //apiManager.RequestStartGame("692f1d6cedc0062c96dd0dc5", betAmount, bombAmount);
             mockPlayer.StartGame();
             SetGameActive();
-            DebitBalance();
             totalCheckout = betAmount;
             gridManager.UnlockGridMines();
 
         
     }
 
-    public void DebitBalance()
-    {
-        mockPlayer.balance -= betAmount;
-    }
+    
 
     public void GameOver()
     {
@@ -99,6 +94,12 @@ public class GameManager : MonoBehaviour
     public void UpdateBalance()
     {
         apiManager.UpdatePlayerBalance();
+    }
+
+    public void UpdatePrizeStart()
+    {
+        match.prize = betAmount;
+        
     }
     
     
