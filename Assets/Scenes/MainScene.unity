@@ -1521,8 +1521,9 @@ MonoBehaviour:
   active: 0
   gameFase: 0
   apiManager: {fileID: 2128488110}
+  gameWebSocket: {fileID: 0}
   buttonBet: {fileID: 0}
-  player: {fileID: 2096904531}
+  mockPlayer: {fileID: 0}
   gridManager: {fileID: 1351138373}
   Bombselector: {fileID: 1665008756}
 --- !u!4 &485537638
@@ -5627,11 +5628,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::APIManager
   playerDisplay: {fileID: 970122393}
-  playerAPI:
-    id: 
-    name: 
-    created_at: 
-    balance: 0
 --- !u!1001 &2130550062
 PrefabInstance:
   m_ObjectHideFlags: 0
