@@ -60,7 +60,7 @@ public class ButtonBet : MonoBehaviour
 
     private void CheckOut()
     {
-        if (_gameManager.active)
+        if (_gameManager.active && GameManager.match.active)
         {
             _audioManager.CashoutSound();
             _gameManager.CheckOutWin();

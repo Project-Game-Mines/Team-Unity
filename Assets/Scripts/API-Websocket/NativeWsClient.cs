@@ -120,7 +120,11 @@ public class GameWebSocket : MonoBehaviour
         }
     }
 
-    public async void SendCashout(string matchId)
+    public void ChashOut(string matchId)
+    {
+        StartCoroutine(SendCashout(matchId));
+    }
+    private IEnumerator  SendCashout(string matchId)
     {
         JObject msg = new JObject
         {
@@ -131,7 +135,7 @@ public class GameWebSocket : MonoBehaviour
             }
         };
 
-        await ws.SendText(msg.ToString());
+        yield return ws.SendText(msg.ToString());
     }
 
     async void OnDestroy()
@@ -171,8 +175,10 @@ public class GameWebSocket : MonoBehaviour
                 GameManager.match = null;
                 GameManager.matchStep = null;
                 break;
-            case "CASHOUT_RESULT":
-                // Adicione a lógica de tratamento para Cashout se necessário
+            case "GAME_CASHOUT":
+                GameManager.minesPositions = JsonUtility.FromJson<MinesPosition>(message);
+                gameManager.GameOver();
+                gameManager.UpdateBalance();
                 break;
 
             default:

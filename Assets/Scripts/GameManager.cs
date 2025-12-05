@@ -73,8 +73,8 @@ public class GameManager : MonoBehaviour
 
     public void CheckOutWin()
     {
-        mockPlayer.balance += totalCheckout;
-        GameOver();
+        gameWebSocket.ChashOut(match.matchId);
+        
     }
 
     public void CheckOutLose()
