@@ -155,6 +155,7 @@ public class GameWebSocket : MonoBehaviour
             case "GAME_STARTED":
                 GameManager.match = JsonUtility.FromJson<Match>(message);
                 gameManager.UpdateBalance();
+                gameManager.UpdatePrizeStart();
                 GameManager.match.active = true;
                 Debug.Log(GameManager.match.matchId + "8888");
                 break;
