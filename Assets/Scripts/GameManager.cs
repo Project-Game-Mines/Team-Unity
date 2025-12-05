@@ -20,7 +20,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private ButtonBet buttonBet;
     
     //[SerializeField] private BetButton betButton;
-    [SerializeField] private MockPlayer mockPlayer;
+    
     [SerializeField] private GridManager gridManager;
     [SerializeField] private Bombselector Bombselector;
     
@@ -47,7 +47,6 @@ public class GameManager : MonoBehaviour
     {
             Bombselector.SetBombAmount();
             gameWebSocket.StartGame("692f1d6cedc0062c96dd0dc5", betAmount, bombAmount);
-            mockPlayer.StartGame();
             SetGameActive();
             totalCheckout = betAmount;
             gridManager.UnlockGridMines();
