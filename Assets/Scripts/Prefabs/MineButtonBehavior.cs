@@ -26,7 +26,7 @@ public class MineButtonBehavior : MonoBehaviour
     
     public void OnClickWinOrLose()
     {
-        if (active && GameManager.match.active)
+        if (active && GameManager.match.active && gameManager.mineButtonActive)
         {
             // **REMOVE A LÓGICA ANTIGA BASEADA NA LISTA LOCAL (player.mineList.Contains)**
 
@@ -45,11 +45,13 @@ public class MineButtonBehavior : MonoBehaviour
                     {
                         // Confirmação do servidor: O clique atingiu uma mina
                         PlayLoseAnimation();
+                        gameManager.mineButtonActive = true;
                     }
                     else if (eventType == "STEP_RESULT")
                     {
                         // Confirmação do servidor: O clique foi em uma célula segura
                         PlayWinAnimation();
+                        gameManager.mineButtonActive = true;
                         buttonBet.PossibleCashout();
                     }
                     else

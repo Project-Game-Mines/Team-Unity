@@ -8,7 +8,6 @@ using Newtonsoft.Json.Linq;
 public class GameWebSocket : MonoBehaviour
 {
     WebSocket ws;
-    private int messageType;
     [SerializeField] private GameManager gameManager;
     public string latestWsResponse = null;
     public bool responseReceived = false;
@@ -65,8 +64,7 @@ public class GameWebSocket : MonoBehaviour
                 ["total_mines"] = totalMines
             }
         };
-
-        messageType = 0;
+        
         yield return ws.SendText(msg.ToString());
         
     }
@@ -78,6 +76,7 @@ public class GameWebSocket : MonoBehaviour
 
     private IEnumerator SendGameStep(string matchId, int cell, Action<string> callback)
     {
+        gameManager.mineButtonActive = false;
         JObject msg = new JObject
         {
             ["event"] = "GAME_STEP",
@@ -144,7 +143,7 @@ public class GameWebSocket : MonoBehaviour
     }
     
     
-    private void OnWSMessage(string message)
+    private void OnWSMessage(string message) 
     {
         baseMessage msg = JsonUtility.FromJson<baseMessage>(message);
         switch (msg.@event)
@@ -181,4 +180,6 @@ public class GameWebSocket : MonoBehaviour
                 break;
         }
     }
+
+    
 }
