@@ -67,6 +67,7 @@ public class GameManager : MonoBehaviour
         active = false;
         gameFase = 0;
         gridManager.ResetMinesButtons();
+        match = null;
         matchStep = null;
 
     }
@@ -99,4 +100,6 @@ public class GameManager : MonoBehaviour
     {
         apiManager.UpdatePlayerBalance();
     }
+    
+    
 }

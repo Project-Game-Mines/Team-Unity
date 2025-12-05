@@ -15,6 +15,7 @@ public class Match
 {
     public string matchId;
     public bool active;
+    public float prize;
 }
 
 public class MatchStep
