@@ -11,7 +11,7 @@ public class MineButtonBehavior : MonoBehaviour
     [SerializeField] private GameObject bombImage;
     [SerializeField] private GameObject coinImage;
     [SerializeField] private GameManager gameManager;
-    [SerializeField] private MockPlayer player;
+    
     public int mineValue;
 
     [SerializeField] private ButtonBet buttonBet;
