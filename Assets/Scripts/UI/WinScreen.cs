@@ -1,29 +1,36 @@
 using UnityEngine;
-using System.Collections;
 
 public class WinScreen : MonoBehaviour
 {
+    [Header("Prefab de win")]
     [SerializeField] private GameObject winScreen;
-    private Coroutine corrotinaAtual;
-    
-    public void AtivarPorTempo(float tempo = 3f)
+
+    private void Awake()
     {
-        if (corrotinaAtual != null)
+        // Garante que comece desligado para evitar que apareça na hora errada
+        if (winScreen != null) 
         {
-            StopCoroutine(corrotinaAtual);
+            winScreen.SetActive(false);
         }
-        
-        corrotinaAtual = StartCoroutine(RotinaAtivarDesativar(tempo));
     }
     
-    private IEnumerator RotinaAtivarDesativar(float tempoEspera)
+    public void AtivarTela()
     {
-        winScreen.SetActive(true); 
-        
-        yield return new WaitForSeconds(tempoEspera);
-        
-        winScreen.SetActive(false);
-        
-        corrotinaAtual = null;
+        if (winScreen != null)
+        {
+            winScreen.SetActive(true);
+        }
+        else
+        {
+            Debug.LogWarning("WinScreen: O GameObject 'winScreen' não está associado no Inspector.");
+        }
+    }
+    
+    public void DesativarTela()
+    {
+        if (winScreen != null)
+        {
+            winScreen.SetActive(false);
+        }
     }
 }
