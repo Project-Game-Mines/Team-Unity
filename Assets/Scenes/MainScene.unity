@@ -1556,8 +1556,8 @@ MonoBehaviour:
   gameFase: 0
   apiManager: {fileID: 2128488110}
   gameWebSocket: {fileID: 2128488111}
+  winScreen: {fileID: 3621697259390803382}
   buttonBet: {fileID: 409819404}
-  mockPlayer: {fileID: 0}
   gridManager: {fileID: 1351138373}
   Bombselector: {fileID: 1665008756}
 --- !u!4 &485537638
@@ -5866,7 +5866,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4ec41977624d5346ad113ae90b34fc6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameWebSocket
-  gameManager: {fileID: 0}
+  gameManager: {fileID: 485537637}
   latestWsResponse: 
   responseReceived: 0
 --- !u!1001 &2130550062
@@ -5998,6 +5998,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1496772377}
     m_Modifications:
+    - target: {fileID: 6637994822090629867, guid: 4bf5f244a57ea44489ef1d83c9fa8253, type: 3}
+      propertyPath: m_text
+      value: '  SOUND EFFECTS'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8207581497625385413, guid: 4bf5f244a57ea44489ef1d83c9fa8253, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 280
+      objectReference: {fileID: 0}
+    - target: {fileID: 8207581497625385413, guid: 4bf5f244a57ea44489ef1d83c9fa8253, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 8339245851006833251, guid: 4bf5f244a57ea44489ef1d83c9fa8253, type: 3}
+      propertyPath: m_text
+      value: "\tMUSIC"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8339245851006833251, guid: 4bf5f244a57ea44489ef1d83c9fa8253, type: 3}
+      propertyPath: m_paragraphSpacing
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8339245851006833251, guid: 4bf5f244a57ea44489ef1d83c9fa8253, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8386536578548816025, guid: 4bf5f244a57ea44489ef1d83c9fa8253, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 280
+      objectReference: {fileID: 0}
+    - target: {fileID: 8386536578548816025, guid: 4bf5f244a57ea44489ef1d83c9fa8253, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 9124262712545698933, guid: 4bf5f244a57ea44489ef1d83c9fa8253, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -6324,6 +6356,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WinScreen
   winScreen: {fileID: 3621697259390803381}
+  winText: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
