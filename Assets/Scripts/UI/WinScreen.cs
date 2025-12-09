@@ -7,7 +7,6 @@ public class WinScreen : MonoBehaviour
 
     private void Awake()
     {
-        // Garante que comece desligado para evitar que apareça na hora errada
         if (winScreen != null) 
         {
             winScreen.SetActive(false);
