@@ -8,7 +8,6 @@ using Newtonsoft.Json.Linq;
 public class GameWebSocket : MonoBehaviour
 {
     WebSocket ws;
-    private int messageType;
     [SerializeField] private GameManager gameManager;
     public string latestWsResponse = null;
     public bool responseReceived = false;
@@ -65,8 +64,7 @@ public class GameWebSocket : MonoBehaviour
                 ["total_mines"] = totalMines
             }
         };
-
-        messageType = 0;
+        
         yield return ws.SendText(msg.ToString());
         
     }
@@ -78,6 +76,7 @@ public class GameWebSocket : MonoBehaviour
 
     private IEnumerator SendGameStep(string matchId, int cell, Action<string> callback)
     {
+        gameManager.mineButtonActive = false;
         JObject msg = new JObject
         {
             ["event"] = "GAME_STEP",
@@ -121,7 +120,11 @@ public class GameWebSocket : MonoBehaviour
         }
     }
 
-    public async void SendCashout(string matchId)
+    public void ChashOut(string matchId)
+    {
+        StartCoroutine(SendCashout(matchId));
+    }
+    private IEnumerator  SendCashout(string matchId)
     {
         JObject msg = new JObject
         {
@@ -132,7 +135,7 @@ public class GameWebSocket : MonoBehaviour
             }
         };
 
-        await ws.SendText(msg.ToString());
+        yield return ws.SendText(msg.ToString());
     }
 
     async void OnDestroy()
@@ -144,32 +147,47 @@ public class GameWebSocket : MonoBehaviour
     }
     
     
-    private void OnWSMessage(string message)
+    private void OnWSMessage(string message) 
     {
         baseMessage msg = JsonUtility.FromJson<baseMessage>(message);
         switch (msg.@event)
         {
             case "GAME_STARTED":
                 GameManager.match = JsonUtility.FromJson<Match>(message);
+                gameManager.UpdateBalance();
                 GameManager.match.active = true;
                 Debug.Log(GameManager.match.matchId + "8888");
                 break;
+            
             case "STEP_RESULT":
                 latestWsResponse = message;
                 responseReceived = true;
                 GameManager.matchStep = JsonUtility.FromJson<MatchStep>(message);
-                Debug.Log(GameManager.match.active);
-                Debug.Log(GameManager.matchStep.step);
-                Debug.Log(GameManager.matchStep.isMine);
+                Debug.Log(GameManager.matchStep.prize);
                 break;
+            
             case "GAME_LOSE":
+                GameManager.minesPositions = JsonUtility.FromJson<MinesPosition>(message);
+                Debug.Log(GameManager.minesPositions);
+                gameManager.GameOver();
                 latestWsResponse = message;
                 responseReceived = true;
-                GameManager.match = null;
-                GameManager.matchStep = null;
                 break;
-            case "CASHOUT_RESULT":
-                // Adicione a lógica de tratamento para Cashout se necessário
+            
+            case "GAME_CASHOUT":
+                GameManager.minesPositions = JsonUtility.FromJson<MinesPosition>(message);
+                gameManager.GameOver();
+                gameManager.UpdateBalance();
+                gameManager.WaitChasoutWS();
+                break;
+            
+            case "GAME_WIN":
+                GameManager.minesPositions = JsonUtility.FromJson<MinesPosition>(message);
+                GameManager.match = JsonUtility.FromJson<Match>(message);
+                
+                gameManager.GameOver();
+                gameManager.UpdateBalance();
+                
                 break;
 
             default:
@@ -177,4 +195,6 @@ public class GameWebSocket : MonoBehaviour
                 break;
         }
     }
+
+    
 }

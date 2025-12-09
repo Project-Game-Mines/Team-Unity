@@ -210,7 +210,7 @@ PrefabInstance:
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 2096904531}
+      objectReference: {fileID: 0}
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: buttonBet
       value: 
@@ -227,6 +227,10 @@ PrefabInstance:
       propertyPath: audioManager
       value: 
       objectReference: {fileID: 893237112}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: gameWebSocket
+      value: 
+      objectReference: {fileID: 2128488111}
     - target: {fileID: 6416954281982649585, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: m_Name
       value: MinesButtonPrefab (20)
@@ -327,7 +331,7 @@ PrefabInstance:
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 2096904531}
+      objectReference: {fileID: 0}
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: buttonBet
       value: 
@@ -344,6 +348,10 @@ PrefabInstance:
       propertyPath: audioManager
       value: 
       objectReference: {fileID: 893237112}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: gameWebSocket
+      value: 
+      objectReference: {fileID: 2128488111}
     - target: {fileID: 6416954281982649585, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: m_Name
       value: MinesButtonPrefab (8)
@@ -785,7 +793,7 @@ PrefabInstance:
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 2096904531}
+      objectReference: {fileID: 0}
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: buttonBet
       value: 
@@ -802,6 +810,10 @@ PrefabInstance:
       propertyPath: audioManager
       value: 
       objectReference: {fileID: 893237112}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: gameWebSocket
+      value: 
+      objectReference: {fileID: 2128488111}
     - target: {fileID: 6416954281982649585, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: m_Name
       value: MinesButtonPrefab (23)
@@ -902,7 +914,7 @@ PrefabInstance:
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 2096904531}
+      objectReference: {fileID: 0}
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: buttonBet
       value: 
@@ -919,6 +931,10 @@ PrefabInstance:
       propertyPath: audioManager
       value: 
       objectReference: {fileID: 893237112}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: gameWebSocket
+      value: 
+      objectReference: {fileID: 2128488111}
     - target: {fileID: 6416954281982649585, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: m_Name
       value: MinesButtonPrefab (4)
@@ -1030,7 +1046,7 @@ PrefabInstance:
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 2096904531}
+      objectReference: {fileID: 0}
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: buttonBet
       value: 
@@ -1047,6 +1063,10 @@ PrefabInstance:
       propertyPath: audioManager
       value: 
       objectReference: {fileID: 893237112}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: gameWebSocket
+      value: 
+      objectReference: {fileID: 2128488111}
     - target: {fileID: 6416954281982649585, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: m_Name
       value: MinesButtonPrefab (15)
@@ -1152,7 +1172,7 @@ PrefabInstance:
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 2096904531}
+      objectReference: {fileID: 0}
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: buttonBet
       value: 
@@ -1169,6 +1189,10 @@ PrefabInstance:
       propertyPath: audioManager
       value: 
       objectReference: {fileID: 893237112}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: gameWebSocket
+      value: 
+      objectReference: {fileID: 2128488111}
     - target: {fileID: 6416954281982649585, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: m_Name
       value: MinesButtonPrefab (18)
@@ -1374,7 +1398,7 @@ PrefabInstance:
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 2096904531}
+      objectReference: {fileID: 0}
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: buttonBet
       value: 
@@ -1391,6 +1415,10 @@ PrefabInstance:
       propertyPath: audioManager
       value: 
       objectReference: {fileID: 893237112}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: gameWebSocket
+      value: 
+      objectReference: {fileID: 2128488111}
     - target: {fileID: 6416954281982649585, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: m_Name
       value: MinesButtonPrefab (6)
@@ -1520,6 +1548,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ce6720e087cb84448f2777e2442cc64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
+  mineButtonActive: 1
   betAmount: 1
   bombAmount: 0
   totalCheckout: 0
@@ -1823,7 +1852,7 @@ PrefabInstance:
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 2096904531}
+      objectReference: {fileID: 0}
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: buttonBet
       value: 
@@ -1840,6 +1869,10 @@ PrefabInstance:
       propertyPath: audioManager
       value: 
       objectReference: {fileID: 893237112}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: gameWebSocket
+      value: 
+      objectReference: {fileID: 2128488111}
     - target: {fileID: 6416954281982649585, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: m_Name
       value: MinesButtonPrefab (12)
@@ -2045,7 +2078,7 @@ PrefabInstance:
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 2096904531}
+      objectReference: {fileID: 0}
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: buttonBet
       value: 
@@ -2062,6 +2095,10 @@ PrefabInstance:
       propertyPath: audioManager
       value: 
       objectReference: {fileID: 893237112}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: gameWebSocket
+      value: 
+      objectReference: {fileID: 2128488111}
     - target: {fileID: 6416954281982649585, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: m_Name
       value: MinesButtonPrefab (14)
@@ -2213,7 +2250,7 @@ PrefabInstance:
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 2096904531}
+      objectReference: {fileID: 0}
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: buttonBet
       value: 
@@ -2230,6 +2267,10 @@ PrefabInstance:
       propertyPath: audioManager
       value: 
       objectReference: {fileID: 893237112}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: gameWebSocket
+      value: 
+      objectReference: {fileID: 2128488111}
     - target: {fileID: 6416954281982649585, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: m_Name
       value: MinesButtonPrefab (10)
@@ -2571,7 +2612,7 @@ PrefabInstance:
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 2096904531}
+      objectReference: {fileID: 0}
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: buttonBet
       value: 
@@ -2588,6 +2629,10 @@ PrefabInstance:
       propertyPath: audioManager
       value: 
       objectReference: {fileID: 893237112}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: gameWebSocket
+      value: 
+      objectReference: {fileID: 2128488111}
     - target: {fileID: 6416954281982649585, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: m_Name
       value: MinesButtonPrefab (13)
@@ -2845,7 +2890,7 @@ PrefabInstance:
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 2096904531}
+      objectReference: {fileID: 0}
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: buttonBet
       value: 
@@ -2862,6 +2907,10 @@ PrefabInstance:
       propertyPath: audioManager
       value: 
       objectReference: {fileID: 893237112}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: gameWebSocket
+      value: 
+      objectReference: {fileID: 2128488111}
     - target: {fileID: 6416954281982649585, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: m_Name
       value: MinesButtonPrefab (16)
@@ -2973,7 +3022,7 @@ PrefabInstance:
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 2096904531}
+      objectReference: {fileID: 0}
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: buttonBet
       value: 
@@ -2990,6 +3039,10 @@ PrefabInstance:
       propertyPath: audioManager
       value: 
       objectReference: {fileID: 893237112}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: gameWebSocket
+      value: 
+      objectReference: {fileID: 2128488111}
     - target: {fileID: 6416954281982649585, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: m_Name
       value: MinesButtonPrefab (5)
@@ -3137,7 +3190,7 @@ PrefabInstance:
     - target: {fileID: 2502377691786513264, guid: ea648667ec1f97242b78caf36b01e037, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 2096904531}
+      objectReference: {fileID: 0}
     - target: {fileID: 3352180840715434328, guid: ea648667ec1f97242b78caf36b01e037, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 177
@@ -3390,7 +3443,7 @@ PrefabInstance:
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 2096904531}
+      objectReference: {fileID: 0}
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: buttonBet
       value: 
@@ -3407,6 +3460,10 @@ PrefabInstance:
       propertyPath: audioManager
       value: 
       objectReference: {fileID: 893237112}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: gameWebSocket
+      value: 
+      objectReference: {fileID: 2128488111}
     - target: {fileID: 6416954281982649585, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: m_Name
       value: MinesButtonPrefab (22)
@@ -3557,7 +3614,7 @@ PrefabInstance:
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 2096904531}
+      objectReference: {fileID: 0}
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: buttonBet
       value: 
@@ -3574,6 +3631,10 @@ PrefabInstance:
       propertyPath: audioManager
       value: 
       objectReference: {fileID: 893237112}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: gameWebSocket
+      value: 
+      objectReference: {fileID: 2128488111}
     - target: {fileID: 6416954281982649585, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: m_Name
       value: MinesButtonPrefab (21)
@@ -3690,7 +3751,7 @@ PrefabInstance:
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 2096904531}
+      objectReference: {fileID: 0}
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: buttonBet
       value: 
@@ -3707,6 +3768,10 @@ PrefabInstance:
       propertyPath: audioManager
       value: 
       objectReference: {fileID: 893237112}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: gameWebSocket
+      value: 
+      objectReference: {fileID: 2128488111}
     - target: {fileID: 6416954281982649585, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: m_Name
       value: MinesButtonPrefab (2)
@@ -3807,7 +3872,7 @@ PrefabInstance:
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 2096904531}
+      objectReference: {fileID: 0}
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: buttonBet
       value: 
@@ -3824,6 +3889,10 @@ PrefabInstance:
       propertyPath: audioManager
       value: 
       objectReference: {fileID: 893237112}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: gameWebSocket
+      value: 
+      objectReference: {fileID: 2128488111}
     - target: {fileID: 6416954281982649585, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: m_Name
       value: MinesButtonPrefab (19)
@@ -4033,7 +4102,7 @@ PrefabInstance:
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 2096904531}
+      objectReference: {fileID: 0}
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: buttonBet
       value: 
@@ -4050,6 +4119,10 @@ PrefabInstance:
       propertyPath: audioManager
       value: 
       objectReference: {fileID: 893237112}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: gameWebSocket
+      value: 
+      objectReference: {fileID: 2128488111}
     - target: {fileID: 6416954281982649585, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: m_Name
       value: MinesButtonPrefab (11)
@@ -4286,7 +4359,7 @@ PrefabInstance:
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 2096904531}
+      objectReference: {fileID: 0}
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: buttonBet
       value: 
@@ -4303,6 +4376,10 @@ PrefabInstance:
       propertyPath: audioManager
       value: 
       objectReference: {fileID: 893237112}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: gameWebSocket
+      value: 
+      objectReference: {fileID: 2128488111}
     - target: {fileID: 6416954281982649585, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: m_Name
       value: MinesButtonPrefab (1)
@@ -4539,7 +4616,7 @@ PrefabInstance:
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 2096904531}
+      objectReference: {fileID: 0}
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: buttonBet
       value: 
@@ -4556,6 +4633,10 @@ PrefabInstance:
       propertyPath: audioManager
       value: 
       objectReference: {fileID: 893237112}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: gameWebSocket
+      value: 
+      objectReference: {fileID: 2128488111}
     - target: {fileID: 6416954281982649585, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: m_Name
       value: MinesButtonPrefab (3)
@@ -4913,7 +4994,7 @@ PrefabInstance:
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 2096904531}
+      objectReference: {fileID: 0}
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: buttonBet
       value: 
@@ -4930,6 +5011,10 @@ PrefabInstance:
       propertyPath: audioManager
       value: 
       objectReference: {fileID: 893237112}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: gameWebSocket
+      value: 
+      objectReference: {fileID: 2128488111}
     - target: {fileID: 6416954281982649585, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: m_Name
       value: MinesButtonPrefab (7)
@@ -5052,8 +5137,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2b79cf65e3e983478b6dd2d23370fa0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Balance
-  balanceAmountText: {fileID: 452878946}
-  player: {fileID: 2096904531}
 --- !u!1001 &1605591393
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5065,7 +5148,7 @@ PrefabInstance:
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 2096904531}
+      objectReference: {fileID: 0}
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: buttonBet
       value: 
@@ -5082,6 +5165,10 @@ PrefabInstance:
       propertyPath: audioManager
       value: 
       objectReference: {fileID: 893237112}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: gameWebSocket
+      value: 
+      objectReference: {fileID: 2128488111}
     - target: {fileID: 6416954281982649585, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: m_Name
       value: MinesButtonPrefab (24)
@@ -5477,7 +5564,7 @@ PrefabInstance:
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 2096904531}
+      objectReference: {fileID: 0}
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: buttonBet
       value: 
@@ -5494,6 +5581,10 @@ PrefabInstance:
       propertyPath: audioManager
       value: 
       objectReference: {fileID: 893237112}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: gameWebSocket
+      value: 
+      objectReference: {fileID: 2128488111}
     - target: {fileID: 6416954281982649585, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: m_Name
       value: MinesButtonPrefab (9)
@@ -5588,54 +5679,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 4364332127713621570, guid: ea648667ec1f97242b78caf36b01e037, type: 3}
   m_PrefabInstance: {fileID: 974079561}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &2096904530
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2096904532}
-  - component: {fileID: 2096904531}
-  m_Layer: 0
-  m_Name: MockPlayer
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &2096904531
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2096904530}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb9f987c30d814f4eab6d66bb7158e31, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::MockPlayer
-  _gameManager: {fileID: 485537637}
-  playerid: 123
-  balance: 500.54
-  mineList: 
---- !u!4 &2096904532
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2096904530}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.96205, y: -0.58455, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2105771645
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5647,7 +5690,7 @@ PrefabInstance:
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 2096904531}
+      objectReference: {fileID: 0}
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: buttonBet
       value: 
@@ -5660,6 +5703,10 @@ PrefabInstance:
       propertyPath: audioManager
       value: 
       objectReference: {fileID: 893237112}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: gameWebSocket
+      value: 
+      objectReference: {fileID: 2128488111}
     - target: {fileID: 5352670800858726023, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 0
@@ -5833,7 +5880,7 @@ PrefabInstance:
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 2096904531}
+      objectReference: {fileID: 0}
     - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: buttonBet
       value: 
@@ -5850,6 +5897,10 @@ PrefabInstance:
       propertyPath: audioManager
       value: 
       objectReference: {fileID: 893237112}
+    - target: {fileID: -8712487419005416964, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+      propertyPath: gameWebSocket
+      value: 
+      objectReference: {fileID: 2128488111}
     - target: {fileID: 6416954281982649585, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
       propertyPath: m_Name
       value: MinesButtonPrefab (17)
@@ -6281,7 +6332,6 @@ SceneRoots:
   - {fileID: 619394802}
   - {fileID: 417672941}
   - {fileID: 1496772377}
-  - {fileID: 2096904532}
   - {fileID: 1130518327}
   - {fileID: 2128488109}
   - {fileID: 970122394}

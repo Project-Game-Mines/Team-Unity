@@ -7,6 +7,8 @@ public class GameManager : MonoBehaviour
     public static Match match;
     public static Player player;
     public static MatchStep matchStep;
+    public static MinesPosition minesPositions;
+    public bool mineButtonActive = true;
     public int betAmount = 1;
     public int bombAmount;
     public float totalCheckout = 0;
@@ -18,7 +20,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private ButtonBet buttonBet;
     
     //[SerializeField] private BetButton betButton;
-    [SerializeField] private MockPlayer mockPlayer;
+    
     [SerializeField] private GridManager gridManager;
     [SerializeField] private Bombselector Bombselector;
     
@@ -28,7 +30,7 @@ public class GameManager : MonoBehaviour
 
    // [SerializeField] private BetAmount betAmount;
 
-   private void Awake()
+   private void Start()
    {
        apiManager.StartFetchingPlayer();
        
@@ -45,34 +47,29 @@ public class GameManager : MonoBehaviour
     {
             Bombselector.SetBombAmount();
             gameWebSocket.StartGame("692f1d6cedc0062c96dd0dc5", betAmount, bombAmount);
-            //apiManager.RequestStartGame("692f1d6cedc0062c96dd0dc5", betAmount, bombAmount);
-            mockPlayer.StartGame();
             SetGameActive();
-            DebitBalance();
             totalCheckout = betAmount;
             gridManager.UnlockGridMines();
 
         
     }
 
-    public void DebitBalance()
-    {
-        mockPlayer.balance -= betAmount;
-    }
+    
 
     public void GameOver()
     {
         active = false;
         gameFase = 0;
         gridManager.ResetMinesButtons();
-        buttonBet.Nothing();
+        match = null;
+        matchStep = null;
 
     }
 
     public void CheckOutWin()
     {
-        mockPlayer.balance += totalCheckout;
-        GameOver();
+        gameWebSocket.ChashOut(match.matchId);
+        
     }
 
     public void CheckOutLose()
@@ -93,12 +90,22 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    public void UpdateBalance()
+    {
+        apiManager.UpdatePlayerBalance();
+    }
+
+    public void UpdatePrizeStart()
+    {
+        matchStep.prize = betAmount;
+        
+    }
+
+    public void WaitChasoutWS()
+    {
+        buttonBet.RestartButtonBet();
+        
+    }
     
-
-
- 
-   
-    
-
     
 }

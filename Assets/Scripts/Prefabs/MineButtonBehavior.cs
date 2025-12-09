@@ -11,7 +11,7 @@ public class MineButtonBehavior : MonoBehaviour
     [SerializeField] private GameObject bombImage;
     [SerializeField] private GameObject coinImage;
     [SerializeField] private GameManager gameManager;
-    [SerializeField] private MockPlayer player;
+    
     public int mineValue;
 
     [SerializeField] private ButtonBet buttonBet;
@@ -19,14 +19,14 @@ public class MineButtonBehavior : MonoBehaviour
     [SerializeField] private GameWebSocket gameWebSocket;
 
 
-    private void Awake()
+    private void Start()
     {
         animator = GetComponent<Animator>();
     }
     
     public void OnClickWinOrLose()
     {
-        if (active && GameManager.match.active)
+        if (active && GameManager.match.active && gameManager.mineButtonActive && gameManager.active)
         {
             // **REMOVE A LÓGICA ANTIGA BASEADA NA LISTA LOCAL (player.mineList.Contains)**
 
@@ -45,11 +45,13 @@ public class MineButtonBehavior : MonoBehaviour
                     {
                         // Confirmação do servidor: O clique atingiu uma mina
                         PlayLoseAnimation();
+                        gameManager.mineButtonActive = true;
                     }
                     else if (eventType == "STEP_RESULT")
                     {
                         // Confirmação do servidor: O clique foi em uma célula segura
                         PlayWinAnimation();
+                        gameManager.mineButtonActive = true;
                         buttonBet.PossibleCashout();
                     }
                     else
@@ -82,7 +84,6 @@ public class MineButtonBehavior : MonoBehaviour
         buttonBet.ImpossibleCashout();
         audioManager.BombSound();
         gameManager.CheckOutLose();
-        gameManager.GameOver();
         buttonBet.RestartButtonBet();
     }
 
@@ -121,7 +122,7 @@ public class MineButtonBehavior : MonoBehaviour
     public void ShowIconsEndGame()
     {
         
-            if (player.mineList.Contains(mineValue))
+            if (GameManager.minesPositions.mines_positions.Contains(mineValue))
             {
                 bombImage.SetActive(true);
             }

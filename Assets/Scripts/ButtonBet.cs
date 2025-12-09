@@ -8,6 +8,7 @@ using System;
 public class ButtonBet : MonoBehaviour
 {
     public Button betButton;
+    private bool checkout = false;
     [SerializeField] private GameManager _gameManager;
 
     public TextMeshProUGUI buttonBetText;
@@ -22,7 +23,7 @@ public class ButtonBet : MonoBehaviour
     void Start()
     {
         UpdateButtonState();
-    }
+   }
 
     void Update()
     {
@@ -60,11 +61,15 @@ public class ButtonBet : MonoBehaviour
 
     private void CheckOut()
     {
-        if (_gameManager.active)
+        if (_gameManager.active && GameManager.match.active && checkout)
         {
+            _gameManager.active = false;
+            checkout = false;
             _audioManager.CashoutSound();
             _gameManager.CheckOutWin();
-            RestartButtonBet();
+            ImpossibleCashout();
+            //RestartButtonBet();
+            
         }
     }
 
@@ -72,6 +77,7 @@ public class ButtonBet : MonoBehaviour
     {
         if (_gameManager.CheckIfCanPlay())
         {
+            checkout = true;
             _gameManager.StartGame();
             _audioManager.BetClick();
             buttonBetText.text = $"CASHOUT\n{_gameManager.totalCheckout} BRL";
@@ -128,6 +134,7 @@ public class ButtonBet : MonoBehaviour
         buttonBetText.fontSize = 40;
         betButton.image.sprite = buttonBetLaranja.sprite;
         UpdateButtonState();
+        
     }
 
     private IEnumerator InsufficientBalance()

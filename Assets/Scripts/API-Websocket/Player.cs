@@ -13,14 +13,23 @@ public class Player
 
 public class Match
 {
+    
     public string matchId;
     public bool active;
+    
 }
 
 public class MatchStep
 {
     public int step = 0;
     public bool isMine;
+    public float prize;
+    
+}
+
+public class MinesPosition
+{
+    public List <int> mines_positions;
 }
 
 public class baseMessage

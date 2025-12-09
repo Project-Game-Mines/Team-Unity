@@ -45,7 +45,10 @@ public class GridManager : MonoBehaviour
       {
          mine.ResetButtonsIcons();
       }
+
+      GameManager.minesPositions = null;
    }
 
+   
    
 }
