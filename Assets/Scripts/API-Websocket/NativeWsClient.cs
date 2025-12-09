@@ -178,6 +178,7 @@ public class GameWebSocket : MonoBehaviour
                 GameManager.minesPositions = JsonUtility.FromJson<MinesPosition>(message);
                 gameManager.GameOver();
                 gameManager.UpdateBalance();
+                gameManager.WaitChasoutWS();
                 break;
             
             case "GAME_WIN":

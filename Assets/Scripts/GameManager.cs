@@ -100,6 +100,12 @@ public class GameManager : MonoBehaviour
         matchStep.prize = betAmount;
         
     }
+
+    public void WaitChasoutWS()
+    {
+        buttonBet.RestartButtonBet();
+        
+    }
     
     
 }

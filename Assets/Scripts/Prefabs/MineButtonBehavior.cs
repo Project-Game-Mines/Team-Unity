@@ -26,7 +26,7 @@ public class MineButtonBehavior : MonoBehaviour
     
     public void OnClickWinOrLose()
     {
-        if (active && GameManager.match.active && gameManager.mineButtonActive)
+        if (active && GameManager.match.active && gameManager.mineButtonActive && gameManager.active)
         {
             // **REMOVE A LÓGICA ANTIGA BASEADA NA LISTA LOCAL (player.mineList.Contains)**
 
