@@ -1136,6 +1136,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
+--- !u!1 &278208392 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9137590398032614485, guid: 4bf5f244a57ea44489ef1d83c9fa8253, type: 3}
+  m_PrefabInstance: {fileID: 416251216357848034}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &343389533
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1521,8 +1526,8 @@ MonoBehaviour:
   active: 0
   gameFase: 0
   apiManager: {fileID: 2128488110}
-  gameWebSocket: {fileID: 0}
-  buttonBet: {fileID: 0}
+  gameWebSocket: {fileID: 2128488111}
+  buttonBet: {fileID: 409819404}
   mockPlayer: {fileID: 0}
   gridManager: {fileID: 1351138373}
   Bombselector: {fileID: 1665008756}
@@ -2415,6 +2420,38 @@ PrefabInstance:
     - target: {fileID: 3131853214197340603, guid: bd928ee27aa13704788bbc7efb0c419a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6174679395501194389, guid: bd928ee27aa13704788bbc7efb0c419a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6174679395501194389, guid: bd928ee27aa13704788bbc7efb0c419a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6174679395501194389, guid: bd928ee27aa13704788bbc7efb0c419a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 278208392}
+    - target: {fileID: 6174679395501194389, guid: bd928ee27aa13704788bbc7efb0c419a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6174679395501194389, guid: bd928ee27aa13704788bbc7efb0c419a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 6174679395501194389, guid: bd928ee27aa13704788bbc7efb0c419a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6174679395501194389, guid: bd928ee27aa13704788bbc7efb0c419a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6174679395501194389, guid: bd928ee27aa13704788bbc7efb0c419a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5734,6 +5771,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2128488109}
   - component: {fileID: 2128488110}
+  - component: {fileID: 2128488111}
   m_Layer: 0
   m_Name: PlayerAPI
   m_TagString: Untagged
@@ -5769,6 +5807,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::APIManager
   playerDisplay: {fileID: 970122393}
+--- !u!114 &2128488111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2128488107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4ec41977624d5346ad113ae90b34fc6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GameWebSocket
+  gameManager: {fileID: 0}
+  latestWsResponse: 
+  responseReceived: 0
 --- !u!1001 &2130550062
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5977,6 +6030,10 @@ PrefabInstance:
     - target: {fileID: 9137590398032614485, guid: 4bf5f244a57ea44489ef1d83c9fa8253, type: 3}
       propertyPath: m_Name
       value: OptionsPanel
+      objectReference: {fileID: 0}
+    - target: {fileID: 9137590398032614485, guid: 4bf5f244a57ea44489ef1d83c9fa8253, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
