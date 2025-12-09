@@ -155,8 +155,8 @@ public class GameWebSocket : MonoBehaviour
             case "GAME_STARTED":
                 GameManager.match = JsonUtility.FromJson<Match>(message);
                 gameManager.UpdateBalance();
+                gameManager.mineButtonActive = true;
                 GameManager.match.active = true;
-                Debug.Log(GameManager.match.matchId + "8888");
                 break;
             
             case "STEP_RESULT":
@@ -187,7 +187,6 @@ public class GameWebSocket : MonoBehaviour
             case "GAME_WIN":
                 GameManager.minesPositions = JsonUtility.FromJson<MinesPosition>(message);
                 GameManager.match = JsonUtility.FromJson<Match>(message);
-                
                 gameManager.GameOver();
                 gameManager.UpdateBalance();
                 gameManager.ActivateWinScreen();

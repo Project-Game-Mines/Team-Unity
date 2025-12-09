@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
     public static Player player;
     public static MatchStep matchStep;
     public static MinesPosition minesPositions;
-    public bool mineButtonActive = true;
+    public bool mineButtonActive = false;
     public int betAmount = 1;
     public int bombAmount;
     public float totalCheckout = 0;
@@ -59,6 +59,7 @@ public class GameManager : MonoBehaviour
 
     public void GameOver()
     {
+        mineButtonActive = false;
         active = false;
         gameFase = 0;
         gridManager.ResetMinesButtons();

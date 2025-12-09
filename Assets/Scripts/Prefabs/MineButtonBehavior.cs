@@ -26,53 +26,57 @@ public class MineButtonBehavior : MonoBehaviour
     
     public void OnClickWinOrLose()
     {
-        if (active && GameManager.match.active && gameManager.mineButtonActive && gameManager.active)
+        if (GameManager.match != null)
         {
-
-            // 1. Chama GameStep, passando a lógica de processamento da resposta no callback
-            gameWebSocket.GameStep(GameManager.match.matchId, mineValue, (response) =>
+            if (active && GameManager.match.active && gameManager.mineButtonActive && gameManager.active)
             {
-                // Este bloco de código só será executado quando a resposta chegar do servidor!
+
+                // 1. Chama GameStep, passando a lógica de processamento da resposta no callback
+                gameWebSocket.GameStep(GameManager.match.matchId, mineValue, (response) =>
+                {
+                    // Este bloco de código só será executado quando a resposta chegar do servidor!
             
-                try
-                {
-                    JObject jsonResponse = JObject.Parse(response);
-                    string eventType = jsonResponse["event"].ToString();
+                    try
+                    {
+                        JObject jsonResponse = JObject.Parse(response);
+                        string eventType = jsonResponse["event"].ToString();
                 
-                    // 2. Verifica o tipo de evento (GAME_LOSE ou STEP_RESULT)
-                    if (eventType == "GAME_LOSE")
-                    {
-                        // Confirmação do servidor: O clique atingiu uma mina
-                        PlayLoseAnimation();
-                        gameManager.mineButtonActive = true;
+                        // 2. Verifica o tipo de evento (GAME_LOSE ou STEP_RESULT)
+                        if (eventType == "GAME_LOSE")
+                        {
+                            // Confirmação do servidor: O clique atingiu uma mina
+                            PlayLoseAnimation();
+                            gameManager.mineButtonActive = true;
+                        }
+                        else if (eventType == "STEP_RESULT")
+                        {
+                            // Confirmação do servidor: O clique foi em uma célula segura
+                            PlayWinAnimation();
+                            gameManager.mineButtonActive = true;
+                            buttonBet.PossibleCashout();
+                        }
+                        else
+                        {
+                            Debug.LogWarning($"Evento de resposta inesperado do servidor: {eventType}");
+                        }
                     }
-                    else if (eventType == "STEP_RESULT")
+                    catch (System.Exception e)
                     {
-                        // Confirmação do servidor: O clique foi em uma célula segura
-                        PlayWinAnimation();
-                        gameManager.mineButtonActive = true;
-                        buttonBet.PossibleCashout();
+                        Debug.LogError($"Erro ao analisar resposta JSON do GameStep: {e.Message}");
                     }
-                    else
-                    {
-                        Debug.LogWarning($"Evento de resposta inesperado do servidor: {eventType}");
-                    }
-                }
-                catch (System.Exception e)
-                {
-                    Debug.LogError($"Erro ao analisar resposta JSON do GameStep: {e.Message}");
-                }
-            });
+                });
         
-            Debug.Log($"Chamada GameStep enviada para a célula {mineValue}. Aguardando resposta do WS...");
-        }           
-        else
-        {
-            Debug.Log("Game Not started");
+                Debug.Log($"Chamada GameStep enviada para a célula {mineValue}. Aguardando resposta do WS...");
+            }           
+            else
+            {
+                Debug.Log("Game Not started");
+            }
+        
+        
         }
-        
-        
-    }
+        }
+       
 
 
 

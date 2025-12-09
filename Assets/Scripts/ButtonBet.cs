@@ -38,6 +38,7 @@ public class ButtonBet : MonoBehaviour
         // jogo ainda n�o iniciou, bot�o est� laranja e escrito "BET"
         if (!_gameManager.active)
         {
+            SetButtonAlpha(betButton, 1.0f);
             Debug.Log("Caso 1");
             betButton.onClick.AddListener(IsGaming);
         }
