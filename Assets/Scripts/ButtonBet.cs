@@ -23,7 +23,7 @@ public class ButtonBet : MonoBehaviour
     void Start()
     {
         UpdateButtonState();
-    }
+   }
 
     void Update()
     {
@@ -39,7 +39,6 @@ public class ButtonBet : MonoBehaviour
         if (!_gameManager.active)
         {
             Debug.Log("Caso 1");
-            PossibleCashout();
             betButton.onClick.AddListener(IsGaming);
         }
         

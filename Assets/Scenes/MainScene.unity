@@ -1551,7 +1551,7 @@ MonoBehaviour:
   gameFase: 0
   apiManager: {fileID: 2128488110}
   gameWebSocket: {fileID: 2128488111}
-  buttonBet: {fileID: 0}
+  buttonBet: {fileID: 409819404}
   gridManager: {fileID: 1351138373}
   Bombselector: {fileID: 1665008756}
 --- !u!4 &485537638
@@ -4958,8 +4958,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2b79cf65e3e983478b6dd2d23370fa0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Balance
-  balanceAmountText: {fileID: 452878946}
-  player: {fileID: 0}
 --- !u!1001 &1605591393
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -30,7 +30,7 @@ public class GameManager : MonoBehaviour
 
    // [SerializeField] private BetAmount betAmount;
 
-   private void Awake()
+   private void Start()
    {
        apiManager.StartFetchingPlayer();
        

@@ -19,7 +19,7 @@ public class MineButtonBehavior : MonoBehaviour
     [SerializeField] private GameWebSocket gameWebSocket;
 
 
-    private void Awake()
+    private void Start()
     {
         animator = GetComponent<Animator>();
     }
