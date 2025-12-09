@@ -28,7 +28,6 @@ public class MineButtonBehavior : MonoBehaviour
     {
         if (active && GameManager.match.active && gameManager.mineButtonActive && gameManager.active)
         {
-            // **REMOVE A LÓGICA ANTIGA BASEADA NA LISTA LOCAL (player.mineList.Contains)**
 
             // 1. Chama GameStep, passando a lógica de processamento da resposta no callback
             gameWebSocket.GameStep(GameManager.match.matchId, mineValue, (response) =>
@@ -94,7 +93,6 @@ public class MineButtonBehavior : MonoBehaviour
         audioManager.FoundCoin();
         active = false;
         gameManager.gameFase += 1;
-        gameManager.totalCheckout *= 1.2f;
         buttonBet.UpdateCheckOutPrice();
     }
     

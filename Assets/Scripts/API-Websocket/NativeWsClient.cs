@@ -164,6 +164,7 @@ public class GameWebSocket : MonoBehaviour
                 responseReceived = true;
                 GameManager.matchStep = JsonUtility.FromJson<MatchStep>(message);
                 Debug.Log(GameManager.matchStep.prize);
+                gameManager.totalCheckout = GameManager.matchStep.prize;
                 break;
             
             case "GAME_LOSE":
@@ -176,9 +177,11 @@ public class GameWebSocket : MonoBehaviour
             
             case "GAME_CASHOUT":
                 GameManager.minesPositions = JsonUtility.FromJson<MinesPosition>(message);
+                gameManager.UpdateWinScreenCashOut();
                 gameManager.GameOver();
                 gameManager.UpdateBalance();
                 gameManager.WaitChasoutWS();
+                gameManager.ActivateWinScreen();
                 break;
             
             case "GAME_WIN":
@@ -187,6 +190,7 @@ public class GameWebSocket : MonoBehaviour
                 
                 gameManager.GameOver();
                 gameManager.UpdateBalance();
+                gameManager.ActivateWinScreen();
                 
                 break;
 

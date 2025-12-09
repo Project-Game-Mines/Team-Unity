@@ -47,7 +47,10 @@ public class GridManager : MonoBehaviour
       }
 
       GameManager.minesPositions = null;
+      
    }
+
+  
 
    
    

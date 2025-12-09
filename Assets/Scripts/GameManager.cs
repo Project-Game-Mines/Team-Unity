@@ -16,6 +16,7 @@ public class GameManager : MonoBehaviour
     public int gameFase = 0;
     [SerializeField] private APIManager apiManager;
     [SerializeField] private GameWebSocket  gameWebSocket;
+    [SerializeField] private WinScreen winScreen;
 
     [SerializeField] private ButtonBet buttonBet;
     
@@ -63,6 +64,7 @@ public class GameManager : MonoBehaviour
         gridManager.ResetMinesButtons();
         match = null;
         matchStep = null;
+        
 
     }
 
@@ -106,6 +108,28 @@ public class GameManager : MonoBehaviour
         buttonBet.RestartButtonBet();
         
     }
-    
-    
+
+    public void ActivateWinScreen()
+    {
+        StartCoroutine(WinScreenCashOut());
+    }
+
+    public void DeactivateWinScreen()
+    {
+        winScreen.DesativarTela();
+    }
+
+    public void UpdateWinScreenCashOut()
+    {
+        winScreen.winText.text = totalCheckout.ToString();
+    }
+
+    private IEnumerator WinScreenCashOut()
+    {
+        yield return new WaitForSeconds(2);
+        winScreen.AtivarTela();
+        Debug.Log("Activate WinScreen");
+    }
+
+
 }
