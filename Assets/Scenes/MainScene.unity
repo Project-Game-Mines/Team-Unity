@@ -176,7 +176,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -3662960473018923839, guid: 88d114a3881ad6042a466776caa31c22, type: 3}
+  m_Sprite: {fileID: -6110208662952562787, guid: 536a1cd6b8736f6448635a22978fda42, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2504,6 +2504,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3131853214197340603, guid: bd928ee27aa13704788bbc7efb0c419a, type: 3}
   m_PrefabInstance: {fileID: 827809673}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &832217571 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4527887942064975012, guid: bc8122f430793224caee66d6b9e5241b, type: 3}
+  m_PrefabInstance: {fileID: 3621697259390803379}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
 --- !u!1 &837604640
 GameObject:
   m_ObjectHideFlags: 0
@@ -5395,7 +5406,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 69d68472517588e43b2ab8ff5a520570, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c42284851d66a8f44b8e5175062b6a1c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6323,7 +6334,39 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3898194956205462762, guid: bc8122f430793224caee66d6b9e5241b, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8637674268023028938, guid: bc8122f430793224caee66d6b9e5241b, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8637674268023028938, guid: bc8122f430793224caee66d6b9e5241b, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8637674268023028938, guid: bc8122f430793224caee66d6b9e5241b, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8637674268023028938, guid: bc8122f430793224caee66d6b9e5241b, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 3621697259390803381}
+    - target: {fileID: 8637674268023028938, guid: bc8122f430793224caee66d6b9e5241b, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8637674268023028938, guid: bc8122f430793224caee66d6b9e5241b, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 8637674268023028938, guid: bc8122f430793224caee66d6b9e5241b, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8637674268023028938, guid: bc8122f430793224caee66d6b9e5241b, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6356,7 +6399,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WinScreen
   winScreen: {fileID: 3621697259390803381}
-  winText: {fileID: 0}
+  winText: {fileID: 832217571}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
