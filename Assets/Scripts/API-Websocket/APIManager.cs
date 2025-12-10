@@ -31,7 +31,6 @@ public class APIManager : MonoBehaviour
             if (playerDisplay != null)
             {
                 UpdatePlayerBalance();
-                playerDisplay.UpdatePlayerDisplay();
             }
         }
         else
