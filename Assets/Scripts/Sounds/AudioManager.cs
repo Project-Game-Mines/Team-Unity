@@ -13,11 +13,11 @@ public class AudioManager : MonoBehaviour
         audioSource = GetComponent<AudioSource>();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void SetMute(bool mute)
     {
-        
+        audioSource.mute = mute;
     }
+
 
     public void CashoutSound()
     {
