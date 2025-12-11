@@ -7,6 +7,9 @@ public class AudioManager : MonoBehaviour
     public AudioClip foundBomb;
     public AudioClip betClick;
     public AudioClip foundCoin;
+    
+    
+    
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
