@@ -14,7 +14,7 @@ public class GameWebSocket : MonoBehaviour
 
     async void Start()
     {
-        ws = new WebSocket("wss://mines-back.onrender.com/ws/692f1d6cedc0062c96dd0dc5");
+        ws = new WebSocket("wss://mines-back.onrender.com/ws");
 
         ws.OnOpen += () =>
         {
@@ -48,21 +48,22 @@ public class GameWebSocket : MonoBehaviour
         #endif
     }
 
-    public void StartGame(string userId, int betAmount, int totalMines)
+    public void StartGame(string userId, int betAmount, int totalMines )
     {
-        StartCoroutine(SendGameStart(userId, betAmount,totalMines));
+        StartCoroutine(SendGameStart(userId, betAmount,totalMines ));
     }
-    private IEnumerator SendGameStart(string userId, int betAmount, int totalMines)
+    private IEnumerator SendGameStart(string userId, int betAmount, int totalMines )
     {
         JObject msg = new JObject
         {
             ["event"] = "GAME_START",
             ["data"] = new JObject
             {
-                ["user_id"] = userId,
                 ["bet_amount"] = betAmount,
-                ["total_mines"] = totalMines
-            }
+                ["total_mines"] = totalMines,
+                ["total_cells"] = 25
+            },
+            ["user_id"] = userId
         };
         
         yield return ws.SendText(msg.ToString());
@@ -115,7 +116,7 @@ public class GameWebSocket : MonoBehaviour
         else
         {
             // Trate o erro de timeout
-            Debug.LogError("Tempo limite de resposta do servidor GameStep excedido.");
+            Debug.Log("Tempo limite de resposta do servidor GameStep excedido.");
             // Opcional: Chama o callback com um erro se for necessário
         }
     }
@@ -190,9 +191,7 @@ public class GameWebSocket : MonoBehaviour
                 gameManager.GameOver();
                 gameManager.UpdateBalance();
                 gameManager.ActivateWinScreen();
-                
                 break;
-
             default:
                 Debug.Log($"Evento WS não tratado:");
                 break;
