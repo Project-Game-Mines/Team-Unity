@@ -16,6 +16,7 @@ public class GridManager : MonoBehaviour
       gameManager.active = false;
    }
    
+   //Chama as funçoes de resetar minas e icones para cada mina
    public void ResetMinesButtons()
    {
       foreach (var mine in mineButtons)
@@ -28,6 +29,7 @@ public class GridManager : MonoBehaviour
       
    }
 
+   //Libera o grind, quando starta o game libera cada mina
    public void UnlockGridMines()
    {
       foreach (var mine in mineButtons)
@@ -38,6 +40,7 @@ public class GridManager : MonoBehaviour
       }
    }
 
+   
    private IEnumerator WaitSeconds()
    {
       yield return new WaitForSeconds(3);

@@ -13,7 +13,7 @@ public class WinScreen : MonoBehaviour
     [SerializeField] private AnimationCurve curvaAnimacao = AnimationCurve.EaseInOut(0, 0, 1, 1);
 
     private Coroutine animacaoAtual;
-
+    //Fecha a tela de Win ao comecar o jogo
     private void Awake()
     {
         if (winScreen != null) 
@@ -21,7 +21,7 @@ public class WinScreen : MonoBehaviour
             winScreen.SetActive(false);
         }
     }
-    
+    //Ativa a tela de win
     public void AtivarTela()
     { 
         if (winScreen != null)
@@ -51,6 +51,7 @@ public class WinScreen : MonoBehaviour
         MostrarValorAnimado((float)valorFinal, prefixo, sufixo);
     }
     
+    //Faz uma animaçao para o valor aparecer subindo dentro da tela de WIN
     private IEnumerator AnimarContagem(float valorFinal, string prefixo, string sufixo)
     {
         float tempoDecorrido = 0f;
@@ -84,7 +85,7 @@ public class WinScreen : MonoBehaviour
         winText.text = prefixo + valorFinalFormatado + sufixo;
         animacaoAtual = null;
     }
-    
+    //Fecha a tela de win
     public void DesativarTela()
     {
         if (animacaoAtual != null)
