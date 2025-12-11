@@ -8,22 +8,16 @@ public class SoundEffects : MonoBehaviour
     public AudioManager _audioManager;
     public Button buttonSoundEffects;
     public Animator buttonAnimator;
+    public GameObject optionsPanel;
 
-    private bool isMuted = false;
-    private static readonly int MutedParam = Animator.StringToHash("Sound"); // nome do parâmetro no Animator
+    public bool isMuted = false;
+    //private static readonly int MutedParam = Animator.StringToHash("Sound"); // nome do parâmetro no Animator
     
     void Start()
     {
-        // Atualiza animação do botão
-        if (buttonAnimator != null)
-        {
-            buttonAnimator.SetBool(MutedParam, isMuted);
-        }
-        
         // Liga o evento do botão
         buttonSoundEffects.onClick.AddListener(MuteSoundEffects);
-
-        
+        buttonAnimator.SetBool("Sound", isMuted);
     }
 
     void MuteSoundEffects()
@@ -33,13 +27,20 @@ public class SoundEffects : MonoBehaviour
 
         // Aplica no AudioManager
         _audioManager.SetMute(isMuted);
-        
-        // Atualiza animação do botão
-        if (buttonAnimator != null)
+        buttonAnimator.SetBool("Sound", isMuted);
+    }
+
+    public void OpenPanel()
+    {
+        optionsPanel.SetActive(true);
+        if (!isMuted)
+        {    buttonAnimator.SetBool("Sound", true);}
+        else
         {
-            buttonAnimator.SetBool(MutedParam, isMuted);
+            buttonAnimator.SetBool("Sound", false);
         }
         
+            
     }
     
     
