@@ -23,7 +23,7 @@ public class MineButtonBehavior : MonoBehaviour
     {
         animator = GetComponent<Animator>();
     }
-    
+    // Ao clicar verifica se o jogo esta ativo, tanto no front quanto no back, se a mina individual esta ativa e verifica a resposta do WS se nao for mina chama WIN se for mina chama LOSE
     public void OnClickWinOrLose()
     {
         if (GameManager.match != null)
@@ -79,7 +79,7 @@ public class MineButtonBehavior : MonoBehaviour
        
 
 
-
+    // trata a situaçao se clicou numa mina, mostra o icone, efeito de lose e reseta o jogo
     public void PlayLoseAnimation()
     {
         PlayHitParticle();
@@ -89,7 +89,7 @@ public class MineButtonBehavior : MonoBehaviour
         gameManager.CheckOutLose();
         buttonBet.RestartButtonBet();
     }
-
+        // trata a situaçao se nao clicou em mina, mostra icone, animaçao e continua o jogo, bloqueando a mina de ser clicada de novo no mesmo jogo
     public void PlayWinAnimation()
     {
         animator.SetTrigger("Win");
@@ -99,21 +99,21 @@ public class MineButtonBehavior : MonoBehaviour
         gameManager.gameFase += 1;
         buttonBet.UpdateCheckOutPrice();
     }
-    
+    //Ativa bomb anim
     private void PlayHitParticle()
     {
         ParticleSystem instantiatedParticle = Instantiate(hitParticle, transform.position, transform.rotation);
         instantiatedParticle.Play();
         Destroy(instantiatedParticle.gameObject, instantiatedParticle.main.duration);
     }
-
+    //Reseta o butao para o estado inicial
     public void ResetButtons()
     {
         animator.SetBool("Active", false);
         active = false;
         
     }
-
+    //Reseta os icones de bomba e diamante
     public void ResetButtonsIcons()
     {
        
@@ -121,6 +121,7 @@ public class MineButtonBehavior : MonoBehaviour
        coinImage.gameObject.SetActive(false);
    }
 
+    // Ativa os icones no final do jogo, nas minas que ainda nao foram mostradas na match
     public void ShowIconsEndGame()
     {
         

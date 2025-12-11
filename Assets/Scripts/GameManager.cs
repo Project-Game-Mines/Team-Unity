@@ -29,21 +29,22 @@ public class GameManager : MonoBehaviour
     
     
 
-   // [SerializeField] private BetAmount betAmount;
-
+   
+    // No começo do jogo usa API para dar fetch Player
    private void Start()
    {
        apiManager.StartFetchingPlayer();
        
    }
 
+   //Ativa o jogo no front (ainda presicando de validaçao a parte do back)
    public void SetGameActive()
     {
         active = true;
         
 
     }
-
+    //Começar o jogo, valida a  quantidade de minas, manda começo da match com o WS, coloca a quanitade de cashout inicial, libera a GRID
     public void StartGame()
     {
             Bombselector.SetBombAmount();
@@ -56,7 +57,7 @@ public class GameManager : MonoBehaviour
     }
 
     
-
+    // Acaba o jogo, trava a grid, desativa o jogo no front, Reseta A grid, e a classe match e matchStep sao apagadas
     public void GameOver()
     {
         mineButtonActive = false;
@@ -68,18 +69,18 @@ public class GameManager : MonoBehaviour
         
 
     }
-
+    //trata o CashOUT com WS
     public void CheckOutWin()
     {
         gameWebSocket.ChashOut(match.matchId);
         
     }
-
+    //zera a quantidade local de cashout
     public void CheckOutLose()
     {
         totalCheckout = 0;
     }
-
+    //verifica se tem saldo o suficiente para jogar
     public bool CheckIfCanPlay()
     {
         
@@ -92,7 +93,7 @@ public class GameManager : MonoBehaviour
             return false;
         }
     }
-
+    // atualiza o valor no front com o valor do back com API
     public void UpdateBalance()
     {
         apiManager.UpdatePlayerBalance();
@@ -104,27 +105,28 @@ public class GameManager : MonoBehaviour
         
     }
 
+    //Butao de BET volta para o estado inicial
     public void WaitChasoutWS()
     {
         buttonBet.RestartButtonBet();
         
     }
-
+    // Ativa a tela de WIN
     public void ActivateWinScreen()
     {
         StartCoroutine(WinScreenCashOut());
     }
-
+    //desativa a tela de win(usada pelo propio unity)
     public void DeactivateWinScreen()
     {
         winScreen.DesativarTela();
     }
-
+    //Atualiza o valor mostrado de cashout no winscreen
     public void UpdateWinScreenCashOut()
     {
         winScreen.winText.text = totalCheckout.ToString();
     }
-
+    //espera as minas e diamantes aparecer antes de mostrar a tela de WIN
     private IEnumerator WinScreenCashOut()
     {
         yield return new WaitForSeconds(2);

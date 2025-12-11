@@ -7,13 +7,13 @@ public class Lights : MonoBehaviour
     public GameObject light2;
     public GameObject light3;
     
-
+    //Chama a função em loop do efeito de luz atras do GRID 
     void Start()
     {
         StartCoroutine(LightsSequenceLoop());
         
     }
-
+    // A cada 0,5 Segundos troca as imagens atras do GRID para dar efeito de luzes piscando
     private IEnumerator LightsSequenceLoop()
     {
         // Cache de WaitForSeconds para evitar alocações contínuas

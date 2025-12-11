@@ -12,6 +12,7 @@ public class GameWebSocket : MonoBehaviour
     public string latestWsResponse = null;
     public bool responseReceived = false;
 
+    // Começa a conexao com  WS
     async void Start()
     {
         ws = new WebSocket("wss://mines-back.onrender.com/ws");
@@ -48,6 +49,7 @@ public class GameWebSocket : MonoBehaviour
         #endif
     }
 
+    //cria a match com o WS
     public void StartGame(string userId, int betAmount, int totalMines )
     {
         StartCoroutine(SendGameStart(userId, betAmount,totalMines ));
@@ -69,7 +71,7 @@ public class GameWebSocket : MonoBehaviour
         yield return ws.SendText(msg.ToString());
         
     }
-
+    //Atualiza o gameStep com o WS verifica se tem mina ou nao, é chamada a cada mina que clica
     public void GameStep(string matchId, int cell, Action<string> callback)
     {
         StartCoroutine(SendGameStep(matchId, cell,  callback));
@@ -121,6 +123,7 @@ public class GameWebSocket : MonoBehaviour
         }
     }
 
+    //Finaliza o jogo dando cashout com o WS
     public void ChashOut(string matchId)
     {
         StartCoroutine(SendCashout(matchId));
@@ -147,7 +150,7 @@ public class GameWebSocket : MonoBehaviour
         }
     }
     
-    
+    //Funçao responsavel por tratar cada tipo de resposta do WS (ws.OnMessage)
     private void OnWSMessage(string message) 
     {
         baseMessage msg = JsonUtility.FromJson<baseMessage>(message);
