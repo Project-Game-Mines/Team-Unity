@@ -183,16 +183,17 @@ public class GameWebSocket : MonoBehaviour
                 GameManager.minesPositions = JsonUtility.FromJson<MinesPosition>(message);
                 gameManager.UpdateWinScreenCashOut();
                 gameManager.GameOver();
-                gameManager.UpdateBalance();
                 gameManager.WaitChasoutWS();
                 gameManager.ActivateWinScreen();
                 break;
             
             case "GAME_WIN":
                 GameManager.minesPositions = JsonUtility.FromJson<MinesPosition>(message);
-                GameManager.match = JsonUtility.FromJson<Match>(message);
+                GameManager.matchStep = JsonUtility.FromJson<MatchStep>(message);
+                gameManager.totalCheckout = GameManager.matchStep.prize;
+                gameManager.UpdateWinScreenCashOut();
                 gameManager.GameOver();
-                gameManager.UpdateBalance();
+                gameManager.WaitChasoutWS();
                 gameManager.ActivateWinScreen();
                 break;
             default:

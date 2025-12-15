@@ -132,6 +132,7 @@ public class GameManager : MonoBehaviour
         yield return new WaitForSeconds(2);
         winScreen.AtivarTela();
         winScreen.MostrarValorAnimado(totalCheckout, "R$","");
+        UpdateBalance();
         Debug.Log("Activate WinScreen");
     }
 
