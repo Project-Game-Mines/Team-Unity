@@ -32,13 +32,39 @@ public class Lights : MonoBehaviour
     public GameObject pointR11;
     public GameObject pointR12;
     
+    private Coroutine yellowsCoroutine;
+    private Coroutine redsCoroutine;
+
     //Chama a função em loop do efeito de luz atras do GRID 
     void Start()
     {
         StartCoroutine(LightsSequenceLoop());
-        StartCoroutine(LightsSequenceYellows());
-        StartCoroutine(LightsSequenceReds());
     }
+
+    public void GameIsRunning()
+    {
+        if (yellowsCoroutine == null)
+            yellowsCoroutine = StartCoroutine(LightsSequenceYellows());
+
+        if (redsCoroutine == null)
+            redsCoroutine = StartCoroutine(LightsSequenceReds());
+    }
+
+    public void GameNoRunning()
+    {
+        if (yellowsCoroutine != null)
+        {
+            StopCoroutine(yellowsCoroutine);
+            yellowsCoroutine = null;
+        }
+
+        if (redsCoroutine != null)
+        {
+            StopCoroutine(redsCoroutine);
+            redsCoroutine = null;
+        }
+    }
+    
     // A cada 0,5 Segundos troca as imagens atras do GRID para dar efeito de luzes piscando
     private IEnumerator LightsSequenceLoop()
     {
