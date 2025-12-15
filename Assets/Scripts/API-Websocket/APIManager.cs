@@ -20,7 +20,7 @@ public class APIManager : MonoBehaviour
     private IEnumerator FetchPlayer()
     {
 
-        UnityWebRequest request = UnityWebRequest.Get("http://192.168.70.72:8000/users/find/{users_id}?user_id=6940215313b9fbbb56560abd");
+        UnityWebRequest request = UnityWebRequest.Get("http://192.168.70.72:8000/users/find/{users_id}?user_id=69403701d556e1b35518acd9");
         yield return request.SendWebRequest();
 
         if (request.result == UnityWebRequest.Result.Success)
@@ -47,7 +47,7 @@ public class APIManager : MonoBehaviour
 
     private IEnumerator FetchBalance()
     {
-        UnityWebRequest request = UnityWebRequest.Get("http://192.168.70.72:8000/wallet/balance?user_id=6940215313b9fbbb56560abd");
+        UnityWebRequest request = UnityWebRequest.Get("http://192.168.70.72:8000/wallet/balance?user_id=69403701d556e1b35518acd9");
         yield return request.SendWebRequest();
 
         if (request.result == UnityWebRequest.Result.Success)

@@ -1866,6 +1866,17 @@ RectTransform:
   m_AnchoredPosition: {x: 109.409966, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &391177983 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3384906153319042985, guid: ea648667ec1f97242b78caf36b01e037, type: 3}
+  m_PrefabInstance: {fileID: 974079561}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b743370ac3e4ec2a1668f5455a8ef8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TMP_Dropdown
 --- !u!224 &395675261 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6969718459041047510, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}
@@ -2669,17 +2680,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6803733725802158169, guid: 2168f373850f34d43bf97122872e25f5, type: 3}
   m_PrefabInstance: {fileID: 3437674164579918315}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &577409711 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4399066069089143150, guid: ea648667ec1f97242b78caf36b01e037, type: 3}
-  m_PrefabInstance: {fileID: 974079561}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -7465,7 +7465,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Bombselector
   gameManager: {fileID: 485537637}
-  dropdown: {fileID: 577409711}
+  dropdownSelector: {fileID: 391177983}
 --- !u!224 &1665956408 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6969718459041047510, guid: 19e3c290c7d71c746ad7c437726c170e, type: 3}

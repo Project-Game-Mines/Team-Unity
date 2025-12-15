@@ -47,7 +47,7 @@ public class GameManager : MonoBehaviour
     public void StartGame()
     {
             Bombselector.SetBombAmount();
-            gameWebSocket.StartGame("6940215313b9fbbb56560abd", betAmount, bombAmount);
+            gameWebSocket.StartGame("69403701d556e1b35518acd9", betAmount, bombAmount);
             SetGameActive();
             totalCheckout = betAmount;
             gridManager.UnlockGridMines();
