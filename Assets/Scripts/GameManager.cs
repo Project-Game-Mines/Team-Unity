@@ -24,9 +24,8 @@ public class GameManager : MonoBehaviour
     
     [SerializeField] private GridManager gridManager;
     [SerializeField] private Bombselector Bombselector;
-    
-    
-    
+
+    [SerializeField] private Lights lights;
     
 
    
@@ -52,6 +51,7 @@ public class GameManager : MonoBehaviour
             SetGameActive();
             totalCheckout = betAmount;
             gridManager.UnlockGridMines();
+            lights.GameIsRunning();
 
         
     }
@@ -66,6 +66,7 @@ public class GameManager : MonoBehaviour
         gridManager.ResetMinesButtons();
         match = null;
         matchStep = null;
+        lights.GameNoRunning();
         
 
     }

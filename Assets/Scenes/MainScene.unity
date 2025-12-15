@@ -2246,6 +2246,7 @@ MonoBehaviour:
   buttonBet: {fileID: 409819404}
   gridManager: {fileID: 1351138373}
   Bombselector: {fileID: 1665008756}
+  lights: {fileID: 1293900415}
 --- !u!4 &485537638
 Transform:
   m_ObjectHideFlags: 0
