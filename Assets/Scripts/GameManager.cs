@@ -52,6 +52,7 @@ public class GameManager : MonoBehaviour
             totalCheckout = betAmount;
             gridManager.UnlockGridMines();
             lights.GameIsRunning();
+            Bombselector.DeactivateDropdown();
 
         
     }
@@ -67,6 +68,9 @@ public class GameManager : MonoBehaviour
         match = null;
         matchStep = null;
         lights.GameNoRunning();
+        Bombselector.ActivateDropdown();
+        
+        
         
 
     }
