@@ -9613,23 +9613,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8637674268023028938, guid: bc8122f430793224caee66d6b9e5241b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 6
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8637674268023028938, guid: bc8122f430793224caee66d6b9e5241b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 3621697259390803381}
+      objectReference: {fileID: 485537637}
     - target: {fileID: 8637674268023028938, guid: bc8122f430793224caee66d6b9e5241b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8637674268023028938, guid: bc8122f430793224caee66d6b9e5241b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SetActive
+      value: DeactivateWinScreen
       objectReference: {fileID: 0}
     - target: {fileID: 8637674268023028938, guid: bc8122f430793224caee66d6b9e5241b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: UnityEngine.GameObject, UnityEngine
+      value: GameManager, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8637674268023028938, guid: bc8122f430793224caee66d6b9e5241b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName

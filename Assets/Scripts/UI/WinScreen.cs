@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class WinScreen : MonoBehaviour
 {
+    private bool canClose = false;
     [Header("Prefab de win")]
     [SerializeField] private GameObject winScreen;
     [SerializeField] public TextMeshProUGUI winText;
     
     [Header("Configurações da Animação")]
-    [SerializeField] private float duracaoAnimacao = 1.5f; // Duração da contagem em segundos
+    [SerializeField] private float duracaoAnimacao = 1f; // Duração da contagem em segundos
     [SerializeField] private AnimationCurve curvaAnimacao = AnimationCurve.EaseInOut(0, 0, 1, 1);
 
     private Coroutine animacaoAtual;
@@ -73,7 +74,6 @@ public class WinScreen : MonoBehaviour
                 : valorAtual.ToString("F2");
             
             winText.text = prefixo + valorFormatado + sufixo;
-            
             yield return null;
         }
         
@@ -84,19 +84,31 @@ public class WinScreen : MonoBehaviour
         
         winText.text = prefixo + valorFinalFormatado + sufixo;
         animacaoAtual = null;
+        canClose = true;
     }
     //Fecha a tela de win
     public void DesativarTela()
     {
-        if (animacaoAtual != null)
+        if (canClose)
         {
-            StopCoroutine(animacaoAtual);
-            animacaoAtual = null;
+            if (animacaoAtual != null)
+            {
+                StopCoroutine(animacaoAtual);
+                animacaoAtual = null;
+            }
+        
+            if (winScreen != null)
+            {
+                winScreen.SetActive(false);
+            }
+
+            canClose = false;
         }
         
-        if (winScreen != null)
-        {
-            winScreen.SetActive(false);
-        }
+    }
+
+    private IEnumerator Waitsec()
+    {
+        yield return new WaitForSeconds(duracaoAnimacao);
     }
 }
