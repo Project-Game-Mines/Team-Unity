@@ -20,7 +20,7 @@ public class APIManager : MonoBehaviour
     private IEnumerator FetchPlayer()
     {
 
-        UnityWebRequest request = UnityWebRequest.Get("https://mines-back.onrender.com/users/find/{users_id}?user_id=692f1d6cedc0062c96dd0dc5");
+        UnityWebRequest request = UnityWebRequest.Get("http://192.168.70.72:8000/users/find/{users_id}?user_id=6940215313b9fbbb56560abd");
         yield return request.SendWebRequest();
 
         if (request.result == UnityWebRequest.Result.Success)
@@ -47,7 +47,7 @@ public class APIManager : MonoBehaviour
 
     private IEnumerator FetchBalance()
     {
-        UnityWebRequest request = UnityWebRequest.Get("https://mines-back.onrender.com/wallet/balance?user_id=692f1d6cedc0062c96dd0dc5");
+        UnityWebRequest request = UnityWebRequest.Get("http://192.168.70.72:8000/wallet/balance?user_id=6940215313b9fbbb56560abd");
         yield return request.SendWebRequest();
 
         if (request.result == UnityWebRequest.Result.Success)

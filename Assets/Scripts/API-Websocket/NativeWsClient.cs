@@ -15,7 +15,7 @@ public class GameWebSocket : MonoBehaviour
     // Começa a conexao com  WS
     async void Start()
     {
-        ws = new WebSocket("wss://mines-back.onrender.com/ws");
+        ws = new WebSocket("ws://192.168.70.72:8000/ws");
 
         ws.OnOpen += () =>
         {
